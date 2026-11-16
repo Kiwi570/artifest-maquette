@@ -1,0 +1,191 @@
+{
+  "client": "Artifest",
+  "activite": "spectacle",
+  "direction": "Nuit de fête",
+  "date": "2026-11-16T14:27:32.175Z",
+  "images": [
+    {
+      "nom": "accueil-ouverture",
+      "fichier": "accueil-ouverture.jpg",
+      "page": "Accueil",
+      "emplacement": "Ouverture, derrière le titre (ordinateur) et version téléphone (ordinateur)",
+      "role": "ouverture",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "Indispensable",
+      "gabarit": "ouverture",
+      "pieges": [
+        "paysage qui dérive"
+      ],
+      "consigne": "Wide night view over rolling wooded hills and a calm river valley, one huge golden willow firework bursting high in the upper right third of the sky with a second smaller orange peony beside it, glittering trails falling slowly, the lower third a dark silhouette of trees and a few tiny backlit spectators far away, the left half of the sky kept dark and calm for a headline, no packaging, no firework boxes. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Cinematic night-event photography, festive, warm and joyful mood, palette of deep midnight blue, molten gold and flame orange, the glow of golden firework sparks against a clear dark sky, tactile night air, drifting firework smoke and dewy grass, set in the rolling wooded countryside of north-eastern France on a clear summer night, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. The rolling wooded countryside of north-eastern France landscape only, described by its real features: no tea plantation, no rice terraces, no high mountains, no tropical vegetation, no power lines, no pylons, no modern buildings. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "accueil-ouverture",
+      "fichier": "accueil-ouverture-mobile.jpg",
+      "page": "Accueil",
+      "emplacement": "Ouverture, derrière le titre (ordinateur) et version téléphone (téléphone)",
+      "role": "ouverture",
+      "format": "9:16",
+      "grok": "784×1168",
+      "priorite": "Indispensable",
+      "gabarit": "ouverture",
+      "pieges": [
+        "paysage qui dérive"
+      ],
+      "consigne": "Wide night view over rolling wooded hills and a calm river valley, one huge golden willow firework bursting high in the upper right third of the sky with a second smaller orange peony beside it, glittering trails falling slowly, the lower third a dark silhouette of trees and a few tiny backlit spectators far away, the left half of the sky kept dark and calm for a headline, no packaging, no firework boxes. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Cinematic night-event photography, festive, warm and joyful mood, palette of deep midnight blue, molten gold and flame orange, the glow of golden firework sparks against a clear dark sky, tactile night air, drifting firework smoke and dewy grass, set in the rolling wooded countryside of north-eastern France on a clear summer night, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. The rolling wooded countryside of north-eastern France landscape only, described by its real features: no tea plantation, no rice terraces, no high mountains, no tropical vegetation, no power lines, no pylons, no modern buildings. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "rayon-compacts",
+      "fichier": "rayon-compacts.jpg",
+      "page": "Accueil",
+      "emplacement": "Carte du rayon Feux d'artifice compacts",
+      "role": "carte-service",
+      "format": "2:3",
+      "grok": "784×1168",
+      "priorite": "Indispensable",
+      "gabarit": "scene-metier",
+      "pieges": [],
+      "consigne": "Vertical night sky filled with a tight volley of multicolour firework bursts, red, gold, blue and green crossettes and comets rising from just below the frame, dense and joyful, black sky around, no ground visible, no packaging, no firework boxes. Vertical composition, aspect ratio 2:3. Cinematic night-event photography, festive, warm and joyful mood, palette of deep midnight blue, molten gold and flame orange, the glow of golden firework sparks against a clear dark sky, tactile night air, drifting firework smoke and dewy grass, set in the rolling wooded countryside of north-eastern France on a clear summer night, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "rayon-longue-duree",
+      "fichier": "rayon-longue-duree.jpg",
+      "page": "Accueil",
+      "emplacement": "Carte du rayon Feux longue durée",
+      "role": "carte-service",
+      "format": "2:3",
+      "grok": "784×1168",
+      "priorite": "Indispensable",
+      "gabarit": "scene-metier",
+      "pieges": [],
+      "consigne": "Vertical night sky during a long grand finale: dozens of golden brocade crowns and white glittering willows layered at different heights, long falling trails reaching the lower part of the frame, faint smoke lit in gold, no ground visible, no packaging, no firework boxes. Vertical composition, aspect ratio 2:3. Cinematic night-event photography, festive, warm and joyful mood, palette of deep midnight blue, molten gold and flame orange, the glow of golden firework sparks against a clear dark sky, tactile night air, drifting firework smoke and dewy grass, set in the rolling wooded countryside of north-eastern France on a clear summer night, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "rayon-petards",
+      "fichier": "rayon-petards.jpg",
+      "page": "Accueil",
+      "emplacement": "Carte du rayon Pétards, fusées et fontaines",
+      "role": "carte-service",
+      "format": "2:3",
+      "grok": "784×1168",
+      "priorite": "Indispensable",
+      "gabarit": "scene-metier",
+      "pieges": [],
+      "consigne": "Vertical close view at dusk of a single golden spark fountain burning on a gravel path, a tall cone of crackling sparks and small white flashes, warm glow on the gravel and a little drifting smoke, dark garden behind, the device itself hidden by the sparks, no packaging, no box, no label. Vertical composition, aspect ratio 2:3. Cinematic night-event photography, festive, warm and joyful mood, palette of deep midnight blue, molten gold and flame orange, the glow of golden firework sparks against a clear dark sky, tactile night air, drifting firework smoke and dewy grass, set in the rolling wooded countryside of north-eastern France on a clear summer night, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "accueil-mariage",
+      "fichier": "accueil-mariage.jpg",
+      "page": "Accueil",
+      "emplacement": "Section Spécial mariage, grande image",
+      "role": "section-fond",
+      "format": "3:2",
+      "grok": "1168×784",
+      "priorite": "Indispensable",
+      "gabarit": "section-fond",
+      "pieges": [],
+      "consigne": "A newly married couple seen from behind as dark silhouettes standing on the lawn of a countryside garden at night, the bride's long white dress catching a little golden light, warm string lights in the trees, a large golden willow firework bursting above them on the right, wedding guests as small backlit silhouettes further back, the left part of the frame kept calmer for text, no packaging. Landscape composition, aspect ratio 3:2, generous empty space on the left third of the frame for a title. Cinematic night-event photography, festive, warm and joyful mood, palette of deep midnight blue, molten gold and flame orange, the glow of golden firework sparks against a clear dark sky, tactile night air, drifting firework smoke and dewy grass, set in the rolling wooded countryside of north-eastern France on a clear summer night, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "accueil-commande",
+      "fichier": "accueil-commande.jpg",
+      "page": "Accueil",
+      "emplacement": "Section Commander, fond",
+      "role": "section-fond",
+      "format": "3:2",
+      "grok": "1168×784",
+      "priorite": "Conseillée",
+      "gabarit": "section-fond",
+      "pieges": [],
+      "consigne": "A plain brown cardboard parcel tied with string resting on an old wooden farmhouse table near a window at blue hour, through the window a small golden firework glowing far away over dark fields, warm lamp light from the left, quiet and cosy, the right part of the frame kept calm, plain parcel with no writing. Landscape composition, aspect ratio 3:2, calm empty area in the right third of the frame for a title. Cinematic night-event photography, festive, warm and joyful mood, palette of deep midnight blue, molten gold and flame orange, the glow of golden firework sparks against a clear dark sky, tactile night air, drifting firework smoke and dewy grass, set in the rolling wooded countryside of north-eastern France on a clear summer night, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "boutique-ouverture",
+      "fichier": "boutique-ouverture.jpg",
+      "page": "Boutique",
+      "emplacement": "Ouverture de la boutique, bandeau",
+      "role": "ouverture",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "Indispensable",
+      "gabarit": "ouverture",
+      "pieges": [
+        "visages"
+      ],
+      "consigne": "Wide night sky scattered with many small firework bursts of every colour at different distances, red, gold, blue, green, violet and silver, like a sampler of effects, thin smoke trails, the bursts gathered mostly in the centre and right side, the left side of the sky kept darker for a title, no ground, no packaging. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Cinematic night-event photography, festive, warm and joyful mood, palette of deep midnight blue, molten gold and flame orange, the glow of golden firework sparks against a clear dark sky, tactile night air, drifting firework smoke and dewy grass, set in the rolling wooded countryside of north-eastern France on a clear summer night, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. Seen strictly from behind, face never visible, head turned away, or cropped at the shoulders. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "mariage-ouverture",
+      "fichier": "mariage-ouverture.jpg",
+      "page": "Mariage et événements",
+      "emplacement": "Ouverture plein cadre (ordinateur) et version téléphone (ordinateur)",
+      "role": "ouverture",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "Indispensable",
+      "gabarit": "ouverture",
+      "pieges": [
+        "mains en trop",
+        "paysage qui dérive"
+      ],
+      "consigne": "Cinematic wide shot of a bride and groom seen from behind as silhouettes on a stone terrace of a countryside venue at night, holding hands, facing an immense golden and white firework bursting across the whole upper sky, warm reflections on the stone, a few guests as distant silhouettes, the bottom band of the frame kept dark and calm for a headline, no packaging. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, the lower third stays dark and simple for text overlay. Cinematic night-event photography, festive, warm and joyful mood, palette of deep midnight blue, molten gold and flame orange, the glow of golden firework sparks against a clear dark sky, tactile night air, drifting firework smoke and dewy grass, set in the rolling wooded countryside of north-eastern France on a clear summer night, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. Only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame. The rolling wooded countryside of north-eastern France landscape only, described by its real features: no tea plantation, no rice terraces, no high mountains, no tropical vegetation, no power lines, no pylons, no modern buildings. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "mariage-ouverture",
+      "fichier": "mariage-ouverture-mobile.jpg",
+      "page": "Mariage et événements",
+      "emplacement": "Ouverture plein cadre (ordinateur) et version téléphone (téléphone)",
+      "role": "ouverture",
+      "format": "9:16",
+      "grok": "784×1168",
+      "priorite": "Indispensable",
+      "gabarit": "ouverture",
+      "pieges": [
+        "mains en trop",
+        "paysage qui dérive"
+      ],
+      "consigne": "Cinematic wide shot of a bride and groom seen from behind as silhouettes on a stone terrace of a countryside venue at night, holding hands, facing an immense golden and white firework bursting across the whole upper sky, warm reflections on the stone, a few guests as distant silhouettes, the bottom band of the frame kept dark and calm for a headline, no packaging. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Cinematic night-event photography, festive, warm and joyful mood, palette of deep midnight blue, molten gold and flame orange, the glow of golden firework sparks against a clear dark sky, tactile night air, drifting firework smoke and dewy grass, set in the rolling wooded countryside of north-eastern France on a clear summer night, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. Only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame. The rolling wooded countryside of north-eastern France landscape only, described by its real features: no tea plantation, no rice terraces, no high mountains, no tropical vegetation, no power lines, no pylons, no modern buildings. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "conseils-ouverture",
+      "fichier": "conseils-ouverture.jpg",
+      "page": "Conseils et sécurité",
+      "emplacement": "Ouverture, image à droite du titre",
+      "role": "ouverture",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "Indispensable",
+      "gabarit": "ouverture",
+      "pieges": [],
+      "consigne": "Wide open meadow at dusk, a single golden spark fountain burning on the short grass far from the viewer, a family of four standing well back as small dark silhouettes at a safe distance, a bucket of water near them, deep blue sky with the first stars, calm and reassuring, the left third kept empty, no packaging, no box. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Cinematic night-event photography, festive, warm and joyful mood, palette of deep midnight blue, molten gold and flame orange, the glow of golden firework sparks against a clear dark sky, tactile night air, drifting firework smoke and dewy grass, set in the rolling wooded countryside of north-eastern France on a clear summer night, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "contact-ouverture",
+      "fichier": "contact-ouverture.jpg",
+      "page": "Contact et retrait",
+      "emplacement": "Ouverture, bandeau derrière le numéro",
+      "role": "ouverture",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "Indispensable",
+      "gabarit": "ouverture",
+      "pieges": [
+        "paysage qui dérive"
+      ],
+      "consigne": "Small generic village of north-eastern France at night seen from across a quiet river, slate roofs and a few warm windows, a modest golden and red firework bursting above the rooftops on the right and reflecting in the water, deep midnight blue sky, the left half kept dark and calm for large text, no recognisable landmark, no signage. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Cinematic night-event photography, festive, warm and joyful mood, palette of deep midnight blue, molten gold and flame orange, the glow of golden firework sparks against a clear dark sky, tactile night air, drifting firework smoke and dewy grass, set in the rolling wooded countryside of north-eastern France on a clear summer night, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. The rolling wooded countryside of north-eastern France landscape only, described by its real features: no tea plantation, no rice terraces, no high mountains, no tropical vegetation, no power lines, no pylons, no modern buildings. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "page-404",
+      "fichier": "404.jpg",
+      "page": "Page introuvable",
+      "emplacement": "Image de la page 404",
+      "role": "404",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "Conseillée",
+      "gabarit": "404",
+      "pieges": [],
+      "consigne": "A single spent sparkler wire lying on dark wet paving stones at night, its tip still glowing faintly orange, a thin curl of grey smoke rising, gentle humour, shallow depth of field, the left part of the frame empty and dark, nothing else. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Cinematic night-event photography, festive, warm and joyful mood, palette of deep midnight blue, molten gold and flame orange, the glow of golden firework sparks against a clear dark sky, tactile night air, drifting firework smoke and dewy grass, set in the rolling wooded countryside of north-eastern France on a clear summer night, light atmospheric haze, subtle 35mm film grain, shallow depth of field, premium editorial look, photorealistic, high detail. No visible face, no brand names on any equipment, no setlist, no poster, no ticket, no real venue, no strobe pattern, no nudity. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    }
+  ]
+}

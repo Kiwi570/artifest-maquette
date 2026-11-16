@@ -1,0 +1,944 @@
+[
+ {
+  "source": "recu/logo-clair.png",
+  "nom": "logo",
+  "role": "logo",
+  "alt": "Artifest, Ardennes artifices"
+ },
+ {
+  "source": "recu/filtrer-22.jpg",
+  "nom": "p-macro-cosmos-2",
+  "role": "produit",
+  "alt": "Emballage du compact Macro Cosmos II",
+  "ratio": "746:678",
+  "largeurs": [
+   320,
+   640
+  ],
+  "beaute": 3
+ },
+ {
+  "source": "recu/filtrer-3.png",
+  "nom": "p-mars-firewolf",
+  "role": "produit",
+  "alt": "Emballage du compact Mars Firewolf",
+  "ratio": "1000:1000",
+  "largeurs": [
+   320,
+   640
+  ],
+  "beaute": 3
+ },
+ {
+  "source": "recu/filtrer-9.png",
+  "nom": "p-cracken",
+  "role": "produit",
+  "alt": "Emballage du compact Cracken",
+  "ratio": "800:1040",
+  "largeurs": [
+   320,
+   640
+  ],
+  "beaute": 3
+ },
+ {
+  "source": "recu/filtrer-12.png",
+  "nom": "p-finale-effect-3",
+  "role": "produit",
+  "alt": "Emballage du compact Finale Effect 3",
+  "ratio": "800:1040",
+  "largeurs": [
+   320,
+   640
+  ],
+  "beaute": 3
+ },
+ {
+  "source": "recu/panther.png",
+  "nom": "p-panther",
+  "role": "produit",
+  "alt": "Emballage du compact Panther",
+  "ratio": "800:1040",
+  "largeurs": [
+   320,
+   640
+  ],
+  "beaute": 3
+ },
+ {
+  "source": "recu/filtrer-10.png",
+  "nom": "p-rainbow-pro",
+  "role": "produit",
+  "alt": "Emballage du compact Rainbow Pro",
+  "ratio": "800:1040",
+  "largeurs": [
+   320,
+   640
+  ],
+  "beaute": 3
+ },
+ {
+  "source": "recu/filtrer-2.jpg",
+  "nom": "p-scorpion",
+  "role": "produit",
+  "alt": "Emballage du compact Scorpion",
+  "ratio": "1388:1424",
+  "largeurs": [
+   320,
+   640
+  ],
+  "beaute": 3
+ },
+ {
+  "source": "recu/filtrer-14.png",
+  "nom": "p-space-line-v",
+  "role": "produit",
+  "alt": "Emballage du compact Space Line V",
+  "ratio": "800:1040",
+  "largeurs": [
+   320,
+   640
+  ],
+  "beaute": 3
+ },
+ {
+  "source": "recu/marines.png",
+  "nom": "p-marines",
+  "role": "produit",
+  "alt": "Emballage du compact Marines",
+  "ratio": "800:1040",
+  "largeurs": [
+   320,
+   640
+  ],
+  "beaute": 3
+ },
+ {
+  "source": "recu/filtrer-18.jpg",
+  "nom": "p-blue-sky",
+  "role": "produit",
+  "alt": "Emballage du compact Blue Sky",
+  "ratio": "814:986",
+  "largeurs": [
+   320,
+   640
+  ],
+  "beaute": 3
+ },
+ {
+  "source": "recu/filtrer-23.png",
+  "nom": "p-douce-france",
+  "role": "produit",
+  "alt": "Emballage du compact Douce France",
+  "ratio": "700:557",
+  "largeurs": [
+   320,
+   640
+  ],
+  "beaute": 3
+ },
+ {
+  "source": "recu/filtrer.jpg",
+  "nom": "p-vita-bella",
+  "role": "produit",
+  "alt": "Emballage du compact Vita Bella",
+  "ratio": "1674:1542",
+  "largeurs": [
+   320,
+   640
+  ],
+  "beaute": 3
+ },
+ {
+  "source": "recu/vous-rencontrez-difficultes-commander-4.png",
+  "nom": "p-jorge-space-line-2",
+  "role": "produit",
+  "alt": "Emballage du compact Jorge Space Line II",
+  "ratio": "547:499",
+  "largeurs": [
+   320,
+   640
+  ],
+  "beaute": 3
+ },
+ {
+  "source": "recu/filtrer-19.png",
+  "nom": "p-rainbow",
+  "role": "produit",
+  "alt": "Emballage du compact Rainbow",
+  "ratio": "800:800",
+  "largeurs": [
+   320,
+   640
+  ],
+  "beaute": 3
+ },
+ {
+  "source": "recu/filtrer-24.jpg",
+  "nom": "p-tyrant",
+  "role": "produit",
+  "alt": "Emballage du compact Tyrant",
+  "ratio": "500:500",
+  "largeurs": [
+   320,
+   640
+  ],
+  "beaute": 3
+ },
+ {
+  "source": "recu/filtrer-20.png",
+  "nom": "p-generation-13",
+  "role": "produit",
+  "alt": "Emballage du compact Generation 13",
+  "ratio": "800:800",
+  "largeurs": [
+   320,
+   640
+  ],
+  "beaute": 3
+ },
+ {
+  "source": "recu/vous-rencontrez-difficultes-commander-2.png",
+  "nom": "p-show-box-titan",
+  "role": "produit",
+  "alt": "Emballage du compact Show Box Titan",
+  "ratio": "1938:2000",
+  "largeurs": [
+   320,
+   640
+  ],
+  "beaute": 3
+ },
+ {
+  "source": "recu/jorge-super-show-100.png",
+  "nom": "p-jorge-super-show-100",
+  "role": "produit",
+  "alt": "Emballage du compact Jorge Super Show 100",
+  "ratio": "800:800",
+  "largeurs": [
+   320,
+   640
+  ],
+  "beaute": 3
+ },
+ {
+  "source": "recu/filtrer-15.jpg",
+  "nom": "p-maitre-du-feu",
+  "role": "produit",
+  "alt": "Emballage du compact Maître du feu",
+  "ratio": "800:1040",
+  "largeurs": [
+   320,
+   640
+  ],
+  "beaute": 3
+ },
+ {
+  "source": "recu/bombaclac.png",
+  "nom": "p-bombaclac",
+  "role": "produit",
+  "alt": "Emballage du feu longue durée Bombaclac",
+  "ratio": "701:471",
+  "largeurs": [
+   320,
+   640
+  ],
+  "beaute": 3
+ },
+ {
+  "source": "recu/full-emotion.png",
+  "nom": "p-full-emotion",
+  "role": "produit",
+  "alt": "Emballage du feu automatique Full Emotion",
+  "ratio": "500:500",
+  "largeurs": [
+   320,
+   640
+  ],
+  "beaute": 3
+ },
+ {
+  "source": "recu/furioso.png",
+  "nom": "p-furioso",
+  "role": "produit",
+  "alt": "Emballage du feu longue durée Furioso",
+  "ratio": "766:403",
+  "largeurs": [
+   320,
+   640
+  ],
+  "beaute": 3
+ },
+ {
+  "source": "recu/alien.png",
+  "nom": "p-alien",
+  "role": "produit",
+  "alt": "Emballage du feu longue durée Alien",
+  "ratio": "418:347",
+  "largeurs": [
+   320,
+   640
+  ],
+  "beaute": 3
+ },
+ {
+  "source": "recu/big-bum.png",
+  "nom": "p-big-bum",
+  "role": "produit",
+  "alt": "Emballage du feu Big Bum",
+  "ratio": "1000:1000",
+  "largeurs": [
+   320,
+   640
+  ],
+  "beaute": 3
+ },
+ {
+  "source": "recu/vous-rencontrez-difficultes-commander-5.png",
+  "nom": "p-marco-polo",
+  "role": "produit",
+  "alt": "Emballage du feu Marco Polo",
+  "ratio": "500:500",
+  "largeurs": [
+   320,
+   640
+  ],
+  "beaute": 3
+ },
+ {
+  "source": "recu/vous-rencontrez-difficultes-commander-3.png",
+  "nom": "p-gruba-berta",
+  "role": "produit",
+  "alt": "Emballage du feu Gruba Berta",
+  "ratio": "1000:1000",
+  "largeurs": [
+   320,
+   640
+  ],
+  "beaute": 3
+ },
+ {
+  "source": "recu/20x-shark-fr.jpg",
+  "nom": "p-20x-shark-fr",
+  "role": "produit",
+  "alt": "Boîte de 20 pétards Shark",
+  "ratio": "500:500",
+  "largeurs": [
+   320,
+   640
+  ],
+  "beaute": 3
+ },
+ {
+  "source": "recu/100-petards-pirat.jpg",
+  "nom": "p-100-petards-pirat",
+  "role": "produit",
+  "alt": "Boîte de 100 pétards Pirat",
+  "ratio": "500:500",
+  "largeurs": [
+   320,
+   640
+  ],
+  "beaute": 3
+ },
+ {
+  "source": "recu/20x-p15-petards.jpg",
+  "nom": "p-20x-p15-petards",
+  "role": "produit",
+  "alt": "Paquet de 20 pétards P15",
+  "ratio": "500:500",
+  "largeurs": [
+   320,
+   640
+  ],
+  "beaute": 3
+ },
+ {
+  "source": "recu/fontaine-2.png",
+  "nom": "p-fontaine-2",
+  "role": "produit",
+  "alt": "Fontaine 2",
+  "ratio": "800:1040",
+  "largeurs": [
+   320,
+   640
+  ],
+  "beaute": 3
+ },
+ {
+  "source": "recu/assortiments-cards.jpg",
+  "nom": "p-assortiments-cards",
+  "role": "produit",
+  "alt": "Assortiment Cards",
+  "ratio": "500:499",
+  "largeurs": [
+   320,
+   640
+  ],
+  "beaute": 3
+ },
+ {
+  "source": "recu/assortiment-giant.jpg",
+  "nom": "p-assortiment-giant",
+  "role": "produit",
+  "alt": "Assortiment Giant",
+  "ratio": "668:382",
+  "largeurs": [
+   320,
+   640
+  ],
+  "beaute": 3
+ },
+ {
+  "source": "recu/petards-f3-sustos-x.jpg",
+  "nom": "p-petards-f3-sustos-x10",
+  "role": "produit",
+  "alt": "Boîte de 10 pétards Sustos",
+  "ratio": "2000:2000",
+  "largeurs": [
+   320,
+   640
+  ],
+  "beaute": 3
+ },
+ {
+  "source": "recu/clac-doigt.jpg",
+  "nom": "p-clac-doigt",
+  "role": "produit",
+  "alt": "Claque-doigts",
+  "ratio": "481:483",
+  "largeurs": [
+   320,
+   640
+  ],
+  "beaute": 3
+ },
+ {
+  "source": "recu/petard-barbarossa-pt1.jpg",
+  "nom": "p-petard-barbarossa-pt1",
+  "role": "produit",
+  "alt": "Boîte de pétards Barbarossa",
+  "ratio": "583:582",
+  "largeurs": [
+   320,
+   640
+  ],
+  "beaute": 3
+ },
+ {
+  "source": "recu/20-petards-ex3fr.jpg",
+  "nom": "p-20-petards-ex3fr",
+  "role": "produit",
+  "alt": "Boîte de 20 pétards EX3",
+  "ratio": "1500:1500",
+  "largeurs": [
+   320,
+   640
+  ],
+  "beaute": 3
+ },
+ {
+  "source": "recu/pack-6-fusees.png",
+  "nom": "p-pack-6-fusees",
+  "role": "produit",
+  "alt": "Pack de 6 fusées",
+  "ratio": "800:800",
+  "largeurs": [
+   320,
+   640
+  ],
+  "beaute": 3
+ },
+ {
+  "source": "recu/dragon-fontaine.png",
+  "nom": "p-dragon-fontaine",
+  "role": "produit",
+  "alt": "Fontaine Dragon",
+  "ratio": "746:494",
+  "largeurs": [
+   320,
+   640
+  ],
+  "beaute": 3
+ },
+ {
+  "source": "recu/color-balls-30-12.jpg",
+  "nom": "p-color-balls",
+  "role": "produit",
+  "alt": "Lot de 12 Color Balls",
+  "ratio": "1254:1254",
+  "largeurs": [
+   320,
+   640
+  ],
+  "beaute": 3
+ },
+ {
+  "source": "recu/3-fumigenes-france.jpg",
+  "nom": "p-3-fumigenes-france",
+  "role": "produit",
+  "alt": "Trois fumigènes bleu, blanc, rouge",
+  "ratio": "1769:2000",
+  "largeurs": [
+   320,
+   640
+  ],
+  "beaute": 3
+ },
+ {
+  "source": "recu/torche-stade-main-mr-2.jpg",
+  "nom": "p-torche-mr-light-rouge",
+  "role": "produit",
+  "alt": "Torche à main rouge Mr Light",
+  "ratio": "500:500",
+  "largeurs": [
+   320,
+   640
+  ],
+  "beaute": 3
+ },
+ {
+  "source": "recu/5-fumigenes-verts.jpg",
+  "nom": "p-5-fumigenes-verts",
+  "role": "produit",
+  "alt": "Lot de 5 fumigènes verts",
+  "ratio": "900:962",
+  "largeurs": [
+   320,
+   640
+  ],
+  "beaute": 3
+ },
+ {
+  "source": "recu/support-1-8-feux.jpg",
+  "nom": "p-support-1-8-feux-jour",
+  "role": "produit",
+  "alt": "Support pour 1 à 8 feux de jour",
+  "ratio": "1254:1254",
+  "largeurs": [
+   320,
+   640
+  ],
+  "beaute": 3
+ },
+ {
+  "source": "recu/fumigene-bleu-blanc-rouge.jpg",
+  "nom": "p-fumigene-bbr",
+  "role": "produit",
+  "alt": "Fumée bleu, blanc, rouge sur une pelouse",
+  "ratio": "948:1141",
+  "largeurs": [
+   320,
+   640
+  ],
+  "beaute": 3
+ },
+ {
+  "source": "recu/valise-2-bases-4.png",
+  "nom": "p-valise-2-bases-4-declencheurs",
+  "role": "produit",
+  "alt": "Valise de 2 bases et 4 déclencheurs",
+  "ratio": "1221:1289",
+  "largeurs": [
+   320,
+   640
+  ],
+  "beaute": 3
+ },
+ {
+  "source": "recu/valise-4-bases-8.png",
+  "nom": "p-valise-4-bases-8-declencheurs",
+  "role": "produit",
+  "alt": "Valise de 4 bases et 8 déclencheurs",
+  "ratio": "1254:1254",
+  "largeurs": [
+   320,
+   640
+  ],
+  "beaute": 3
+ },
+ {
+  "source": "recu/2-declencheurs-2-jets-3.png",
+  "nom": "p-2-declencheurs-2-jets-de-jour",
+  "role": "produit",
+  "alt": "Deux déclencheurs et leurs jets de couleur",
+  "ratio": "1086:1448",
+  "largeurs": [
+   320,
+   640
+  ],
+  "beaute": 3
+ },
+ {
+  "source": "recu/valise-4-declencheurs-jets.png",
+  "nom": "p-valise-4-declencheurs-scene-jour",
+  "role": "produit",
+  "alt": "Valise de 4 déclencheurs avec télécommandes",
+  "ratio": "1254:1254",
+  "largeurs": [
+   320,
+   640
+  ],
+  "beaute": 3
+ },
+ {
+  "source": "recu/valise-8-declencheurs-jets.jpg",
+  "nom": "p-valise-8-declencheurs-scene-jour",
+  "role": "produit",
+  "alt": "Valise de 8 déclencheurs avec télécommande",
+  "ratio": "1156:1318",
+  "largeurs": [
+   320,
+   640
+  ],
+  "beaute": 3
+ },
+ {
+  "source": "recu/2-declencheurs-jets-scene.png",
+  "nom": "p-2-declencheurs-scene-jour",
+  "role": "produit",
+  "alt": "Deux déclencheurs et deux télécommandes",
+  "ratio": "1254:1254",
+  "largeurs": [
+   320,
+   640
+  ],
+  "beaute": 3
+ },
+ {
+  "source": "recu/2-declencheurs-2-jets.png",
+  "nom": "p-2-declencheurs-2-jets-argents",
+  "role": "produit",
+  "alt": "Deux déclencheurs et deux jets argentés",
+  "ratio": "2000:1772",
+  "largeurs": [
+   320,
+   640
+  ],
+  "beaute": 3
+ },
+ {
+  "source": "recu/feu-jour-orange.webp",
+  "nom": "p-feu-jour-orange",
+  "role": "produit",
+  "alt": "Feu de jour orange et sa fumée",
+  "ratio": "540:540",
+  "largeurs": [
+   320,
+   640
+  ],
+  "beaute": 3
+ },
+ {
+  "source": "recu/feu-jour-blanc.webp",
+  "nom": "p-feu-jour-blanc",
+  "role": "produit",
+  "alt": "Feu de jour blanc et sa fumée",
+  "ratio": "540:540",
+  "largeurs": [
+   320,
+   640
+  ],
+  "beaute": 3
+ },
+ {
+  "source": "recu/feu-jour-vert.webp",
+  "nom": "p-feu-jour-vert",
+  "role": "produit",
+  "alt": "Feu de jour vert et sa fumée",
+  "ratio": "800:800",
+  "largeurs": [
+   320,
+   640
+  ],
+  "beaute": 3
+ },
+ {
+  "source": "recu/feu-jour-jaune.webp",
+  "nom": "p-feu-jour-jaune",
+  "role": "produit",
+  "alt": "Feu de jour jaune et sa fumée",
+  "ratio": "540:540",
+  "largeurs": [
+   320,
+   640
+  ],
+  "beaute": 3
+ },
+ {
+  "source": "recu/feu-jour-rouge.webp",
+  "nom": "p-feu-jour-rouge",
+  "role": "produit",
+  "alt": "Feu de jour rouge et sa fumée",
+  "ratio": "540:540",
+  "largeurs": [
+   320,
+   640
+  ],
+  "beaute": 3
+ },
+ {
+  "source": "recu/feu-jour-violet.webp",
+  "nom": "p-feu-jour-violet",
+  "role": "produit",
+  "alt": "Feu de jour violet et sa fumée",
+  "ratio": "540:540",
+  "largeurs": [
+   320,
+   640
+  ],
+  "beaute": 3
+ },
+ {
+  "source": "recu/5-jets-scene-3.jpg",
+  "nom": "p-5-jets-scene-3m-60s",
+  "role": "produit",
+  "alt": "Boîte de 5 jets de scène",
+  "ratio": "800:1040",
+  "largeurs": [
+   320,
+   640
+  ],
+  "beaute": 3
+ },
+ {
+  "source": "recu/5-jets-scene-interieur-2.jpg",
+  "nom": "p-5-jets-scene-interieur-3m",
+  "role": "produit",
+  "alt": "Boîte de 5 jets de scène d'intérieur",
+  "ratio": "800:1040",
+  "largeurs": [
+   320,
+   640
+  ],
+  "beaute": 3
+ },
+ {
+  "source": "recu/5-jets-interieur-2.jpg",
+  "nom": "p-5-jets-interieur-2m",
+  "role": "produit",
+  "alt": "Boîte de 5 jets d'intérieur",
+  "ratio": "800:1040",
+  "largeurs": [
+   320,
+   640
+  ],
+  "beaute": 3
+ },
+ {
+  "source": "recu/support-1-4-feux.jpg",
+  "nom": "p-support-1-4-feux-jour",
+  "role": "produit",
+  "alt": "Support pour 1 à 4 feux de jour",
+  "ratio": "1320:1301",
+  "largeurs": [
+   320,
+   640
+  ],
+  "beaute": 3
+ },
+ {
+  "source": "recu/fumigene-bleu-blanc-rouge.jpg",
+  "nom": "rayon-fumigenes",
+  "role": "carte-service",
+  "ratio": "4:5",
+  "alt": "Fumée bleu, blanc, rouge qui monte d'une pelouse",
+  "beaute": 4
+ },
+ {
+  "source": "recu/artifices-jour-mariage-jets.jpg",
+  "nom": "rayon-jour",
+  "role": "carte-service",
+  "ratio": "4:5",
+  "alt": "Jets de fumée verte, orange et jaune dans un ciel bleu",
+  "beaute": 4
+ },
+ {
+  "source": "recu/2-declencheurs-2-jets-4.png",
+  "nom": "mariage-bal",
+  "role": "galerie",
+  "ratio": "4:3",
+  "alt": "Ouverture de bal entre deux jets d'étincelles froides, dans une salle de réception",
+  "beaute": 3
+ },
+ {
+  "source": "recu/2-declencheurs-2-jets-2.jpg",
+  "nom": "fete-fumee-verte",
+  "role": "galerie",
+  "ratio": "2:3",
+  "alt": "Deux jets de fumée verte lors d'une fête en plein air",
+  "beaute": 3
+ },
+ {
+  "source": "recu/torche-stade-main-mr.jpg",
+  "nom": "torche-rouge",
+  "role": "vignette",
+  "ratio": "16:9",
+  "cadrage": [
+   50,
+   50
+  ],
+  "largeurs": [
+   480,
+   640
+  ],
+  "alt": "Torche à main rouge allumée dans la nuit",
+  "beaute": 3
+ },
+ {
+  "source": "recu/grok/accueil-ouverture.jpg",
+  "source_mobile": "recu/grok/accueil-ouverture-mobile.jpg",
+  "nom": "grok/accueil-ouverture",
+  "role": "ouverture",
+  "mobile": true,
+  "zone_texte": "gauche",
+  "page": "Accueil",
+  "emplacement": "Ouverture, derrière le titre (ordinateur) et version téléphone",
+  "priorite": "Indispensable",
+  "alt": "Bouquet de feu d'artifice doré au-dessus d'une vallée boisée, la nuit",
+  "beaute": 5,
+  "consigne_scene": "Wide night view over rolling wooded hills and a calm river valley, one huge golden willow firework bursting high in the upper right third of the sky with a second smaller orange peony beside it, glittering trails falling slowly, the lower third a dark silhouette of trees and a few tiny backlit spectators far away, the left half of the sky kept dark and calm for a headline, no packaging, no firework boxes"
+ },
+ {
+  "source": "recu/grok/rayon-compacts.jpg",
+  "nom": "grok/rayon-compacts",
+  "role": "carte-service",
+  "ratio": "4:5",
+  "largeurs": [
+   480,
+   800,
+   1280
+  ],
+  "page": "Accueil",
+  "emplacement": "Carte du rayon Feux d'artifice compacts",
+  "priorite": "Indispensable",
+  "alt": "Gerbes multicolores qui éclatent en même temps dans la nuit",
+  "beaute": 5,
+  "consigne_scene": "Vertical night sky filled with a tight volley of multicolour firework bursts, red, gold, blue and green crossettes and comets rising from just below the frame, dense and joyful, black sky around, no ground visible, no packaging, no firework boxes"
+ },
+ {
+  "source": "recu/grok/rayon-longue-duree.jpg",
+  "nom": "grok/rayon-longue-duree",
+  "role": "carte-service",
+  "ratio": "4:5",
+  "largeurs": [
+   480,
+   800,
+   1280
+  ],
+  "page": "Accueil",
+  "emplacement": "Carte du rayon Feux longue durée",
+  "priorite": "Indispensable",
+  "alt": "Grand final de feu d'artifice doré qui remplit le ciel",
+  "beaute": 5,
+  "consigne_scene": "Vertical night sky during a long grand finale: dozens of golden brocade crowns and white glittering willows layered at different heights, long falling trails reaching the lower part of the frame, faint smoke lit in gold, no ground visible, no packaging, no firework boxes"
+ },
+ {
+  "source": "recu/grok/rayon-petards.jpg",
+  "nom": "grok/rayon-petards",
+  "role": "carte-service",
+  "ratio": "4:5",
+  "largeurs": [
+   480,
+   800,
+   1280
+  ],
+  "page": "Accueil",
+  "emplacement": "Carte du rayon Pétards, fusées et fontaines",
+  "priorite": "Indispensable",
+  "alt": "Fontaine d'étincelles dorées sur un chemin de gravier, le soir",
+  "beaute": 5,
+  "consigne_scene": "Vertical close view at dusk of a single golden spark fountain burning on a gravel path, a tall cone of crackling sparks and small white flashes, warm glow on the gravel and a little drifting smoke, dark garden behind, the device itself hidden by the sparks, no packaging, no box, no label"
+ },
+ {
+  "source": "recu/grok/accueil-mariage.jpg",
+  "nom": "grok/accueil-mariage",
+  "role": "section-fond",
+  "ratio": "3:2",
+  "zone_texte": "gauche",
+  "page": "Accueil",
+  "emplacement": "Section Spécial mariage, grande image",
+  "priorite": "Indispensable",
+  "alt": "Mariés de dos, en silhouette, sous un bouquet de feu d'artifice doré",
+  "beaute": 5,
+  "consigne_scene": "A newly married couple seen from behind as dark silhouettes standing on the lawn of a countryside garden at night, the bride's long white dress catching a little golden light, warm string lights in the trees, a large golden willow firework bursting above them on the right, wedding guests as small backlit silhouettes further back, the left part of the frame kept calmer for text, no packaging"
+ },
+ {
+  "source": "recu/grok/accueil-commande.jpg",
+  "nom": "grok/accueil-commande",
+  "role": "section-fond",
+  "ratio": "3:2",
+  "zone_texte": "droite",
+  "page": "Accueil",
+  "emplacement": "Section Commander, fond",
+  "priorite": "Conseillée",
+  "alt": "Colis en carton sur une table en bois près d'une fenêtre, un feu d'artifice au loin",
+  "beaute": 4,
+  "consigne_scene": "A plain brown cardboard parcel tied with string resting on an old wooden farmhouse table near a window at blue hour, through the window a small golden firework glowing far away over dark fields, warm lamp light from the left, quiet and cosy, the right part of the frame kept calm, plain parcel with no writing"
+ },
+ {
+  "source": "recu/grok/boutique-ouverture.jpg",
+  "nom": "grok/boutique-ouverture",
+  "role": "ouverture",
+  "mobile": true,
+  "zone_texte": "gauche",
+  "page": "Boutique",
+  "emplacement": "Ouverture de la boutique, bandeau",
+  "priorite": "Indispensable",
+  "alt": "Ciel de nuit parsemé de petits bouquets de toutes les couleurs",
+  "beaute": 5,
+  "consigne_scene": "Wide night sky scattered with many small firework bursts of every colour at different distances, red, gold, blue, green, violet and silver, like a sampler of effects, thin smoke trails, the bursts gathered mostly in the centre and right side, the left side of the sky kept darker for a title, no ground, no packaging"
+ },
+ {
+  "source": "recu/grok/mariage-ouverture.jpg",
+  "source_mobile": "recu/grok/mariage-ouverture-mobile.jpg",
+  "nom": "grok/mariage-ouverture",
+  "role": "ouverture",
+  "mobile": true,
+  "zone_texte": "bas",
+  "page": "Mariage et événements",
+  "emplacement": "Ouverture plein cadre (ordinateur) et version téléphone",
+  "priorite": "Indispensable",
+  "alt": "Mariés en silhouette sur une terrasse, face à un immense feu d'artifice doré",
+  "beaute": 5,
+  "consigne_scene": "Cinematic wide shot of a bride and groom seen from behind as silhouettes on a stone terrace of a countryside venue at night, holding hands, facing an immense golden and white firework bursting across the whole upper sky, warm reflections on the stone, a few guests as distant silhouettes, the bottom band of the frame kept dark and calm for a headline, no packaging"
+ },
+ {
+  "source": "recu/grok/conseils-ouverture.jpg",
+  "nom": "grok/conseils-ouverture",
+  "role": "ouverture",
+  "mobile": true,
+  "zone_texte": "gauche",
+  "page": "Conseils et sécurité",
+  "emplacement": "Ouverture, image à droite du titre",
+  "priorite": "Indispensable",
+  "alt": "Une fontaine d'étincelles au milieu d'un pré, une famille regarde de loin",
+  "beaute": 4,
+  "consigne_scene": "Wide open meadow at dusk, a single golden spark fountain burning on the short grass far from the viewer, a family of four standing well back as small dark silhouettes at a safe distance, a bucket of water near them, deep blue sky with the first stars, calm and reassuring, the left third kept empty, no packaging, no box"
+ },
+ {
+  "source": "recu/grok/contact-ouverture.jpg",
+  "nom": "grok/contact-ouverture",
+  "role": "ouverture",
+  "mobile": true,
+  "zone_texte": "gauche",
+  "page": "Contact et retrait",
+  "emplacement": "Ouverture, bandeau derrière le numéro",
+  "priorite": "Indispensable",
+  "alt": "Toits d'un village au bord d'une rivière, un feu d'artifice éclate au-dessus",
+  "beaute": 4,
+  "consigne_scene": "Small generic village of north-eastern France at night seen from across a quiet river, slate roofs and a few warm windows, a modest golden and red firework bursting above the rooftops on the right and reflecting in the water, deep midnight blue sky, the left half kept dark and calm for large text, no recognisable landmark, no signage"
+ },
+ {
+  "source": "recu/grok/404.jpg",
+  "nom": "grok/page-404",
+  "role": "404",
+  "zone_texte": "gauche",
+  "page": "Page introuvable",
+  "emplacement": "Image de la page 404",
+  "priorite": "Conseillée",
+  "alt": "Un cierge magique éteint posé sur le sol, un mince filet de fumée",
+  "beaute": 4,
+  "consigne_scene": "A single spent sparkler wire lying on dark wet paving stones at night, its tip still glowing faintly orange, a thin curl of grey smoke rising, gentle humour, shallow depth of field, the left part of the frame empty and dark, nothing else"
+ }
+]

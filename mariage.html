@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="fr" data-v="1">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Mariage et événements : Artifest</title>
+<meta name="description" content="Fumée de couleur pour la sortie de cérémonie, jets d’étincelles pour l’ouverture du bal, feu automatique pour le bouquet final.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://artifest-maquette.vercel.app/mariage">
+<style>:root{--fond:#0d0f22;--texte:#f6f2ea;--voile-fond:#0d0f22;--ouverture-fond:#0d0f22;--menu-fond:#0d0f22}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/unbounded-latin-800-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/manrope-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/js/modules/panier-en-tiroir/module.css?v=1">
+<link rel="stylesheet" href="/assets/js/modules/envol-vers-le-panier/module.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#0d0f22">
+<link rel="icon" href="/assets/images/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Artifest">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Mariage et événements : Artifest">
+<meta property="og:description" content="Fumée de couleur pour la sortie de cérémonie, jets d’étincelles pour l’ouverture du bal, feu automatique pour le bouquet final.">
+<meta property="og:url" content="https://artifest-maquette.vercel.app/mariage">
+<meta property="og:image" content="https://artifest-maquette.vercel.app/assets/partage/mariage-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Mariés sous un grand feu d’artifice doré">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Store","name":"Artifest","description":"Boutique de feux d'artifice pour particuliers dans les Ardennes, secteur Sedan et Mouzon.","url":"https://artifest-maquette.vercel.app/","telephone":"+33698644543","email":"contact@artifest.fr","address":{"@type":"PostalAddress","streetAddress":"76 grande rue","postalCode":"08210","addressLocality":"Autrecourt-et-Pourron","addressCountry":"FR"},"sameAs":["https://www.facebook.com/artifest08"],"paymentAccepted":"Carte bancaire, espèces","currenciesAccepted":"EUR"}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="iris" aria-hidden="true"><div class="voile-contenu"><img src="/assets/images/picto-nuit.webp" alt="" width="60" height="55"><span data-voile-libelle>Mariage</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <canvas class="ouverture-ciel" data-audit-ignorer></canvas>
+  <img class="ouverture-logo" src="/assets/images/logo-nuit.webp" alt="" width="180" height="153" data-ouverture-objet>
+  <span class="ouverture-meche"></span>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" aria-label="Artifest, Accueil" data-libelle="Accueil">
+      <img src="/assets/images/picto-nuit.webp" alt="" width="40" height="37"><span class="entete-nom">Artifest</span>
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/boutique" data-libelle="Boutique">Boutique</a></li><li><a href="/mariage" data-libelle="Mariage" aria-current="page">Mariage</a></li><li><a href="/conseils" data-libelle="Conseils">Conseils</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="entete-recherche" href="/boutique?focus=recherche#catalogue" data-libelle="Boutique" aria-label="Rechercher un article"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5"/></svg></a>
+      <a class="bouton entete-panier" href="/contact?sujet=commande" data-panier-ouvrir data-envol-cible data-sans-transition data-effet="fusee-panier"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14l-1.4 11.2a2 2 0 0 1-2 1.8H8.4a2 2 0 0 1-2-1.8L5 8Z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg><span class="entete-panier-mot">Panier</span><span class="pet-compte" data-panier-compte>0</span><span class="etincelle" aria-hidden="true"></span></a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a href="/boutique" class="menu-lien" data-libelle="Boutique">Boutique</a></li><li style="--i:2"><a href="/mariage" class="menu-lien" data-libelle="Mariage" aria-current="page">Mariage</a></li><li style="--i:3"><a href="/conseils" class="menu-lien" data-libelle="Conseils">Conseils</a></li><li style="--i:4"><a href="/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
+  <p><a class="bouton" href="tel:+33698644543">Appeler 06 98 64 45 43</a></p>
+  <p class="menu-majeurs">Pas de vente aux mineurs</p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="mariage-ouverture nuit" id="debut" data-ouverture-page>
+  <figure class="media mariage-ouverture-media" data-grok data-fx="parallaxe" data-fx-force="10" data-iris-centre style="--cadrage:50% 40%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/grok/mariage-ouverture-mobile-640.webp 640w, /assets/images/grok/mariage-ouverture-mobile-1080.webp 1080w" sizes="100vw">
+    <img src="/assets/images/grok/mariage-ouverture-1280.webp" srcset="/assets/images/grok/mariage-ouverture-640.webp 640w, /assets/images/grok/mariage-ouverture-1280.webp 1280w, /assets/images/grok/mariage-ouverture-1920.webp 1920w" sizes="100vw" alt="Mariés sous un grand feu d’artifice doré" width="1280" height="720" fetchpriority="high" loading="eager" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+  <div class="conteneur mariage-ouverture-corps">
+    <h1 class="mariage-titre"><span class="ligne-masque"><span data-anime="gsap">Le bouquet final</span></span><span class="ligne-masque"><span data-anime="gsap" class="or">de votre mariage</span></span></h1>
+    <p class="mariage-intro masque-ecran-bas" data-anime="gsap">De la sortie de cérémonie à la fin de soirée : fumée, étincelles et feu automatique, avec les articles de la boutique.</p>
+    <p class="mariage-info" data-info-cle data-anime="gsap">Full Emotion, feu automatique F2 : 349 €</p>
+    <p class="mariage-actions" data-anime="gsap">
+      <a class="bouton" href="#vedette" data-action-principale data-survol="magnetique">Composer mon mariage</a>
+      <a href="/contact?sujet=mariage#formulaire" class="bouton bouton--contour" data-libelle="Contact">Écrire un e-mail</a>
+    </p>
+  </div>
+</section>
+<section class="moments nuit2" id="moments">
+  <div class="conteneur">
+    <p class="surtitre" data-anime>Trois moments</p>
+    <h2 class="titre-section" data-anime="lignes">Une journée, trois lumières</h2>
+    <ol class="moments-liste" data-anime="cascade">
+      <li class="moment">
+        <figure class="media moment-media" style="--cadrage:50% 50%;aspect-ratio:4 / 3">
+  <picture>
+    <img src="/assets/images/rayon-jour-784.webp" srcset="/assets/images/rayon-jour-480.webp 480w, /assets/images/rayon-jour-640.webp 640w, /assets/images/rayon-jour-784.webp 784w" sizes="(max-width: 900px) 100vw, 33vw" alt="Jets de fumée verte, orange et jaune dans un ciel bleu" width="784" height="980" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <span class="moment-num" aria-hidden="true">1</span>
+        <h3>La sortie de cérémonie</h3>
+        <p>Des feux de jour en fumée de couleur, aux couleurs du mariage : huit teintes au choix.</p>
+        <ul class="moment-produits">
+          <li data-panier-produit><div class="vignette vignette--mini"><img src="/assets/images/p-feu-jour-blanc-320.webp" srcset="/assets/images/p-feu-jour-blanc-320.webp 320w, /assets/images/p-feu-jour-blanc-640.webp 640w" sizes="56px" alt="Feu de jour blanc et sa fumée" width="640" height="640" loading="lazy" decoding="async"></div><span class="moment-produit-nom">Feu de jour blanc</span><p class="prix" data-prix><strong>18,99 €</strong></p><button type="button" class="bouton bouton--petit" data-panier-ajouter="feu-jour-blanc" data-nom="Feu de jour blanc" data-prix="18.99" data-image="/assets/images/p-feu-jour-blanc-320.webp">Ajouter<span class="visuellement-cache"> Feu de jour blanc</span></button></li><li data-panier-produit><div class="vignette vignette--dessin vignette--mini" data-visuel role="img" aria-label="Visuel en attendant la photo du produit : Feu de jour rose"><svg viewBox="0 0 100 100" aria-hidden="true"><g stroke-width="2.4" stroke-linecap="round"><line x1="64.0" y1="46.0" x2="84.0" y2="46.0" stroke="#ff7ac8"/><line x1="62.9" y1="51.4" x2="88.8" y2="62.1" stroke="#ff7ac8"/><line x1="59.9" y1="55.9" x2="74.0" y2="70.0" stroke="#ff7ac8"/><line x1="55.4" y1="58.9" x2="66.1" y2="84.8" stroke="#ff7ac8"/><line x1="50.0" y1="60.0" x2="50.0" y2="80.0" stroke="#ff7ac8"/><line x1="44.6" y1="58.9" x2="33.9" y2="84.8" stroke="#ff7ac8"/><line x1="40.1" y1="55.9" x2="26.0" y2="70.0" stroke="#ff7ac8"/><line x1="37.1" y1="51.4" x2="11.2" y2="62.1" stroke="#ff7ac8"/><line x1="36.0" y1="46.0" x2="16.0" y2="46.0" stroke="#ff7ac8"/><line x1="37.1" y1="40.6" x2="11.2" y2="29.9" stroke="#ff7ac8"/><line x1="40.1" y1="36.1" x2="26.0" y2="22.0" stroke="#ff7ac8"/><line x1="44.6" y1="33.1" x2="33.9" y2="7.2" stroke="#ff7ac8"/><line x1="50.0" y1="32.0" x2="50.0" y2="12.0" stroke="#ff7ac8"/><line x1="55.4" y1="33.1" x2="66.1" y2="7.2" stroke="#ff7ac8"/><line x1="59.9" y1="36.1" x2="74.0" y2="22.0" stroke="#ff7ac8"/><line x1="62.9" y1="40.6" x2="88.8" y2="29.9" stroke="#ff7ac8"/></g><circle cx="50" cy="46" r="5" fill="#ff7ac8"/></svg><span>Feu de jour rose</span></div><span class="moment-produit-nom">Feu de jour rose</span><p class="prix" data-prix><strong>18,99 €</strong></p><button type="button" class="bouton bouton--petit" data-panier-ajouter="feu-jour-rose" data-nom="Feu de jour rose" data-prix="18.99">Ajouter<span class="visuellement-cache"> Feu de jour rose</span></button></li><li data-panier-produit><div class="vignette vignette--mini"><img src="/assets/images/p-3-fumigenes-france-320.webp" srcset="/assets/images/p-3-fumigenes-france-320.webp 320w, /assets/images/p-3-fumigenes-france-640.webp 640w" sizes="56px" alt="Trois fumigènes bleu, blanc, rouge" width="640" height="724" loading="lazy" decoding="async"></div><span class="moment-produit-nom">3 fumigènes France</span><p class="prix" data-prix><strong>12,00 €</strong></p><button type="button" class="bouton bouton--petit" data-panier-ajouter="3-fumigenes-france" data-nom="3 fumigènes France" data-prix="12" data-image="/assets/images/p-3-fumigenes-france-320.webp">Ajouter<span class="visuellement-cache"> 3 fumigènes France</span></button></li>
+        </ul>
+      </li><li class="moment">
+        <figure class="media moment-media" style="--cadrage:50% 50%;aspect-ratio:4 / 3">
+  <picture>
+    <img src="/assets/images/mariage-bal-960.webp" srcset="/assets/images/mariage-bal-480.webp 480w, /assets/images/mariage-bal-640.webp 640w, /assets/images/mariage-bal-960.webp 960w" sizes="(max-width: 900px) 100vw, 33vw" alt="Ouverture de bal entre deux jets d&#39;étincelles froides, dans une salle de réception" width="960" height="720" loading="lazy" decoding="async">
+  </picture><figcaption class="media-legende">Une ouverture de bal entre deux jets d’étincelles, photo partagée par Artifest.</figcaption>
+</figure>
+        <span class="moment-num" aria-hidden="true">2</span>
+        <h3>L’ouverture du bal</h3>
+        <p>Deux jets d’étincelles froides de chaque côté de la piste, déclenchés à la télécommande.</p>
+        <ul class="moment-produits">
+          <li data-panier-produit><div class="vignette vignette--mini"><img src="/assets/images/p-2-declencheurs-2-jets-argents-320.webp" srcset="/assets/images/p-2-declencheurs-2-jets-argents-320.webp 320w, /assets/images/p-2-declencheurs-2-jets-argents-640.webp 640w" sizes="56px" alt="Deux déclencheurs et deux jets argentés" width="640" height="567" loading="lazy" decoding="async"></div><span class="moment-produit-nom">2 déclencheurs, 2 jets argentés</span><p class="prix" data-prix><strong>59,00 €</strong></p><button type="button" class="bouton bouton--petit" data-panier-ajouter="2-declencheurs-2-jets-argents" data-nom="2 déclencheurs, 2 jets argentés" data-prix="59" data-image="/assets/images/p-2-declencheurs-2-jets-argents-320.webp">Ajouter<span class="visuellement-cache"> 2 déclencheurs, 2 jets argentés</span></button></li><li data-panier-produit><div class="vignette vignette--mini"><img src="/assets/images/p-5-jets-scene-interieur-3m-320.webp" srcset="/assets/images/p-5-jets-scene-interieur-3m-320.webp 320w, /assets/images/p-5-jets-scene-interieur-3m-640.webp 640w" sizes="56px" alt="Boîte de 5 jets de scène d&#39;intérieur" width="640" height="832" loading="lazy" decoding="async"></div><span class="moment-produit-nom">5 jets de scène intérieur, 3 m, 30 s</span><p class="prix" data-prix><strong>35,00 €</strong></p><button type="button" class="bouton bouton--petit" data-panier-ajouter="5-jets-scene-interieur-3m" data-nom="5 jets de scène intérieur, 3 m, 30 s" data-prix="35" data-image="/assets/images/p-5-jets-scene-interieur-3m-320.webp">Ajouter<span class="visuellement-cache"> 5 jets de scène intérieur, 3 m, 30 s</span></button></li><li data-panier-produit><div class="vignette vignette--mini"><img src="/assets/images/p-valise-4-declencheurs-scene-jour-320.webp" srcset="/assets/images/p-valise-4-declencheurs-scene-jour-320.webp 320w, /assets/images/p-valise-4-declencheurs-scene-jour-640.webp 640w" sizes="56px" alt="Valise de 4 déclencheurs avec télécommandes" width="640" height="640" loading="lazy" decoding="async"></div><span class="moment-produit-nom">Valise 4 déclencheurs, jets de scène et feux de jour</span><p class="prix" data-prix><strong>69,00 €</strong></p><button type="button" class="bouton bouton--petit" data-panier-ajouter="valise-4-declencheurs-scene-jour" data-nom="Valise 4 déclencheurs, jets de scène et feux de jour" data-prix="69" data-image="/assets/images/p-valise-4-declencheurs-scene-jour-320.webp">Ajouter<span class="visuellement-cache"> Valise 4 déclencheurs, jets de scène et feux de jour</span></button></li>
+        </ul>
+      </li><li class="moment">
+        <figure class="media moment-media" data-grok style="--cadrage:50% 50%;aspect-ratio:4 / 3">
+  <picture>
+    <img src="/assets/images/grok/rayon-longue-duree-1280.webp" srcset="/assets/images/grok/rayon-longue-duree-480.webp 480w, /assets/images/grok/rayon-longue-duree-800.webp 800w, /assets/images/grok/rayon-longue-duree-1280.webp 1280w" sizes="(max-width: 900px) 100vw, 33vw" alt="Grand final de feu d&#39;artifice doré qui remplit le ciel" width="1280" height="1600" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+        <span class="moment-num" aria-hidden="true">3</span>
+        <h3>Le bouquet final</h3>
+        <p>Un feu automatique qui tire seul, dehors, pendant que tout le monde regarde le ciel.</p>
+        <ul class="moment-produits">
+          <li data-panier-produit><div class="vignette vignette--mini"><img src="/assets/images/p-full-emotion-320.webp" srcset="/assets/images/p-full-emotion-320.webp 320w, /assets/images/p-full-emotion-640.webp 640w" sizes="56px" alt="Emballage du feu automatique Full Emotion" width="640" height="640" loading="lazy" decoding="async"></div><span class="moment-produit-nom">Full Emotion</span><p class="prix" data-prix><strong>349,00 €</strong></p><button type="button" class="bouton bouton--petit" data-panier-ajouter="full-emotion" data-nom="Full Emotion" data-prix="349" data-image="/assets/images/p-full-emotion-320.webp">Ajouter<span class="visuellement-cache"> Full Emotion</span></button></li><li data-panier-produit><div class="vignette vignette--mini"><img src="/assets/images/p-jorge-super-show-100-320.webp" srcset="/assets/images/p-jorge-super-show-100-320.webp 320w, /assets/images/p-jorge-super-show-100-640.webp 640w" sizes="56px" alt="Emballage du compact Jorge Super Show 100" width="640" height="640" loading="lazy" decoding="async"></div><span class="moment-produit-nom">Jorge Super Show 100</span><p class="prix" data-prix><strong>79,00 €</strong></p><button type="button" class="bouton bouton--petit" data-panier-ajouter="jorge-super-show-100" data-nom="Jorge Super Show 100" data-prix="79" data-image="/assets/images/p-jorge-super-show-100-320.webp">Ajouter<span class="visuellement-cache"> Jorge Super Show 100</span></button></li><li data-panier-produit><div class="vignette vignette--mini"><img src="/assets/images/p-bombaclac-320.webp" srcset="/assets/images/p-bombaclac-320.webp 320w, /assets/images/p-bombaclac-640.webp 640w" sizes="56px" alt="Emballage du feu longue durée Bombaclac" width="640" height="430" loading="lazy" decoding="async"></div><span class="moment-produit-nom">Bombaclac</span><p class="prix" data-prix><strong>199,00 €</strong></p><button type="button" class="bouton bouton--petit" data-panier-ajouter="bombaclac" data-nom="Bombaclac" data-prix="199" data-image="/assets/images/p-bombaclac-320.webp">Ajouter<span class="visuellement-cache"> Bombaclac</span></button></li>
+        </ul>
+      </li>
+    </ol>
+  </div>
+</section>
+<section class="vedette nuit" id="vedette" data-panier-produit>
+  <div class="conteneur vedette-grille">
+    <div class="vedette-visuel" data-anime>
+      <div class="vignette vedette-vignette"><img src="/assets/images/p-full-emotion-320.webp" srcset="/assets/images/p-full-emotion-320.webp 320w, /assets/images/p-full-emotion-640.webp 640w" sizes="(max-width: 760px) 80vw, 460px" alt="Emballage du feu automatique Full Emotion" width="640" height="640" loading="lazy" decoding="async"></div>
+    </div>
+    <div class="vedette-texte">
+      <p class="surtitre" data-anime>La vedette</p>
+      <h2 class="titre-section" data-anime="lignes">Full Emotion</h2>
+      <p class="vedette-prix" data-anime data-prix><span data-compteur="349">349</span> €</p>
+      <p data-anime>Feu automatique de catégorie F2, proposé par Artifest comme feu spécial mariage.</p>
+      <ul class="liste-etincelles" data-anime="cascade"><li>Pas besoin d’artificier</li><li>Pas de déclaration à faire, selon Artifest</li><li>Vérifiez les arrêtés de votre commune et la distance au public</li></ul>
+      <p data-anime><button type="button" class="bouton" data-panier-ajouter="full-emotion" data-nom="Full Emotion" data-prix="349" data-image="/assets/images/p-full-emotion-320.webp">Ajouter au panier<span class="visuellement-cache"> Full Emotion</span></button></p>
+    </div>
+  </div>
+</section>
+<section class="bloc jour" id="longue-duree">
+  <div class="conteneur">
+    <div class="bloc-tete"><p class="surtitre" data-anime>Feux longue durée</p><h2 class="titre-section" data-anime="lignes">Pour les grands bouquets</h2></div>
+    <div class="grille-produits" data-anime="cascade"><article class="carte-produit" data-panier-produit>
+  <div class="vignette "><img src="/assets/images/p-panther-320.webp" srcset="/assets/images/p-panther-320.webp 320w, /assets/images/p-panther-640.webp 640w" sizes="(max-width: 760px) 45vw, 260px" alt="Emballage du compact Panther" width="640" height="832" loading="lazy" decoding="async"></div>
+  <span class="badge">Nouveau</span>
+  <h3 class="carte-produit-nom">Panther</h3>
+  <p class="carte-produit-rayon">Compacts · Longue durée</p>
+  <div class="carte-produit-pied"><p class="prix" data-prix><strong>64,00 €</strong></p><button type="button" class="bouton bouton--petit" data-panier-ajouter="panther" data-nom="Panther" data-prix="64" data-image="/assets/images/p-panther-320.webp">Ajouter<span class="visuellement-cache"> Panther</span></button></div>
+</article><article class="carte-produit" data-panier-produit>
+  <div class="vignette "><img src="/assets/images/p-marines-320.webp" srcset="/assets/images/p-marines-320.webp 320w, /assets/images/p-marines-640.webp 640w" sizes="(max-width: 760px) 45vw, 260px" alt="Emballage du compact Marines" width="640" height="832" loading="lazy" decoding="async"></div>
+  <span class="badge">Nouveau</span>
+  <h3 class="carte-produit-nom">Marines</h3>
+  <p class="carte-produit-rayon">Compacts · Longue durée</p>
+  <div class="carte-produit-pied"><p class="prix" data-prix><strong>45,00 €</strong></p><button type="button" class="bouton bouton--petit" data-panier-ajouter="marines" data-nom="Marines" data-prix="45" data-image="/assets/images/p-marines-320.webp">Ajouter<span class="visuellement-cache"> Marines</span></button></div>
+</article><article class="carte-produit" data-panier-produit>
+  <div class="vignette "><img src="/assets/images/p-jorge-space-line-2-320.webp" srcset="/assets/images/p-jorge-space-line-2-320.webp 320w, /assets/images/p-jorge-space-line-2-640.webp 640w" sizes="(max-width: 760px) 45vw, 260px" alt="Emballage du compact Jorge Space Line II" width="640" height="584" loading="lazy" decoding="async"></div>
+  <span class="badge">Best-seller</span>
+  <h3 class="carte-produit-nom">Jorge Space Line II</h3>
+  <p class="carte-produit-rayon">Compacts · Longue durée</p>
+  <div class="carte-produit-pied"><p class="prix" data-prix><strong>59,99 €</strong></p><button type="button" class="bouton bouton--petit" data-panier-ajouter="jorge-space-line-2" data-nom="Jorge Space Line II" data-prix="59.99" data-image="/assets/images/p-jorge-space-line-2-320.webp">Ajouter<span class="visuellement-cache"> Jorge Space Line II</span></button></div>
+</article><article class="carte-produit" data-panier-produit>
+  <div class="vignette "><img src="/assets/images/p-show-box-titan-320.webp" srcset="/assets/images/p-show-box-titan-320.webp 320w, /assets/images/p-show-box-titan-640.webp 640w" sizes="(max-width: 760px) 45vw, 260px" alt="Emballage du compact Show Box Titan" width="640" height="660" loading="lazy" decoding="async"></div>
+  <span class="badge">Nouveau</span>
+  <h3 class="carte-produit-nom">Show Box Titan</h3>
+  <p class="carte-produit-rayon">Compacts · Longue durée</p>
+  <div class="carte-produit-pied"><p class="prix" data-prix><strong>49,00 €</strong></p><button type="button" class="bouton bouton--petit" data-panier-ajouter="show-box-titan" data-nom="Show Box Titan" data-prix="49" data-image="/assets/images/p-show-box-titan-320.webp">Ajouter<span class="visuellement-cache"> Show Box Titan</span></button></div>
+</article><article class="carte-produit" data-panier-produit>
+  <div class="vignette "><img src="/assets/images/p-jorge-super-show-100-320.webp" srcset="/assets/images/p-jorge-super-show-100-320.webp 320w, /assets/images/p-jorge-super-show-100-640.webp 640w" sizes="(max-width: 760px) 45vw, 260px" alt="Emballage du compact Jorge Super Show 100" width="640" height="640" loading="lazy" decoding="async"></div>
+  <span class="badge">Best-seller</span>
+  <h3 class="carte-produit-nom">Jorge Super Show 100</h3>
+  <p class="carte-produit-rayon">Compacts · Longue durée</p>
+  <div class="carte-produit-pied"><p class="prix" data-prix><strong>79,00 €</strong></p><button type="button" class="bouton bouton--petit" data-panier-ajouter="jorge-super-show-100" data-nom="Jorge Super Show 100" data-prix="79" data-image="/assets/images/p-jorge-super-show-100-320.webp">Ajouter<span class="visuellement-cache"> Jorge Super Show 100</span></button></div>
+</article><article class="carte-produit" data-panier-produit>
+  <div class="vignette "><img src="/assets/images/p-bombaclac-320.webp" srcset="/assets/images/p-bombaclac-320.webp 320w, /assets/images/p-bombaclac-640.webp 640w" sizes="(max-width: 760px) 45vw, 260px" alt="Emballage du feu longue durée Bombaclac" width="640" height="430" loading="lazy" decoding="async"></div>
+  <span class="badge">Nouveau</span>
+  <h3 class="carte-produit-nom">Bombaclac</h3>
+  <p class="carte-produit-rayon">Longue durée</p>
+  <div class="carte-produit-pied"><p class="prix" data-prix><strong>199,00 €</strong></p><button type="button" class="bouton bouton--petit" data-panier-ajouter="bombaclac" data-nom="Bombaclac" data-prix="199" data-image="/assets/images/p-bombaclac-320.webp">Ajouter<span class="visuellement-cache"> Bombaclac</span></button></div>
+</article><article class="carte-produit" data-panier-produit>
+  <div class="vignette "><img src="/assets/images/p-furioso-320.webp" srcset="/assets/images/p-furioso-320.webp 320w, /assets/images/p-furioso-640.webp 640w" sizes="(max-width: 760px) 45vw, 260px" alt="Emballage du feu longue durée Furioso" width="640" height="337" loading="lazy" decoding="async"></div>
+  <span class="badge">Nouveau</span>
+  <h3 class="carte-produit-nom">Furioso</h3>
+  <p class="carte-produit-rayon">Longue durée</p>
+  <div class="carte-produit-pied"><p class="prix" data-prix><strong>199,00 €</strong></p><button type="button" class="bouton bouton--petit" data-panier-ajouter="furioso" data-nom="Furioso" data-prix="199" data-image="/assets/images/p-furioso-320.webp">Ajouter<span class="visuellement-cache"> Furioso</span></button></div>
+</article><article class="carte-produit est-rupture" data-panier-produit>
+  <div class="vignette "><img src="/assets/images/p-alien-320.webp" srcset="/assets/images/p-alien-320.webp 320w" sizes="(max-width: 760px) 45vw, 260px" alt="Emballage du feu longue durée Alien" width="320" height="266" loading="lazy" decoding="async"></div>
+  <span class="badge">Nouveau</span>
+  <h3 class="carte-produit-nom">Alien</h3>
+  <p class="carte-produit-rayon">Longue durée</p>
+  <div class="carte-produit-pied"><p class="prix" data-prix><strong>289,00 €</strong></p><p class="rupture">Rupture de stock</p></div>
+</article><article class="carte-produit" data-panier-produit>
+  <div class="vignette "><img src="/assets/images/p-big-bum-320.webp" srcset="/assets/images/p-big-bum-320.webp 320w, /assets/images/p-big-bum-640.webp 640w" sizes="(max-width: 760px) 45vw, 260px" alt="Emballage du feu Big Bum" width="640" height="640" loading="lazy" decoding="async"></div>
+  <span class="badge">Très très puissant</span>
+  <h3 class="carte-produit-nom">Big Bum</h3>
+  <p class="carte-produit-rayon">Longue durée</p>
+  <div class="carte-produit-pied"><p class="prix" data-prix><strong>110,00 €</strong></p><button type="button" class="bouton bouton--petit" data-panier-ajouter="big-bum" data-nom="Big Bum" data-prix="110" data-image="/assets/images/p-big-bum-320.webp">Ajouter<span class="visuellement-cache"> Big Bum</span></button></div>
+</article><article class="carte-produit est-rupture" data-panier-produit>
+  <div class="vignette "><img src="/assets/images/p-marco-polo-320.webp" srcset="/assets/images/p-marco-polo-320.webp 320w, /assets/images/p-marco-polo-640.webp 640w" sizes="(max-width: 760px) 45vw, 260px" alt="Emballage du feu Marco Polo" width="640" height="640" loading="lazy" decoding="async"></div>
+  <h3 class="carte-produit-nom">Marco Polo</h3>
+  <p class="carte-produit-rayon">Longue durée</p>
+  <div class="carte-produit-pied"><p class="prix" data-prix><strong>123,00 €</strong> <s aria-label="au lieu de 128,00 €">128,00 €</s></p><p class="rupture">Rupture de stock</p></div>
+</article><article class="carte-produit" data-panier-produit>
+  <div class="vignette "><img src="/assets/images/p-gruba-berta-320.webp" srcset="/assets/images/p-gruba-berta-320.webp 320w, /assets/images/p-gruba-berta-640.webp 640w" sizes="(max-width: 760px) 45vw, 260px" alt="Emballage du feu Gruba Berta" width="640" height="640" loading="lazy" decoding="async"></div>
+  <h3 class="carte-produit-nom">Gruba Berta</h3>
+  <p class="carte-produit-rayon">Longue durée</p>
+  <div class="carte-produit-pied"><p class="prix" data-prix><strong>86,00 €</strong></p><button type="button" class="bouton bouton--petit" data-panier-ajouter="gruba-berta" data-nom="Gruba Berta" data-prix="86" data-image="/assets/images/p-gruba-berta-320.webp">Ajouter<span class="visuellement-cache"> Gruba Berta</span></button></div>
+</article></div>
+  </div>
+</section>
+<section class="bloc jour bloc--suite" id="jour-scene">
+  <div class="conteneur">
+    <div class="bloc-tete"><p class="surtitre" data-anime>Jour et scène</p><h2 class="titre-section" data-anime="lignes">Fumées et étincelles froides</h2></div>
+    <div class="grille-produits" data-anime="cascade"><article class="carte-produit" data-panier-produit>
+  <div class="vignette vignette--dessin " data-visuel role="img" aria-label="Visuel en attendant la photo du produit : 20 jets argent"><svg viewBox="0 0 100 100" aria-hidden="true"><g stroke-width="2.4" stroke-linecap="round"><line x1="64.0" y1="46.0" x2="84.0" y2="46.0" stroke="#e8ecff"/><line x1="62.9" y1="51.4" x2="88.8" y2="62.1" stroke="#e8ecff"/><line x1="59.9" y1="55.9" x2="74.0" y2="70.0" stroke="#e8ecff"/><line x1="55.4" y1="58.9" x2="66.1" y2="84.8" stroke="#e8ecff"/><line x1="50.0" y1="60.0" x2="50.0" y2="80.0" stroke="#e8ecff"/><line x1="44.6" y1="58.9" x2="33.9" y2="84.8" stroke="#e8ecff"/><line x1="40.1" y1="55.9" x2="26.0" y2="70.0" stroke="#e8ecff"/><line x1="37.1" y1="51.4" x2="11.2" y2="62.1" stroke="#e8ecff"/><line x1="36.0" y1="46.0" x2="16.0" y2="46.0" stroke="#e8ecff"/><line x1="37.1" y1="40.6" x2="11.2" y2="29.9" stroke="#e8ecff"/><line x1="40.1" y1="36.1" x2="26.0" y2="22.0" stroke="#e8ecff"/><line x1="44.6" y1="33.1" x2="33.9" y2="7.2" stroke="#e8ecff"/><line x1="50.0" y1="32.0" x2="50.0" y2="12.0" stroke="#e8ecff"/><line x1="55.4" y1="33.1" x2="66.1" y2="7.2" stroke="#e8ecff"/><line x1="59.9" y1="36.1" x2="74.0" y2="22.0" stroke="#e8ecff"/><line x1="62.9" y1="40.6" x2="88.8" y2="29.9" stroke="#e8ecff"/></g><circle cx="50" cy="46" r="5" fill="#e8ecff"/></svg><span>20 jets argent</span></div>
+  <span class="badge">Tarif exceptionnel</span>
+  <h3 class="carte-produit-nom">20 jets argent</h3>
+  <p class="carte-produit-rayon">Jour et scène</p>
+  <div class="carte-produit-pied"><p class="prix" data-prix><strong>92,00 €</strong></p><button type="button" class="bouton bouton--petit" data-panier-ajouter="20-jets-argent" data-nom="20 jets argent" data-prix="92">Ajouter<span class="visuellement-cache"> 20 jets argent</span></button></div>
+</article><article class="carte-produit" data-panier-produit>
+  <div class="vignette "><img src="/assets/images/p-5-jets-scene-3m-60s-320.webp" srcset="/assets/images/p-5-jets-scene-3m-60s-320.webp 320w, /assets/images/p-5-jets-scene-3m-60s-640.webp 640w" sizes="(max-width: 760px) 45vw, 260px" alt="Boîte de 5 jets de scène" width="640" height="832" loading="lazy" decoding="async"></div>
+  <span class="badge">Nouveau</span>
+  <h3 class="carte-produit-nom">5 jets de scène, 3 m, 60 s</h3>
+  <p class="carte-produit-rayon">Jour et scène</p>
+  <div class="carte-produit-pied"><p class="prix" data-prix><strong>39,00 €</strong></p><button type="button" class="bouton bouton--petit" data-panier-ajouter="5-jets-scene-3m-60s" data-nom="5 jets de scène, 3 m, 60 s" data-prix="39" data-image="/assets/images/p-5-jets-scene-3m-60s-320.webp">Ajouter<span class="visuellement-cache"> 5 jets de scène, 3 m, 60 s</span></button></div>
+</article><article class="carte-produit" data-panier-produit>
+  <div class="vignette "><img src="/assets/images/p-5-jets-interieur-2m-320.webp" srcset="/assets/images/p-5-jets-interieur-2m-320.webp 320w, /assets/images/p-5-jets-interieur-2m-640.webp 640w" sizes="(max-width: 760px) 45vw, 260px" alt="Boîte de 5 jets d&#39;intérieur" width="640" height="832" loading="lazy" decoding="async"></div>
+  <span class="badge">Prix bas</span>
+  <h3 class="carte-produit-nom">5 jets intérieur, 2 m, 30 s</h3>
+  <p class="carte-produit-rayon">Jour et scène</p>
+  <div class="carte-produit-pied"><p class="prix" data-prix><strong>27,00 €</strong></p><button type="button" class="bouton bouton--petit" data-panier-ajouter="5-jets-interieur-2m" data-nom="5 jets intérieur, 2 m, 30 s" data-prix="27" data-image="/assets/images/p-5-jets-interieur-2m-320.webp">Ajouter<span class="visuellement-cache"> 5 jets intérieur, 2 m, 30 s</span></button></div>
+</article><article class="carte-produit" data-panier-produit>
+  <div class="vignette "><img src="/assets/images/p-valise-8-declencheurs-scene-jour-320.webp" srcset="/assets/images/p-valise-8-declencheurs-scene-jour-320.webp 320w, /assets/images/p-valise-8-declencheurs-scene-jour-640.webp 640w" sizes="(max-width: 760px) 45vw, 260px" alt="Valise de 8 déclencheurs avec télécommande" width="640" height="730" loading="lazy" decoding="async"></div>
+  <h3 class="carte-produit-nom">Valise 8 déclencheurs, jets de scène et feux de jour</h3>
+  <p class="carte-produit-rayon">Jour et scène</p>
+  <div class="carte-produit-pied"><p class="prix" data-prix><strong>89,00 €</strong></p><button type="button" class="bouton bouton--petit" data-panier-ajouter="valise-8-declencheurs-scene-jour" data-nom="Valise 8 déclencheurs, jets de scène et feux de jour" data-prix="89" data-image="/assets/images/p-valise-8-declencheurs-scene-jour-320.webp">Ajouter<span class="visuellement-cache"> Valise 8 déclencheurs, jets de scène et feux de jour</span></button></div>
+</article><article class="carte-produit" data-panier-produit>
+  <div class="vignette "><img src="/assets/images/p-2-declencheurs-2-jets-de-jour-320.webp" srcset="/assets/images/p-2-declencheurs-2-jets-de-jour-320.webp 320w, /assets/images/p-2-declencheurs-2-jets-de-jour-640.webp 640w" sizes="(max-width: 760px) 45vw, 260px" alt="Deux déclencheurs et leurs jets de couleur" width="640" height="853" loading="lazy" decoding="async"></div>
+  <h3 class="carte-produit-nom">2 déclencheurs, 2 jets de jour</h3>
+  <p class="carte-produit-rayon">Jour et scène</p>
+  <div class="carte-produit-pied"><p class="prix" data-prix><strong>79,00 €</strong></p><button type="button" class="bouton bouton--petit" data-panier-ajouter="2-declencheurs-2-jets-de-jour" data-nom="2 déclencheurs, 2 jets de jour" data-prix="79" data-image="/assets/images/p-2-declencheurs-2-jets-de-jour-320.webp">Ajouter<span class="visuellement-cache"> 2 déclencheurs, 2 jets de jour</span></button></div>
+</article><article class="carte-produit" data-panier-produit>
+  <div class="vignette "><img src="/assets/images/p-feu-jour-violet-320.webp" srcset="/assets/images/p-feu-jour-violet-320.webp 320w, /assets/images/p-feu-jour-violet-640.webp 640w" sizes="(max-width: 760px) 45vw, 260px" alt="Feu de jour violet et sa fumée" width="640" height="640" loading="lazy" decoding="async"></div>
+  <h3 class="carte-produit-nom">Feu de jour violet</h3>
+  <p class="carte-produit-rayon">Jour et scène</p>
+  <div class="carte-produit-pied"><p class="prix" data-prix><strong>18,99 €</strong></p><button type="button" class="bouton bouton--petit" data-panier-ajouter="feu-jour-violet" data-nom="Feu de jour violet" data-prix="18.99" data-image="/assets/images/p-feu-jour-violet-320.webp">Ajouter<span class="visuellement-cache"> Feu de jour violet</span></button></div>
+</article></div>
+  </div>
+</section>
+<section class="appel nuit" id="appel">
+  <canvas class="ciel ciel--appel" data-ciel="appel" data-effet="bouquet" aria-hidden="true" data-audit-ignorer></canvas>
+  <div class="conteneur appel-corps">
+    <h2 class="appel-titre" data-anime="lignes">On en parle ?</h2>
+    <p data-anime>Le lieu, le nombre d’invités, l’heure du feu : appelez ou écrivez, et préparez votre commande ensemble.</p>
+    <p class="appel-actions" data-anime>
+      <a href="/contact?sujet=mariage#formulaire" class="bouton" data-libelle="Contact">Écrire un e-mail</a>
+      <a class="bouton bouton--contour" href="tel:+33698644543" data-survol="magnetique">Appeler 06 98 64 45 43</a>
+      <a class="lien-fleche" href="mailto:contact@artifest.fr">contact@artifest.fr</a>
+    </p>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-marque">
+      <img src="/assets/images/logo-nuit.webp" alt="Artifest, Ardennes artifices" width="160" height="136" loading="lazy">
+      <p class="pied-majeurs">Pas de vente aux mineurs</p>
+    </div>
+    <div>
+      <p class="pied-titre">Secteur Sedan et Mouzon</p>
+      <p>76 grande rue, 08210 Autrecourt-et-Pourron<br><a href="tel:+33698644543">06 98 64 45 43</a><br><a href="mailto:contact@artifest.fr">contact@artifest.fr</a><br><a href="https://www.facebook.com/artifest08" target="_blank" rel="noopener">Artifest sur Facebook</a></p>
+    </div>
+    <nav aria-label="Sommaire">
+      <p class="pied-titre">Sommaire</p>
+      <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/boutique" data-libelle="Boutique">Boutique</a></li><li><a href="/mariage" data-libelle="Mariage" aria-current="page">Mariage</a></li><li><a href="/conseils" data-libelle="Conseils">Conseils</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div>
+      <p class="pied-titre">La boutique</p>
+      <ul><li><a href="/boutique?rayon=compacts#catalogue" data-libelle="Boutique">Compacts</a></li><li><a href="/boutique?rayon=longue-duree#catalogue" data-libelle="Boutique">Longue durée</a></li><li><a href="/boutique?rayon=petards#catalogue" data-libelle="Boutique">Pétards et fusées</a></li><li><a href="/boutique?rayon=fumigenes#catalogue" data-libelle="Boutique">Fumigènes</a></li><li><a href="/boutique?rayon=jour-scene#catalogue" data-libelle="Boutique">Jour et scène</a></li>
+        <li><a href="#haut" data-sans-transition>Retour en haut</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="conteneur pied-bas"><p>Maquette : panier, paiement et formulaires sont simulés, rien n’est envoyé.</p><p>Mentions légales : à compléter · Politique de confidentialité : à compléter</p><p>© Artifest</p></div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+33698644543">Appeler</a>
+  <a class="bouton" href="/contact?sujet=commande" data-panier-ouvrir data-sans-transition>Panier <span class="pet-compte" data-panier-compte>0</span></a>
+</div>
+<div data-module="panier-en-tiroir" data-panier-tiroir data-recouvrement><script type="application/json" data-panier-reglages>{"devise":"EUR","seuil_livraison":0,"frais_livraison":0,"tva":null,"cle":"artifest-panier","prefixe":"ART","envol":"auto","retrait":{"adresse":"76 grande rue, 08210 Autrecourt-et-Pourron","horaires":"Au moment convenu par e-mail, quand la commande est prête"}}</script></div>
+</body>
+</html>

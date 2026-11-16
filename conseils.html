@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="fr" data-v="1">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Conseils et sécurité : Artifest</title>
+<meta name="description" content="Catégories F1 à F4, âges minimums, bons gestes avant et pendant le tir, commande, retrait et paiement.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://artifest-maquette.vercel.app/conseils">
+<style>:root{--fond:#0d0f22;--texte:#f6f2ea;--voile-fond:#0d0f22;--ouverture-fond:#0d0f22;--menu-fond:#0d0f22}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/unbounded-latin-800-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/manrope-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/js/modules/panier-en-tiroir/module.css?v=1">
+<link rel="stylesheet" href="/assets/js/modules/envol-vers-le-panier/module.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#0d0f22">
+<link rel="icon" href="/assets/images/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Artifest">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Conseils et sécurité : Artifest">
+<meta property="og:description" content="Catégories F1 à F4, âges minimums, bons gestes avant et pendant le tir, commande, retrait et paiement.">
+<meta property="og:url" content="https://artifest-maquette.vercel.app/conseils">
+<meta property="og:image" content="https://artifest-maquette.vercel.app/assets/partage/conseils-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Une fontaine d’étincelles dans un pré, une famille à bonne distance">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Store","name":"Artifest","description":"Boutique de feux d'artifice pour particuliers dans les Ardennes, secteur Sedan et Mouzon.","url":"https://artifest-maquette.vercel.app/","telephone":"+33698644543","email":"contact@artifest.fr","address":{"@type":"PostalAddress","streetAddress":"76 grande rue","postalCode":"08210","addressLocality":"Autrecourt-et-Pourron","addressCountry":"FR"},"sameAs":["https://www.facebook.com/artifest08"],"paymentAccepted":"Carte bancaire, espèces","currenciesAccepted":"EUR"}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="iris" aria-hidden="true"><div class="voile-contenu"><img src="/assets/images/picto-nuit.webp" alt="" width="60" height="55"><span data-voile-libelle>Conseils</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <canvas class="ouverture-ciel" data-audit-ignorer></canvas>
+  <img class="ouverture-logo" src="/assets/images/logo-nuit.webp" alt="" width="180" height="153" data-ouverture-objet>
+  <span class="ouverture-meche"></span>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" aria-label="Artifest, Accueil" data-libelle="Accueil">
+      <img src="/assets/images/picto-nuit.webp" alt="" width="40" height="37"><span class="entete-nom">Artifest</span>
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/boutique" data-libelle="Boutique">Boutique</a></li><li><a href="/mariage" data-libelle="Mariage">Mariage</a></li><li><a href="/conseils" data-libelle="Conseils" aria-current="page">Conseils</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="entete-recherche" href="/boutique?focus=recherche#catalogue" data-libelle="Boutique" aria-label="Rechercher un article"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5"/></svg></a>
+      <a class="bouton entete-panier" href="/contact?sujet=commande" data-panier-ouvrir data-envol-cible data-sans-transition data-effet="fusee-panier"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14l-1.4 11.2a2 2 0 0 1-2 1.8H8.4a2 2 0 0 1-2-1.8L5 8Z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg><span class="entete-panier-mot">Panier</span><span class="pet-compte" data-panier-compte>0</span><span class="etincelle" aria-hidden="true"></span></a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a href="/boutique" class="menu-lien" data-libelle="Boutique">Boutique</a></li><li style="--i:2"><a href="/mariage" class="menu-lien" data-libelle="Mariage">Mariage</a></li><li style="--i:3"><a href="/conseils" class="menu-lien" data-libelle="Conseils" aria-current="page">Conseils</a></li><li style="--i:4"><a href="/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
+  <p><a class="bouton" href="tel:+33698644543">Appeler 06 98 64 45 43</a></p>
+  <p class="menu-majeurs">Pas de vente aux mineurs</p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="conseils-ouverture nuit" id="debut" data-ouverture-page>
+  <div class="conseils-ouverture-texte">
+    <h1 class="conseils-titre"><span data-anime="gsap" class="bloc-ligne">Tirer en toute</span> <span data-anime="gsap" class="bloc-ligne or">sécurité</span></h1>
+    <p class="masque-ecran-bas" data-anime="gsap">Ce que dit la réglementation, et les bons gestes avant, pendant et après le tir.</p>
+    <p data-anime="gsap"><a class="bouton" href="#categories" data-action-principale data-survol="magnetique">Les catégories</a></p>
+    <p class="conseils-info" data-info-cle data-anime="gsap"><span class="pastille-majeurs">18+</span> Rappel : pas de vente aux mineurs</p>
+  </div>
+  <figure class="media conseils-ouverture-media" data-grok data-fx="zoom" data-fx-force="10" data-iris-centre style="--cadrage:60% 55%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/grok/conseils-ouverture-mobile-640.webp 640w" sizes="(max-width: 900px) 100vw, 55vw">
+    <img src="/assets/images/grok/conseils-ouverture-1280.webp" srcset="/assets/images/grok/conseils-ouverture-640.webp 640w, /assets/images/grok/conseils-ouverture-1280.webp 1280w, /assets/images/grok/conseils-ouverture-1920.webp 1920w" sizes="(max-width: 900px) 100vw, 55vw" alt="Une fontaine d’étincelles dans un pré, une famille à bonne distance" width="1280" height="720" fetchpriority="high" loading="eager" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+</section>
+<section class="categories-page nuit2" id="categories">
+  <div class="conteneur">
+    <p class="surtitre" data-anime>Les catégories</p>
+    <h2 class="titre-section" data-anime="lignes">Quatre catégories, quatre âges</h2>
+    <ul class="categories-grandes" data-anime="cascade">
+      <li class="cat cat--1"><span class="cat-code">F1</span><span class="cat-age"><span data-compteur="12">12</span> ans</span><p>Danger très faible, bruit négligeable : pétards, petites fontaines. Dès 12 ans.</p></li><li class="cat cat--2"><span class="cat-code">F2</span><span class="cat-age"><span data-compteur="18">18</span> ans</span><p>Danger faible, à tirer dehors dans un espace confiné. Dès 18 ans.</p></li><li class="cat cat--3"><span class="cat-code">F3</span><span class="cat-age"><span data-compteur="18">18</span> ans</span><p>Danger moyen, à tirer dehors dans un grand espace dégagé. Dès 18 ans.</p></li><li class="cat cat--4"><span class="cat-code">F4</span><span class="cat-age">pros</span><p>Danger élevé : réservé aux personnes ayant des connaissances particulières.</p></li>
+    </ul>
+    <p class="note" data-anime>Les articles de scène et les fumigènes portent une catégorie T1 ou P1, indiquée sur l’emballage. Âges et catégories : fiche de la DGCCRF, economie.gouv.fr.</p>
+  </div>
+</section>
+<section class="schema nuit" id="distances">
+  <div class="conteneur schema-grille">
+    <h2 class="titre-section titre-moyen" data-anime="lignes">Distances de sécurité : celles de la notice de chaque article</h2>
+    <svg class="schema-svg" viewBox="0 0 640 220" role="img" aria-label="Distances de sécurité : celles de la notice de chaque article" data-fx="trace">
+      <path d="M40 180 H600" fill="none" stroke="rgba(246,242,234,.35)" stroke-width="2" data-fx-trait/>
+      <path d="M110 150 L110 60 M110 60 l-22 -26 M110 60 l22 -26 M110 60 l0 -34 M110 60 l-30 6 M110 60 l30 6" fill="none" stroke="#ffd166" stroke-width="3" stroke-linecap="round" data-fx-trait/>
+      <rect x="96" y="150" width="28" height="30" rx="3" fill="#ff5b2e"/>
+      <path d="M140 120 H440" fill="none" stroke="#ff5b2e" stroke-width="3" stroke-dasharray="8 8" data-fx-trait/>
+      <path d="M440 110 l12 10 l-12 10" fill="none" stroke="#ff5b2e" stroke-width="3" data-fx-trait/>
+      <g fill="#f6f2ea"><circle cx="500" cy="128" r="10"/><rect x="490" y="140" width="20" height="40" rx="8"/><circle cx="540" cy="132" r="9"/><rect x="531" y="143" width="18" height="37" rx="7"/><circle cx="574" cy="140" r="7"/><rect x="567" y="149" width="14" height="31" rx="6"/></g>
+      <text x="110" y="208" text-anchor="middle" fill="#f6f2ea" font-size="15" font-weight="700">feu</text>
+      <text x="290" y="108" text-anchor="middle" fill="#ffd166" font-size="15" font-weight="700">distance de la notice</text>
+      <text x="535" y="208" text-anchor="middle" fill="#f6f2ea" font-size="15" font-weight="700">public</text>
+    </svg>
+  </div>
+</section>
+<section class="gestes jour" id="gestes">
+  <div class="conteneur">
+    <p class="surtitre" data-anime>Les bons gestes</p>
+    <h2 class="titre-section" data-anime="lignes">Avant, pendant, après</h2>
+    <ol class="gestes-liste" data-anime="cascade">
+      <li><span class="geste-num" aria-hidden="true">1</span><h3>Avant</h3><p>Lisez l’étiquette : catégorie, âge, notice, distance de sécurité, usage intérieur ou extérieur. Vérifiez les arrêtés de votre commune et de la préfecture.</p></li><li><span class="geste-num" aria-hidden="true">2</span><h3>Pendant</h3><p>Posez le feu sur un sol plat et stable, loin des habitations et des arbres. Allumez à bout de bras, puis éloignez-vous.</p></li><li><span class="geste-num" aria-hidden="true">3</span><h3>Après</h3><p>Ne vous approchez jamais d’un feu qui n’est pas parti : attendez, puis noyez-le dans un seau d’eau.</p></li>
+    </ol>
+  </div>
+</section>
+<section class="faq-page jour bloc--suite" id="questions">
+  <div class="conteneur faq-grille">
+    <div>
+      <p class="surtitre" data-anime>Commande et retrait</p>
+      <h2 class="titre-section" data-anime="lignes">Vos questions</h2>
+      <figure class="media faq-media" data-anime="rideau" style="--cadrage:50% 50%;aspect-ratio:16 / 9">
+  <picture>
+    <img src="/assets/images/torche-rouge-640.webp" srcset="/assets/images/torche-rouge-480.webp 480w, /assets/images/torche-rouge-640.webp 640w" sizes="(max-width: 900px) 100vw, 30vw" alt="Torche à main rouge allumée dans la nuit" width="640" height="360" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    </div>
+    <div class="faq-liste">
+      <details class="faq-item" data-anime><summary>Où retirer ma commande ?</summary><p>Au 76 grande rue, à Autrecourt-et-Pourron (secteur Sedan et Mouzon). Un e-mail vous prévient quand la commande est prête, et le retrait se fait au moment convenu ensemble.</p></details><details class="faq-item" data-anime><summary>Pouvez-vous livrer ?</summary><p>Oui, à l’adresse que vous indiquez, si c’est convenu avec Artifest. Le délai moyen est de 24 h pour les articles en stock.</p></details><details class="faq-item" data-anime><summary>Comment payer ?</summary><p>Par carte bancaire avec SumUp, ou sur place au retrait : carte (si le réseau mobile passe) ou espèces. Les prix sont en euros TTC.</p></details><details class="faq-item" data-anime><summary>Puis-je échanger un article ?</summary><p>Oui, sous 14 jours après réception, s’il n’a pas été utilisé et revient dans son emballage d’origine.</p></details><details class="faq-item" data-anime><summary>Faut-il être majeur ?</summary><p>Oui : Artifest ne vend pas aux mineurs. La loi autorise les F1 dès 12 ans, mais les F2 et F3 seulement dès 18 ans.</p></details>
+    </div>
+  </div>
+</section>
+<section class="appel nuit" id="appel">
+  <canvas class="ciel ciel--appel" data-ciel="appel" data-effet="bouquet" aria-hidden="true" data-audit-ignorer></canvas>
+  <div class="conteneur appel-corps">
+    <h2 class="appel-titre" data-anime="lignes">Un doute avant de tirer ?</h2>
+    <p data-anime>Demandez : on vous dit quel feu convient à votre terrain et à votre public.</p>
+    <p class="appel-actions" data-anime>
+      <a href="/contact?sujet=conseil#formulaire" class="bouton" data-libelle="Contact">Écrire un e-mail</a>
+      <a class="bouton bouton--contour" href="tel:+33698644543" data-survol="magnetique">Appeler 06 98 64 45 43</a>
+      <a class="lien-fleche" href="mailto:contact@artifest.fr">contact@artifest.fr</a>
+    </p>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-marque">
+      <img src="/assets/images/logo-nuit.webp" alt="Artifest, Ardennes artifices" width="160" height="136" loading="lazy">
+      <p class="pied-majeurs">Pas de vente aux mineurs</p>
+    </div>
+    <div>
+      <p class="pied-titre">Secteur Sedan et Mouzon</p>
+      <p>76 grande rue, 08210 Autrecourt-et-Pourron<br><a href="tel:+33698644543">06 98 64 45 43</a><br><a href="mailto:contact@artifest.fr">contact@artifest.fr</a><br><a href="https://www.facebook.com/artifest08" target="_blank" rel="noopener">Artifest sur Facebook</a></p>
+    </div>
+    <nav aria-label="Sommaire">
+      <p class="pied-titre">Sommaire</p>
+      <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/boutique" data-libelle="Boutique">Boutique</a></li><li><a href="/mariage" data-libelle="Mariage">Mariage</a></li><li><a href="/conseils" data-libelle="Conseils" aria-current="page">Conseils</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div>
+      <p class="pied-titre">La boutique</p>
+      <ul><li><a href="/boutique?rayon=compacts#catalogue" data-libelle="Boutique">Compacts</a></li><li><a href="/boutique?rayon=longue-duree#catalogue" data-libelle="Boutique">Longue durée</a></li><li><a href="/boutique?rayon=petards#catalogue" data-libelle="Boutique">Pétards et fusées</a></li><li><a href="/boutique?rayon=fumigenes#catalogue" data-libelle="Boutique">Fumigènes</a></li><li><a href="/boutique?rayon=jour-scene#catalogue" data-libelle="Boutique">Jour et scène</a></li>
+        <li><a href="#haut" data-sans-transition>Retour en haut</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="conteneur pied-bas"><p>Maquette : panier, paiement et formulaires sont simulés, rien n’est envoyé.</p><p>Mentions légales : à compléter · Politique de confidentialité : à compléter</p><p>© Artifest</p></div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+33698644543">Appeler</a>
+  <a class="bouton" href="/contact?sujet=commande" data-panier-ouvrir data-sans-transition>Panier <span class="pet-compte" data-panier-compte>0</span></a>
+</div>
+<div data-module="panier-en-tiroir" data-panier-tiroir data-recouvrement><script type="application/json" data-panier-reglages>{"devise":"EUR","seuil_livraison":0,"frais_livraison":0,"tva":null,"cle":"artifest-panier","prefixe":"ART","envol":"auto","retrait":{"adresse":"76 grande rue, 08210 Autrecourt-et-Pourron","horaires":"Au moment convenu par e-mail, quand la commande est prête"}}</script></div>
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "nom": "Artifest",
+  "adresse": "https://artifest-maquette.vercel.app",
+  "siteActuel": "www.artifest.fr",
+  "version": 1,
+  "langues": ["fr"],
+  "navigation": ["accueil", "boutique", "mariage", "conseils", "contact"],
+  "actionEntete": { "page": "boutique" },
+  "couleurs": { "fond": "#0d0f22", "texte": "#f6f2ea", "voile": "#0d0f22", "theme": "#0d0f22", "ouverture": "#0d0f22", "menu": "#0d0f22" },
+  "formeVoile": "iris",
+  "contact": { "telephone": "06 98 64 45 43", "telephoneLien": "+33698644543", "email": "contact@artifest.fr", "adresse": "76 grande rue, 08210 Autrecourt-et-Pourron", "facebook": "https://www.facebook.com/artifest08" },
+  "polices": ["/assets/fonts/unbounded-latin-800-normal.woff2", "/assets/fonts/manrope-latin-400-normal.woff2"],
+  "imagePartage": "grok/accueil-ouverture-1280.webp",
+  "curseur": false
+}

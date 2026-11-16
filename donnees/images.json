@@ -1,0 +1,5520 @@
+{
+  "logo": {
+    "nom": "logo",
+    "source": "recu/logo-clair.png",
+    "role": "logo",
+    "alt": "Artifest, Ardennes artifices",
+    "grok": false,
+    "mention": null,
+    "beaute": null,
+    "empreinte": "de44fb70a707eecb",
+    "ratio": null,
+    "largeurs": [
+      240,
+      480
+    ],
+    "mobile": null,
+    "cadrage": null,
+    "sujet": null,
+    "zones_calmes": null,
+    "zone_texte": null,
+    "recadrage": null,
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "logo-240.webp",
+      "logo-480.webp"
+    ],
+    "poids": {
+      "logo-240.webp": 4130,
+      "logo-480.webp": 8720
+    },
+    "media": "c.media({ nom: 'logo', alt: \"Artifest, Ardennes artifices\", sizes: '240px' })"
+  },
+  "p-macro-cosmos-2": {
+    "nom": "p-macro-cosmos-2",
+    "source": "recu/filtrer-22.jpg",
+    "role": "produit",
+    "alt": "Emballage du compact Macro Cosmos II",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "4046f621b93d314d",
+    "ratio": "746:678",
+    "largeurs": [
+      320,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "51% 53%",
+    "sujet": {
+      "x": 23.1,
+      "y": 10.2,
+      "l": 60.7,
+      "h": 83.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.26,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.23,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.12,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.03,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 746,
+      "height": 678,
+      "source": [
+        746,
+        678
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "746 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "p-macro-cosmos-2-320.webp",
+      "p-macro-cosmos-2-640.webp"
+    ],
+    "poids": {
+      "p-macro-cosmos-2-320.webp": 10496,
+      "p-macro-cosmos-2-640.webp": 23902
+    },
+    "media": "c.media({ nom: 'p-macro-cosmos-2', alt: \"Emballage du compact Macro Cosmos II\", cadrage: '51% 53%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '746 / 678' })"
+  },
+  "p-mars-firewolf": {
+    "nom": "p-mars-firewolf",
+    "source": "recu/filtrer-3.png",
+    "role": "produit",
+    "alt": "Emballage du compact Mars Firewolf",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "c4ae959ecbf12253",
+    "ratio": "1000:1000",
+    "largeurs": [
+      320,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "44% 46%",
+    "sujet": {
+      "x": 14.1,
+      "y": 7.2,
+      "l": 66.3,
+      "h": 87.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.04,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.02,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.01,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1000,
+      "height": 1000,
+      "source": [
+        1000,
+        1000
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1000 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "p-mars-firewolf-320.webp",
+      "p-mars-firewolf-640.webp"
+    ],
+    "poids": {
+      "p-mars-firewolf-320.webp": 24516,
+      "p-mars-firewolf-640.webp": 64136
+    },
+    "media": "c.media({ nom: 'p-mars-firewolf', alt: \"Emballage du compact Mars Firewolf\", cadrage: '44% 46%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1000 / 1000' })"
+  },
+  "p-cracken": {
+    "nom": "p-cracken",
+    "source": "recu/filtrer-9.png",
+    "role": "produit",
+    "alt": "Emballage du compact Cracken",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "77886c8e13883433",
+    "ratio": "800:1040",
+    "largeurs": [
+      320,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "47% 52%",
+    "sujet": {
+      "x": 4.5,
+      "y": 16.8,
+      "l": 90.9,
+      "h": 68.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.44,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.15,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.09,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.06,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 800,
+      "height": 1040,
+      "source": [
+        800,
+        1040
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "p-cracken-320.webp",
+      "p-cracken-640.webp"
+    ],
+    "poids": {
+      "p-cracken-320.webp": 18104,
+      "p-cracken-640.webp": 45350
+    },
+    "media": "c.media({ nom: 'p-cracken', alt: \"Emballage du compact Cracken\", cadrage: '47% 52%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '800 / 1040' })"
+  },
+  "p-finale-effect-3": {
+    "nom": "p-finale-effect-3",
+    "source": "recu/filtrer-12.png",
+    "role": "produit",
+    "alt": "Emballage du compact Finale Effect 3",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "04e9070a2b92834c",
+    "ratio": "800:1040",
+    "largeurs": [
+      320,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "45% 47%",
+    "sujet": {
+      "x": 0.6,
+      "y": 27.9,
+      "l": 99.4,
+      "h": 41.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.73,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.57,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.32,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.23,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 800,
+      "height": 1040,
+      "source": [
+        800,
+        1040
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "p-finale-effect-3-320.webp",
+      "p-finale-effect-3-640.webp"
+    ],
+    "poids": {
+      "p-finale-effect-3-320.webp": 18856,
+      "p-finale-effect-3-640.webp": 53680
+    },
+    "media": "c.media({ nom: 'p-finale-effect-3', alt: \"Emballage du compact Finale Effect 3\", cadrage: '45% 47%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '800 / 1040' })"
+  },
+  "p-panther": {
+    "nom": "p-panther",
+    "source": "recu/panther.png",
+    "role": "produit",
+    "alt": "Emballage du compact Panther",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "1f2926805c7f24ab",
+    "ratio": "800:1040",
+    "largeurs": [
+      320,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "46% 53%",
+    "sujet": {
+      "x": 0.4,
+      "y": 31.4,
+      "l": 93.6,
+      "h": 40.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.78,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.46,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.18,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.13,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 800,
+      "height": 1040,
+      "source": [
+        800,
+        1040
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "p-panther-320.webp",
+      "p-panther-640.webp"
+    ],
+    "poids": {
+      "p-panther-320.webp": 17370,
+      "p-panther-640.webp": 53152
+    },
+    "media": "c.media({ nom: 'p-panther', alt: \"Emballage du compact Panther\", cadrage: '46% 53%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '800 / 1040' })"
+  },
+  "p-rainbow-pro": {
+    "nom": "p-rainbow-pro",
+    "source": "recu/filtrer-10.png",
+    "role": "produit",
+    "alt": "Emballage du compact Rainbow Pro",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "b8a2ad5b18530dd6",
+    "ratio": "800:1040",
+    "largeurs": [
+      320,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "44% 49%",
+    "sujet": {
+      "x": 0.8,
+      "y": 22.3,
+      "l": 97.8,
+      "h": 55.2
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.39,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.25,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.18,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.01,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 800,
+      "height": 1040,
+      "source": [
+        800,
+        1040
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "p-rainbow-pro-320.webp",
+      "p-rainbow-pro-640.webp"
+    ],
+    "poids": {
+      "p-rainbow-pro-320.webp": 20378,
+      "p-rainbow-pro-640.webp": 50756
+    },
+    "media": "c.media({ nom: 'p-rainbow-pro', alt: \"Emballage du compact Rainbow Pro\", cadrage: '44% 49%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '800 / 1040' })"
+  },
+  "p-scorpion": {
+    "nom": "p-scorpion",
+    "source": "recu/filtrer-2.jpg",
+    "role": "produit",
+    "alt": "Emballage du compact Scorpion",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "7c64ae455c359f91",
+    "ratio": "1388:1424",
+    "largeurs": [
+      320,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "46% 48%",
+    "sujet": {
+      "x": 7.9,
+      "y": 4.7,
+      "l": 82.4,
+      "h": 92.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1388,
+      "height": 1424,
+      "source": [
+        1388,
+        1424
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "p-scorpion-320.webp",
+      "p-scorpion-640.webp"
+    ],
+    "poids": {
+      "p-scorpion-320.webp": 19320,
+      "p-scorpion-640.webp": 42186
+    },
+    "media": "c.media({ nom: 'p-scorpion', alt: \"Emballage du compact Scorpion\", cadrage: '46% 48%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1388 / 1424' })"
+  },
+  "p-space-line-v": {
+    "nom": "p-space-line-v",
+    "source": "recu/filtrer-14.png",
+    "role": "produit",
+    "alt": "Emballage du compact Space Line V",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "190a34009890c0c3",
+    "ratio": "800:1040",
+    "largeurs": [
+      320,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "42% 52%",
+    "sujet": {
+      "x": 4.3,
+      "y": 16.4,
+      "l": 93.1,
+      "h": 69
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.04,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.03,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 800,
+      "height": 1040,
+      "source": [
+        800,
+        1040
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "p-space-line-v-320.webp",
+      "p-space-line-v-640.webp"
+    ],
+    "poids": {
+      "p-space-line-v-320.webp": 34510,
+      "p-space-line-v-640.webp": 107376
+    },
+    "media": "c.media({ nom: 'p-space-line-v', alt: \"Emballage du compact Space Line V\", cadrage: '42% 52%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '800 / 1040' })"
+  },
+  "p-marines": {
+    "nom": "p-marines",
+    "source": "recu/marines.png",
+    "role": "produit",
+    "alt": "Emballage du compact Marines",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "ae784fea5aa2a48e",
+    "ratio": "800:1040",
+    "largeurs": [
+      320,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "49% 48%",
+    "sujet": {
+      "x": 9.3,
+      "y": 16.9,
+      "l": 83.6,
+      "h": 65.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.11,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.07,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.02,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.01,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 800,
+      "height": 1040,
+      "source": [
+        800,
+        1040
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "p-marines-320.webp",
+      "p-marines-640.webp"
+    ],
+    "poids": {
+      "p-marines-320.webp": 25664,
+      "p-marines-640.webp": 70220
+    },
+    "media": "c.media({ nom: 'p-marines', alt: \"Emballage du compact Marines\", cadrage: '49% 48%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '800 / 1040' })"
+  },
+  "p-blue-sky": {
+    "nom": "p-blue-sky",
+    "source": "recu/filtrer-18.jpg",
+    "role": "produit",
+    "alt": "Emballage du compact Blue Sky",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "fd41512aeb17d689",
+    "ratio": "814:986",
+    "largeurs": [
+      320,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "47% 60%",
+    "sujet": {
+      "x": 30.9,
+      "y": 30.9,
+      "l": 32.4,
+      "h": 52.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.22,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.19,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.19,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.16,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 814,
+      "height": 986,
+      "source": [
+        814,
+        986
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "814 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "p-blue-sky-320.webp",
+      "p-blue-sky-640.webp"
+    ],
+    "poids": {
+      "p-blue-sky-320.webp": 31044,
+      "p-blue-sky-640.webp": 77936
+    },
+    "media": "c.media({ nom: 'p-blue-sky', alt: \"Emballage du compact Blue Sky\", cadrage: '47% 60%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '814 / 986' })"
+  },
+  "p-douce-france": {
+    "nom": "p-douce-france",
+    "source": "recu/filtrer-23.png",
+    "role": "produit",
+    "alt": "Emballage du compact Douce France",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "dccf41697f206254",
+    "ratio": "700:557",
+    "largeurs": [
+      320,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "57% 54%",
+    "sujet": {
+      "x": 7.7,
+      "y": 15.5,
+      "l": 87.3,
+      "h": 73.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.03,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 700,
+      "height": 557,
+      "source": [
+        700,
+        557
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "700 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "p-douce-france-320.webp",
+      "p-douce-france-640.webp"
+    ],
+    "poids": {
+      "p-douce-france-320.webp": 22466,
+      "p-douce-france-640.webp": 53640
+    },
+    "media": "c.media({ nom: 'p-douce-france', alt: \"Emballage du compact Douce France\", cadrage: '57% 54%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '700 / 557' })"
+  },
+  "p-vita-bella": {
+    "nom": "p-vita-bella",
+    "source": "recu/filtrer.jpg",
+    "role": "produit",
+    "alt": "Emballage du compact Vita Bella",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "0fb160b17d0200c8",
+    "ratio": "1674:1542",
+    "largeurs": [
+      320,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "52% 54%",
+    "sujet": {
+      "x": 14,
+      "y": 6.5,
+      "l": 70.1,
+      "h": 90.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.11,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.07,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1674,
+      "height": 1542,
+      "source": [
+        1674,
+        1542
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "p-vita-bella-320.webp",
+      "p-vita-bella-640.webp"
+    ],
+    "poids": {
+      "p-vita-bella-320.webp": 17928,
+      "p-vita-bella-640.webp": 48082
+    },
+    "media": "c.media({ nom: 'p-vita-bella', alt: \"Emballage du compact Vita Bella\", cadrage: '52% 54%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1674 / 1542' })"
+  },
+  "p-jorge-space-line-2": {
+    "nom": "p-jorge-space-line-2",
+    "source": "recu/vous-rencontrez-difficultes-commander-4.png",
+    "role": "produit",
+    "alt": "Emballage du compact Jorge Space Line II",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "8221bdce8996a806",
+    "ratio": "547:499",
+    "largeurs": [
+      320,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "41% 48%",
+    "sujet": {
+      "x": 5,
+      "y": 8,
+      "l": 71.5,
+      "h": 89.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.07,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.01,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 547,
+      "height": 499,
+      "source": [
+        547,
+        499
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "547 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,17 fois (source de 547 px après recadrage)"
+    ],
+    "fichiers": [
+      "p-jorge-space-line-2-320.webp",
+      "p-jorge-space-line-2-640.webp"
+    ],
+    "poids": {
+      "p-jorge-space-line-2-320.webp": 22362,
+      "p-jorge-space-line-2-640.webp": 51974
+    },
+    "media": "c.media({ nom: 'p-jorge-space-line-2', alt: \"Emballage du compact Jorge Space Line II\", cadrage: '41% 48%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '547 / 499' })"
+  },
+  "p-rainbow": {
+    "nom": "p-rainbow",
+    "source": "recu/filtrer-19.png",
+    "role": "produit",
+    "alt": "Emballage du compact Rainbow",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "66b63803a72243c1",
+    "ratio": "800:800",
+    "largeurs": [
+      320,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "43% 49%",
+    "sujet": {
+      "x": 1.8,
+      "y": 23.3,
+      "l": 96.9,
+      "h": 59.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.45,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.4,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.19,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.07,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 800,
+      "height": 800,
+      "source": [
+        800,
+        800
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "p-rainbow-320.webp",
+      "p-rainbow-640.webp"
+    ],
+    "poids": {
+      "p-rainbow-320.webp": 20386,
+      "p-rainbow-640.webp": 61334
+    },
+    "media": "c.media({ nom: 'p-rainbow', alt: \"Emballage du compact Rainbow\", cadrage: '43% 49%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '800 / 800' })"
+  },
+  "p-tyrant": {
+    "nom": "p-tyrant",
+    "source": "recu/filtrer-24.jpg",
+    "role": "produit",
+    "alt": "Emballage du compact Tyrant",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "3b9adc399a0338f3",
+    "ratio": "500:500",
+    "largeurs": [
+      320,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "47% 45%",
+    "sujet": {
+      "x": 7.5,
+      "y": 8.7,
+      "l": 85.4,
+      "h": 80.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.17,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 500,
+      "height": 500,
+      "source": [
+        500,
+        500
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "500 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,28 fois (source de 500 px après recadrage)"
+    ],
+    "fichiers": [
+      "p-tyrant-320.webp",
+      "p-tyrant-640.webp"
+    ],
+    "poids": {
+      "p-tyrant-320.webp": 12424,
+      "p-tyrant-640.webp": 26808
+    },
+    "media": "c.media({ nom: 'p-tyrant', alt: \"Emballage du compact Tyrant\", cadrage: '47% 45%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '500 / 500' })"
+  },
+  "p-generation-13": {
+    "nom": "p-generation-13",
+    "source": "recu/filtrer-20.png",
+    "role": "produit",
+    "alt": "Emballage du compact Generation 13",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "9c235b0e34a3164b",
+    "ratio": "800:800",
+    "largeurs": [
+      320,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "45% 46%",
+    "sujet": {
+      "x": 9.7,
+      "y": 7.2,
+      "l": 83.3,
+      "h": 86.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 800,
+      "height": 800,
+      "source": [
+        800,
+        800
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "p-generation-13-320.webp",
+      "p-generation-13-640.webp"
+    ],
+    "poids": {
+      "p-generation-13-320.webp": 23612,
+      "p-generation-13-640.webp": 64596
+    },
+    "media": "c.media({ nom: 'p-generation-13', alt: \"Emballage du compact Generation 13\", cadrage: '45% 46%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '800 / 800' })"
+  },
+  "p-show-box-titan": {
+    "nom": "p-show-box-titan",
+    "source": "recu/vous-rencontrez-difficultes-commander-2.png",
+    "role": "produit",
+    "alt": "Emballage du compact Show Box Titan",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "dd8aedce18a6344c",
+    "ratio": "1938:2000",
+    "largeurs": [
+      320,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "39% 53%",
+    "sujet": {
+      "x": 1.9,
+      "y": 39.5,
+      "l": 86.9,
+      "h": 52
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.2,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.07,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.03,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1938,
+      "height": 2000,
+      "source": [
+        1938,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "p-show-box-titan-320.webp",
+      "p-show-box-titan-640.webp"
+    ],
+    "poids": {
+      "p-show-box-titan-320.webp": 30818,
+      "p-show-box-titan-640.webp": 95520
+    },
+    "media": "c.media({ nom: 'p-show-box-titan', alt: \"Emballage du compact Show Box Titan\", cadrage: '39% 53%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1938 / 2000' })"
+  },
+  "p-jorge-super-show-100": {
+    "nom": "p-jorge-super-show-100",
+    "source": "recu/jorge-super-show-100.png",
+    "role": "produit",
+    "alt": "Emballage du compact Jorge Super Show 100",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "942ca3042f819904",
+    "ratio": "800:800",
+    "largeurs": [
+      320,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "45% 46%",
+    "sujet": {
+      "x": 4.7,
+      "y": 21.3,
+      "l": 87.8,
+      "h": 51.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.52,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.4,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.25,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.25,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 800,
+      "height": 800,
+      "source": [
+        800,
+        800
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "p-jorge-super-show-100-320.webp",
+      "p-jorge-super-show-100-640.webp"
+    ],
+    "poids": {
+      "p-jorge-super-show-100-320.webp": 12828,
+      "p-jorge-super-show-100-640.webp": 36180
+    },
+    "media": "c.media({ nom: 'p-jorge-super-show-100', alt: \"Emballage du compact Jorge Super Show 100\", cadrage: '45% 46%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '800 / 800' })"
+  },
+  "p-maitre-du-feu": {
+    "nom": "p-maitre-du-feu",
+    "source": "recu/filtrer-15.jpg",
+    "role": "produit",
+    "alt": "Emballage du compact Maître du feu",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "da0210f824e5d140",
+    "ratio": "800:1040",
+    "largeurs": [
+      320,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "45% 50%",
+    "sujet": {
+      "x": 22.1,
+      "y": 25,
+      "l": 50,
+      "h": 54.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.15,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.14,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.13,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.11,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 800,
+      "height": 1040,
+      "source": [
+        800,
+        1040
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "p-maitre-du-feu-320.webp",
+      "p-maitre-du-feu-640.webp"
+    ],
+    "poids": {
+      "p-maitre-du-feu-320.webp": 34030,
+      "p-maitre-du-feu-640.webp": 99600
+    },
+    "media": "c.media({ nom: 'p-maitre-du-feu', alt: \"Emballage du compact Maître du feu\", cadrage: '45% 50%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '800 / 1040' })"
+  },
+  "p-bombaclac": {
+    "nom": "p-bombaclac",
+    "source": "recu/bombaclac.png",
+    "role": "produit",
+    "alt": "Emballage du feu longue durée Bombaclac",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "4179a93d32a1ccdc",
+    "ratio": "701:471",
+    "largeurs": [
+      320,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "47% 52%",
+    "sujet": {
+      "x": 3.1,
+      "y": 15.1,
+      "l": 94.1,
+      "h": 67.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.06,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.01,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 701,
+      "height": 471,
+      "source": [
+        701,
+        471
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "701 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "p-bombaclac-320.webp",
+      "p-bombaclac-640.webp"
+    ],
+    "poids": {
+      "p-bombaclac-320.webp": 17654,
+      "p-bombaclac-640.webp": 48418
+    },
+    "media": "c.media({ nom: 'p-bombaclac', alt: \"Emballage du feu longue durée Bombaclac\", cadrage: '47% 52%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '701 / 471' })"
+  },
+  "p-full-emotion": {
+    "nom": "p-full-emotion",
+    "source": "recu/full-emotion.png",
+    "role": "produit",
+    "alt": "Emballage du feu automatique Full Emotion",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "f06e87819fb460f0",
+    "ratio": "500:500",
+    "largeurs": [
+      320,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "43% 43%",
+    "sujet": {
+      "x": 1,
+      "y": 7.3,
+      "l": 91.3,
+      "h": 82.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.21,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.09,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.09,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 500,
+      "height": 500,
+      "source": [
+        500,
+        500
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "500 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,28 fois (source de 500 px après recadrage)"
+    ],
+    "fichiers": [
+      "p-full-emotion-320.webp",
+      "p-full-emotion-640.webp"
+    ],
+    "poids": {
+      "p-full-emotion-320.webp": 18170,
+      "p-full-emotion-640.webp": 46520
+    },
+    "media": "c.media({ nom: 'p-full-emotion', alt: \"Emballage du feu automatique Full Emotion\", cadrage: '43% 43%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '500 / 500' })"
+  },
+  "p-furioso": {
+    "nom": "p-furioso",
+    "source": "recu/furioso.png",
+    "role": "produit",
+    "alt": "Emballage du feu longue durée Furioso",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "45865ec6a6b5e563",
+    "ratio": "766:403",
+    "largeurs": [
+      320,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "43% 51%",
+    "sujet": {
+      "x": 7.4,
+      "y": 23.5,
+      "l": 88.5,
+      "h": 65.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.24,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.01,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 766,
+      "height": 403,
+      "source": [
+        766,
+        403
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "766 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "p-furioso-320.webp",
+      "p-furioso-640.webp"
+    ],
+    "poids": {
+      "p-furioso-320.webp": 11498,
+      "p-furioso-640.webp": 28554
+    },
+    "media": "c.media({ nom: 'p-furioso', alt: \"Emballage du feu longue durée Furioso\", cadrage: '43% 51%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '766 / 403' })"
+  },
+  "p-alien": {
+    "nom": "p-alien",
+    "source": "recu/alien.png",
+    "role": "produit",
+    "alt": "Emballage du feu longue durée Alien",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "c4855697760be6ba",
+    "ratio": "418:347",
+    "largeurs": [
+      320
+    ],
+    "mobile": null,
+    "cadrage": "48% 55%",
+    "sujet": {
+      "x": 8.8,
+      "y": 23.5,
+      "l": 64.7,
+      "h": 61.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.13,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.13,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.07,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.03,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 418,
+      "height": 347,
+      "source": [
+        418,
+        347
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "largeurs retirées (source trop petite) : 640",
+      "418 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "p-alien-320.webp"
+    ],
+    "poids": {
+      "p-alien-320.webp": 18444
+    },
+    "media": "c.media({ nom: 'p-alien', alt: \"Emballage du feu longue durée Alien\", cadrage: '48% 55%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '418 / 347' })"
+  },
+  "p-big-bum": {
+    "nom": "p-big-bum",
+    "source": "recu/big-bum.png",
+    "role": "produit",
+    "alt": "Emballage du feu Big Bum",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "fa4b626adbb9da6b",
+    "ratio": "1000:1000",
+    "largeurs": [
+      320,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "50% 46%",
+    "sujet": {
+      "x": 2.1,
+      "y": 1.3,
+      "l": 92.4,
+      "h": 91.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1000,
+      "height": 1000,
+      "source": [
+        1000,
+        1000
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1000 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "p-big-bum-320.webp",
+      "p-big-bum-640.webp"
+    ],
+    "poids": {
+      "p-big-bum-320.webp": 34058,
+      "p-big-bum-640.webp": 102800
+    },
+    "media": "c.media({ nom: 'p-big-bum', alt: \"Emballage du feu Big Bum\", cadrage: '50% 46%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1000 / 1000' })"
+  },
+  "p-marco-polo": {
+    "nom": "p-marco-polo",
+    "source": "recu/vous-rencontrez-difficultes-commander-5.png",
+    "role": "produit",
+    "alt": "Emballage du feu Marco Polo",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "09a4688a4239320a",
+    "ratio": "500:500",
+    "largeurs": [
+      320,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "46% 50%",
+    "sujet": {
+      "x": 2.1,
+      "y": 22.4,
+      "l": 95.4,
+      "h": 59.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.42,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.39,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.28,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.11,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 500,
+      "height": 500,
+      "source": [
+        500,
+        500
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "500 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,28 fois (source de 500 px après recadrage)"
+    ],
+    "fichiers": [
+      "p-marco-polo-320.webp",
+      "p-marco-polo-640.webp"
+    ],
+    "poids": {
+      "p-marco-polo-320.webp": 12662,
+      "p-marco-polo-640.webp": 34562
+    },
+    "media": "c.media({ nom: 'p-marco-polo', alt: \"Emballage du feu Marco Polo\", cadrage: '46% 50%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '500 / 500' })"
+  },
+  "p-gruba-berta": {
+    "nom": "p-gruba-berta",
+    "source": "recu/vous-rencontrez-difficultes-commander-3.png",
+    "role": "produit",
+    "alt": "Emballage du feu Gruba Berta",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "eedd8187005a3a04",
+    "ratio": "1000:1000",
+    "largeurs": [
+      320,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "55% 49%",
+    "sujet": {
+      "x": 0.9,
+      "y": 10.6,
+      "l": 96.3,
+      "h": 81.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1000,
+      "height": 1000,
+      "source": [
+        1000,
+        1000
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1000 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "p-gruba-berta-320.webp",
+      "p-gruba-berta-640.webp"
+    ],
+    "poids": {
+      "p-gruba-berta-320.webp": 29470,
+      "p-gruba-berta-640.webp": 82896
+    },
+    "media": "c.media({ nom: 'p-gruba-berta', alt: \"Emballage du feu Gruba Berta\", cadrage: '55% 49%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1000 / 1000' })"
+  },
+  "p-20x-shark-fr": {
+    "nom": "p-20x-shark-fr",
+    "source": "recu/20x-shark-fr.jpg",
+    "role": "produit",
+    "alt": "Boîte de 20 pétards Shark",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "3e13e9d808ac5908",
+    "ratio": "500:500",
+    "largeurs": [
+      320,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "46% 45%",
+    "sujet": {
+      "x": 5.9,
+      "y": 18.2,
+      "l": 81,
+      "h": 51.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.39,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.15,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.13,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.05,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 500,
+      "height": 500,
+      "source": [
+        500,
+        500
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "500 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,28 fois (source de 500 px après recadrage)"
+    ],
+    "fichiers": [
+      "p-20x-shark-fr-320.webp",
+      "p-20x-shark-fr-640.webp"
+    ],
+    "poids": {
+      "p-20x-shark-fr-320.webp": 14022,
+      "p-20x-shark-fr-640.webp": 34658
+    },
+    "media": "c.media({ nom: 'p-20x-shark-fr', alt: \"Boîte de 20 pétards Shark\", cadrage: '46% 45%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '500 / 500' })"
+  },
+  "p-100-petards-pirat": {
+    "nom": "p-100-petards-pirat",
+    "source": "recu/100-petards-pirat.jpg",
+    "role": "produit",
+    "alt": "Boîte de 100 pétards Pirat",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "d5a8201952ec8c2e",
+    "ratio": "500:500",
+    "largeurs": [
+      320,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "47% 45%",
+    "sujet": {
+      "x": 14,
+      "y": 22.8,
+      "l": 67.3,
+      "h": 48.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.8,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.56,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.52,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.38,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 500,
+      "height": 500,
+      "source": [
+        500,
+        500
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "500 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,28 fois (source de 500 px après recadrage)"
+    ],
+    "fichiers": [
+      "p-100-petards-pirat-320.webp",
+      "p-100-petards-pirat-640.webp"
+    ],
+    "poids": {
+      "p-100-petards-pirat-320.webp": 5680,
+      "p-100-petards-pirat-640.webp": 11508
+    },
+    "media": "c.media({ nom: 'p-100-petards-pirat', alt: \"Boîte de 100 pétards Pirat\", cadrage: '47% 45%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '500 / 500' })"
+  },
+  "p-20x-p15-petards": {
+    "nom": "p-20x-p15-petards",
+    "source": "recu/20x-p15-petards.jpg",
+    "role": "produit",
+    "alt": "Paquet de 20 pétards P15",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "d97d3719f5305ddf",
+    "ratio": "500:500",
+    "largeurs": [
+      320,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "49% 48%",
+    "sujet": {
+      "x": 9.1,
+      "y": 22.3,
+      "l": 83.3,
+      "h": 52.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.65,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.53,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.42,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.31,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 500,
+      "height": 500,
+      "source": [
+        500,
+        500
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "500 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,28 fois (source de 500 px après recadrage)"
+    ],
+    "fichiers": [
+      "p-20x-p15-petards-320.webp",
+      "p-20x-p15-petards-640.webp"
+    ],
+    "poids": {
+      "p-20x-p15-petards-320.webp": 7456,
+      "p-20x-p15-petards-640.webp": 16874
+    },
+    "media": "c.media({ nom: 'p-20x-p15-petards', alt: \"Paquet de 20 pétards P15\", cadrage: '49% 48%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '500 / 500' })"
+  },
+  "p-fontaine-2": {
+    "nom": "p-fontaine-2",
+    "source": "recu/fontaine-2.png",
+    "role": "produit",
+    "alt": "Fontaine 2",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "5da35e3aabe74067",
+    "ratio": "800:1040",
+    "largeurs": [
+      320,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "49% 51%",
+    "sujet": {
+      "x": 33.5,
+      "y": 15.2,
+      "l": 30,
+      "h": 67.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.78,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.63,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.48,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.45,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 800,
+      "height": 1040,
+      "source": [
+        800,
+        1040
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "p-fontaine-2-320.webp",
+      "p-fontaine-2-640.webp"
+    ],
+    "poids": {
+      "p-fontaine-2-320.webp": 13930,
+      "p-fontaine-2-640.webp": 36490
+    },
+    "media": "c.media({ nom: 'p-fontaine-2', alt: \"Fontaine 2\", cadrage: '49% 51%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '800 / 1040' })"
+  },
+  "p-assortiments-cards": {
+    "nom": "p-assortiments-cards",
+    "source": "recu/assortiments-cards.jpg",
+    "role": "produit",
+    "alt": "Assortiment Cards",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "dcf98ed9beb074e9",
+    "ratio": "500:499",
+    "largeurs": [
+      320,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "46% 41%",
+    "sujet": {
+      "x": 3.3,
+      "y": 11.4,
+      "l": 95.3,
+      "h": 70
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.63,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.47,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.34,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.27,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 500,
+      "height": 499,
+      "source": [
+        500,
+        499
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "500 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,28 fois (source de 500 px après recadrage)"
+    ],
+    "fichiers": [
+      "p-assortiments-cards-320.webp",
+      "p-assortiments-cards-640.webp"
+    ],
+    "poids": {
+      "p-assortiments-cards-320.webp": 7064,
+      "p-assortiments-cards-640.webp": 14786
+    },
+    "media": "c.media({ nom: 'p-assortiments-cards', alt: \"Assortiment Cards\", cadrage: '46% 41%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '500 / 499' })"
+  },
+  "p-assortiment-giant": {
+    "nom": "p-assortiment-giant",
+    "source": "recu/assortiment-giant.jpg",
+    "role": "produit",
+    "alt": "Assortiment Giant",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "339e5298c1251802",
+    "ratio": "668:382",
+    "largeurs": [
+      320,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "54% 41%",
+    "sujet": {
+      "x": 5,
+      "y": 2.9,
+      "l": 88.9,
+      "h": 77.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.34,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.12,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.09,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 668,
+      "height": 382,
+      "source": [
+        668,
+        382
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "668 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "p-assortiment-giant-320.webp",
+      "p-assortiment-giant-640.webp"
+    ],
+    "poids": {
+      "p-assortiment-giant-320.webp": 7924,
+      "p-assortiment-giant-640.webp": 19874
+    },
+    "media": "c.media({ nom: 'p-assortiment-giant', alt: \"Assortiment Giant\", cadrage: '54% 41%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '668 / 382' })"
+  },
+  "p-petards-f3-sustos-x10": {
+    "nom": "p-petards-f3-sustos-x10",
+    "source": "recu/petards-f3-sustos-x.jpg",
+    "role": "produit",
+    "alt": "Boîte de 10 pétards Sustos",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "90e6b1f1e596a5ad",
+    "ratio": "2000:2000",
+    "largeurs": [
+      320,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "53% 44%",
+    "sujet": {
+      "x": 3.8,
+      "y": 25.3,
+      "l": 90.6,
+      "h": 49.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.7,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.64,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.33,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.33,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 2000,
+      "source": [
+        2000,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "p-petards-f3-sustos-x10-320.webp",
+      "p-petards-f3-sustos-x10-640.webp"
+    ],
+    "poids": {
+      "p-petards-f3-sustos-x10-320.webp": 9866,
+      "p-petards-f3-sustos-x10-640.webp": 30634
+    },
+    "media": "c.media({ nom: 'p-petards-f3-sustos-x10', alt: \"Boîte de 10 pétards Sustos\", cadrage: '53% 44%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '2000 / 2000' })"
+  },
+  "p-clac-doigt": {
+    "nom": "p-clac-doigt",
+    "source": "recu/clac-doigt.jpg",
+    "role": "produit",
+    "alt": "Claque-doigts",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "fc3786fcdcb576b2",
+    "ratio": "481:483",
+    "largeurs": [
+      320,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "50% 45%",
+    "sujet": {
+      "x": 10.8,
+      "y": 21.2,
+      "l": 79.2,
+      "h": 50.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.73,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.52,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.46,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.38,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 481,
+      "height": 483,
+      "source": [
+        481,
+        483
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "481 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,33 fois (source de 481 px après recadrage)"
+    ],
+    "fichiers": [
+      "p-clac-doigt-320.webp",
+      "p-clac-doigt-640.webp"
+    ],
+    "poids": {
+      "p-clac-doigt-320.webp": 8670,
+      "p-clac-doigt-640.webp": 18238
+    },
+    "media": "c.media({ nom: 'p-clac-doigt', alt: \"Claque-doigts\", cadrage: '50% 45%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '481 / 483' })"
+  },
+  "p-petard-barbarossa-pt1": {
+    "nom": "p-petard-barbarossa-pt1",
+    "source": "recu/petard-barbarossa-pt1.jpg",
+    "role": "produit",
+    "alt": "Boîte de pétards Barbarossa",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "1a344d79013bf23f",
+    "ratio": "583:582",
+    "largeurs": [
+      320,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "52% 54%",
+    "sujet": {
+      "x": 16.4,
+      "y": 5.8,
+      "l": 68,
+      "h": 91.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.2,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.13,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.09,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 583,
+      "height": 582,
+      "source": [
+        583,
+        582
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "583 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,1 fois (source de 583 px après recadrage)"
+    ],
+    "fichiers": [
+      "p-petard-barbarossa-pt1-320.webp",
+      "p-petard-barbarossa-pt1-640.webp"
+    ],
+    "poids": {
+      "p-petard-barbarossa-pt1-320.webp": 12264,
+      "p-petard-barbarossa-pt1-640.webp": 30274
+    },
+    "media": "c.media({ nom: 'p-petard-barbarossa-pt1', alt: \"Boîte de pétards Barbarossa\", cadrage: '52% 54%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '583 / 582' })"
+  },
+  "p-20-petards-ex3fr": {
+    "nom": "p-20-petards-ex3fr",
+    "source": "recu/20-petards-ex3fr.jpg",
+    "role": "produit",
+    "alt": "Boîte de 20 pétards EX3",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "2ce732de9f6524df",
+    "ratio": "1500:1500",
+    "largeurs": [
+      320,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "48% 48%",
+    "sujet": {
+      "x": 7.2,
+      "y": 17.6,
+      "l": 86.9,
+      "h": 64.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.33,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.32,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.27,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.09,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 1500,
+      "source": [
+        1500,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "p-20-petards-ex3fr-320.webp",
+      "p-20-petards-ex3fr-640.webp"
+    ],
+    "poids": {
+      "p-20-petards-ex3fr-320.webp": 13592,
+      "p-20-petards-ex3fr-640.webp": 37968
+    },
+    "media": "c.media({ nom: 'p-20-petards-ex3fr', alt: \"Boîte de 20 pétards EX3\", cadrage: '48% 48%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1500 / 1500' })"
+  },
+  "p-pack-6-fusees": {
+    "nom": "p-pack-6-fusees",
+    "source": "recu/pack-6-fusees.png",
+    "role": "produit",
+    "alt": "Pack de 6 fusées",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "4ac9be734b5902da",
+    "ratio": "800:800",
+    "largeurs": [
+      320,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "65% 43%",
+    "sujet": {
+      "x": 0.8,
+      "y": 27.6,
+      "l": 98.3,
+      "h": 43.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.86,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.82,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.69,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.55,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 800,
+      "height": 800,
+      "source": [
+        800,
+        800
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "p-pack-6-fusees-320.webp",
+      "p-pack-6-fusees-640.webp"
+    ],
+    "poids": {
+      "p-pack-6-fusees-320.webp": 15128,
+      "p-pack-6-fusees-640.webp": 49552
+    },
+    "media": "c.media({ nom: 'p-pack-6-fusees', alt: \"Pack de 6 fusées\", cadrage: '65% 43%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '800 / 800' })"
+  },
+  "p-dragon-fontaine": {
+    "nom": "p-dragon-fontaine",
+    "source": "recu/dragon-fontaine.png",
+    "role": "produit",
+    "alt": "Fontaine Dragon",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "d047c4de740fd720",
+    "ratio": "746:494",
+    "largeurs": [
+      320,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "48% 46%",
+    "sujet": {
+      "x": 18.1,
+      "y": 11.3,
+      "l": 69,
+      "h": 72.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.07,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.06,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.05,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.03,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 746,
+      "height": 494,
+      "source": [
+        746,
+        494
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "746 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "p-dragon-fontaine-320.webp",
+      "p-dragon-fontaine-640.webp"
+    ],
+    "poids": {
+      "p-dragon-fontaine-320.webp": 16256,
+      "p-dragon-fontaine-640.webp": 40382
+    },
+    "media": "c.media({ nom: 'p-dragon-fontaine', alt: \"Fontaine Dragon\", cadrage: '48% 46%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '746 / 494' })"
+  },
+  "p-color-balls": {
+    "nom": "p-color-balls",
+    "source": "recu/color-balls-30-12.jpg",
+    "role": "produit",
+    "alt": "Lot de 12 Color Balls",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "5fdce401864c56f9",
+    "ratio": "1254:1254",
+    "largeurs": [
+      320,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "53% 46%",
+    "sujet": {
+      "x": 2.4,
+      "y": 23.5,
+      "l": 97.3,
+      "h": 55.2
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.54,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.51,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.26,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.17,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1254,
+      "height": 1254,
+      "source": [
+        1254,
+        1254
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1254 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "p-color-balls-320.webp",
+      "p-color-balls-640.webp"
+    ],
+    "poids": {
+      "p-color-balls-320.webp": 10812,
+      "p-color-balls-640.webp": 33330
+    },
+    "media": "c.media({ nom: 'p-color-balls', alt: \"Lot de 12 Color Balls\", cadrage: '53% 46%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1254 / 1254' })"
+  },
+  "p-3-fumigenes-france": {
+    "nom": "p-3-fumigenes-france",
+    "source": "recu/3-fumigenes-france.jpg",
+    "role": "produit",
+    "alt": "Trois fumigènes bleu, blanc, rouge",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "5c0a1a15e2a48edc",
+    "ratio": "1769:2000",
+    "largeurs": [
+      320,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "50% 40%",
+    "sujet": {
+      "x": 8.8,
+      "y": 8.8,
+      "l": 80.9,
+      "h": 63.2
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.14,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.04,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.03,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1769,
+      "height": 2000,
+      "source": [
+        1769,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "p-3-fumigenes-france-320.webp",
+      "p-3-fumigenes-france-640.webp"
+    ],
+    "poids": {
+      "p-3-fumigenes-france-320.webp": 34298,
+      "p-3-fumigenes-france-640.webp": 94428
+    },
+    "media": "c.media({ nom: 'p-3-fumigenes-france', alt: \"Trois fumigènes bleu, blanc, rouge\", cadrage: '50% 40%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1769 / 2000' })"
+  },
+  "p-torche-mr-light-rouge": {
+    "nom": "p-torche-mr-light-rouge",
+    "source": "recu/torche-stade-main-mr-2.jpg",
+    "role": "produit",
+    "alt": "Torche à main rouge Mr Light",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "01e6f9cdfe5cc5ca",
+    "ratio": "500:500",
+    "largeurs": [
+      320,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "51% 43%",
+    "sujet": {
+      "x": 6.3,
+      "y": 11.8,
+      "l": 84.4,
+      "h": 70.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.62,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.61,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.57,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.46,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 500,
+      "height": 500,
+      "source": [
+        500,
+        500
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "500 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,28 fois (source de 500 px après recadrage)"
+    ],
+    "fichiers": [
+      "p-torche-mr-light-rouge-320.webp",
+      "p-torche-mr-light-rouge-640.webp"
+    ],
+    "poids": {
+      "p-torche-mr-light-rouge-320.webp": 4960,
+      "p-torche-mr-light-rouge-640.webp": 13202
+    },
+    "media": "c.media({ nom: 'p-torche-mr-light-rouge', alt: \"Torche à main rouge Mr Light\", cadrage: '51% 43%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '500 / 500' })"
+  },
+  "p-5-fumigenes-verts": {
+    "nom": "p-5-fumigenes-verts",
+    "source": "recu/5-fumigenes-verts.jpg",
+    "role": "produit",
+    "alt": "Lot de 5 fumigènes verts",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "dd78059a6826fbfc",
+    "ratio": "900:962",
+    "largeurs": [
+      320,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "47% 55%",
+    "sujet": {
+      "x": 10,
+      "y": 30,
+      "l": 79.8,
+      "h": 55.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.92,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.28,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.26,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.11,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 900,
+      "height": 962,
+      "source": [
+        900,
+        962
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "900 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "p-5-fumigenes-verts-320.webp",
+      "p-5-fumigenes-verts-640.webp"
+    ],
+    "poids": {
+      "p-5-fumigenes-verts-320.webp": 13242,
+      "p-5-fumigenes-verts-640.webp": 40588
+    },
+    "media": "c.media({ nom: 'p-5-fumigenes-verts', alt: \"Lot de 5 fumigènes verts\", cadrage: '47% 55%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '900 / 962' })"
+  },
+  "p-support-1-8-feux-jour": {
+    "nom": "p-support-1-8-feux-jour",
+    "source": "recu/support-1-8-feux.jpg",
+    "role": "produit",
+    "alt": "Support pour 1 à 8 feux de jour",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "17dc640c74f13cae",
+    "ratio": "1254:1254",
+    "largeurs": [
+      320,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "49% 49%",
+    "sujet": {
+      "x": 0.7,
+      "y": 34.8,
+      "l": 98.1,
+      "h": 31.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.98,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.97,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.35,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.34,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1254,
+      "height": 1254,
+      "source": [
+        1254,
+        1254
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1254 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "p-support-1-8-feux-jour-320.webp",
+      "p-support-1-8-feux-jour-640.webp"
+    ],
+    "poids": {
+      "p-support-1-8-feux-jour-320.webp": 5072,
+      "p-support-1-8-feux-jour-640.webp": 12816
+    },
+    "media": "c.media({ nom: 'p-support-1-8-feux-jour', alt: \"Support pour 1 à 8 feux de jour\", cadrage: '49% 49%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1254 / 1254' })"
+  },
+  "p-fumigene-bbr": {
+    "nom": "p-fumigene-bbr",
+    "source": "recu/fumigene-bleu-blanc-rouge.jpg",
+    "role": "produit",
+    "alt": "Fumée bleu, blanc, rouge sur une pelouse",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "a47cf76d56f47d9a",
+    "ratio": "948:1141",
+    "largeurs": [
+      320,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "48% 56%",
+    "sujet": {
+      "x": 29.4,
+      "y": 30.9,
+      "l": 35.3,
+      "h": 52.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.58,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.57,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.5,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.33,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 948,
+      "height": 1141,
+      "source": [
+        948,
+        1141
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "948 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "p-fumigene-bbr-320.webp",
+      "p-fumigene-bbr-640.webp"
+    ],
+    "poids": {
+      "p-fumigene-bbr-320.webp": 21846,
+      "p-fumigene-bbr-640.webp": 67886
+    },
+    "media": "c.media({ nom: 'p-fumigene-bbr', alt: \"Fumée bleu, blanc, rouge sur une pelouse\", cadrage: '48% 56%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '948 / 1141' })"
+  },
+  "p-valise-2-bases-4-declencheurs": {
+    "nom": "p-valise-2-bases-4-declencheurs",
+    "source": "recu/valise-2-bases-4.png",
+    "role": "produit",
+    "alt": "Valise de 2 bases et 4 déclencheurs",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "381d14f3886e98a3",
+    "ratio": "1221:1289",
+    "largeurs": [
+      320,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "50% 54%",
+    "sujet": {
+      "x": 6.1,
+      "y": 3.4,
+      "l": 82.4,
+      "h": 89.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.13,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.08,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.01,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1221,
+      "height": 1289,
+      "source": [
+        1221,
+        1289
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1221 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "p-valise-2-bases-4-declencheurs-320.webp",
+      "p-valise-2-bases-4-declencheurs-640.webp"
+    ],
+    "poids": {
+      "p-valise-2-bases-4-declencheurs-320.webp": 8616,
+      "p-valise-2-bases-4-declencheurs-640.webp": 23602
+    },
+    "media": "c.media({ nom: 'p-valise-2-bases-4-declencheurs', alt: \"Valise de 2 bases et 4 déclencheurs\", cadrage: '50% 54%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1221 / 1289' })"
+  },
+  "p-valise-4-bases-8-declencheurs": {
+    "nom": "p-valise-4-bases-8-declencheurs",
+    "source": "recu/valise-4-bases-8.png",
+    "role": "produit",
+    "alt": "Valise de 4 bases et 8 déclencheurs",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "6d3ac1a7731c1945",
+    "ratio": "1254:1254",
+    "largeurs": [
+      320,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "50% 44%",
+    "sujet": {
+      "x": 1,
+      "y": 3.7,
+      "l": 96.4,
+      "h": 87.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1254,
+      "height": 1254,
+      "source": [
+        1254,
+        1254
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1254 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "p-valise-4-bases-8-declencheurs-320.webp",
+      "p-valise-4-bases-8-declencheurs-640.webp"
+    ],
+    "poids": {
+      "p-valise-4-bases-8-declencheurs-320.webp": 13746,
+      "p-valise-4-bases-8-declencheurs-640.webp": 37500
+    },
+    "media": "c.media({ nom: 'p-valise-4-bases-8-declencheurs', alt: \"Valise de 4 bases et 8 déclencheurs\", cadrage: '50% 44%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1254 / 1254' })"
+  },
+  "p-2-declencheurs-2-jets-de-jour": {
+    "nom": "p-2-declencheurs-2-jets-de-jour",
+    "source": "recu/2-declencheurs-2-jets-3.png",
+    "role": "produit",
+    "alt": "Deux déclencheurs et leurs jets de couleur",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "3a4f9bbd9de5a55f",
+    "ratio": "1086:1448",
+    "largeurs": [
+      320,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "44% 41%",
+    "sujet": {
+      "x": 6.6,
+      "y": 19.7,
+      "l": 76.3,
+      "h": 57
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.13,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.09,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.08,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.03,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1086,
+      "height": 1448,
+      "source": [
+        1086,
+        1448
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1086 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "p-2-declencheurs-2-jets-de-jour-320.webp",
+      "p-2-declencheurs-2-jets-de-jour-640.webp"
+    ],
+    "poids": {
+      "p-2-declencheurs-2-jets-de-jour-320.webp": 38808,
+      "p-2-declencheurs-2-jets-de-jour-640.webp": 120940
+    },
+    "media": "c.media({ nom: 'p-2-declencheurs-2-jets-de-jour', alt: \"Deux déclencheurs et leurs jets de couleur\", cadrage: '44% 41%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1086 / 1448' })"
+  },
+  "p-valise-4-declencheurs-scene-jour": {
+    "nom": "p-valise-4-declencheurs-scene-jour",
+    "source": "recu/valise-4-declencheurs-jets.png",
+    "role": "produit",
+    "alt": "Valise de 4 déclencheurs avec télécommandes",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "994cc2c72712b061",
+    "ratio": "1254:1254",
+    "largeurs": [
+      320,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "47% 47%",
+    "sujet": {
+      "x": 3.1,
+      "y": 8.3,
+      "l": 82,
+      "h": 64.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.23,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.22,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.2,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.11,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1254,
+      "height": 1254,
+      "source": [
+        1254,
+        1254
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1254 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "p-valise-4-declencheurs-scene-jour-320.webp",
+      "p-valise-4-declencheurs-scene-jour-640.webp"
+    ],
+    "poids": {
+      "p-valise-4-declencheurs-scene-jour-320.webp": 8094,
+      "p-valise-4-declencheurs-scene-jour-640.webp": 23776
+    },
+    "media": "c.media({ nom: 'p-valise-4-declencheurs-scene-jour', alt: \"Valise de 4 déclencheurs avec télécommandes\", cadrage: '47% 47%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1254 / 1254' })"
+  },
+  "p-valise-8-declencheurs-scene-jour": {
+    "nom": "p-valise-8-declencheurs-scene-jour",
+    "source": "recu/valise-8-declencheurs-jets.jpg",
+    "role": "produit",
+    "alt": "Valise de 8 déclencheurs avec télécommande",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "e11bc608c3b6297e",
+    "ratio": "1156:1318",
+    "largeurs": [
+      320,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "50% 36%",
+    "sujet": {
+      "x": 0.1,
+      "y": 0.1,
+      "l": 99,
+      "h": 85.2
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.1,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.09,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1156,
+      "height": 1318,
+      "source": [
+        1156,
+        1318
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1156 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "p-valise-8-declencheurs-scene-jour-320.webp",
+      "p-valise-8-declencheurs-scene-jour-640.webp"
+    ],
+    "poids": {
+      "p-valise-8-declencheurs-scene-jour-320.webp": 10352,
+      "p-valise-8-declencheurs-scene-jour-640.webp": 21290
+    },
+    "media": "c.media({ nom: 'p-valise-8-declencheurs-scene-jour', alt: \"Valise de 8 déclencheurs avec télécommande\", cadrage: '50% 36%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1156 / 1318' })"
+  },
+  "p-2-declencheurs-scene-jour": {
+    "nom": "p-2-declencheurs-scene-jour",
+    "source": "recu/2-declencheurs-jets-scene.png",
+    "role": "produit",
+    "alt": "Deux déclencheurs et deux télécommandes",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "5e625b19c0092483",
+    "ratio": "1254:1254",
+    "largeurs": [
+      320,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "47% 44%",
+    "sujet": {
+      "x": 1.7,
+      "y": 8.8,
+      "l": 94.5,
+      "h": 83.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.12,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.12,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.12,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.12,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1254,
+      "height": 1254,
+      "source": [
+        1254,
+        1254
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1254 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "p-2-declencheurs-scene-jour-320.webp",
+      "p-2-declencheurs-scene-jour-640.webp"
+    ],
+    "poids": {
+      "p-2-declencheurs-scene-jour-320.webp": 8582,
+      "p-2-declencheurs-scene-jour-640.webp": 21942
+    },
+    "media": "c.media({ nom: 'p-2-declencheurs-scene-jour', alt: \"Deux déclencheurs et deux télécommandes\", cadrage: '47% 44%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1254 / 1254' })"
+  },
+  "p-2-declencheurs-2-jets-argents": {
+    "nom": "p-2-declencheurs-2-jets-argents",
+    "source": "recu/2-declencheurs-2-jets.png",
+    "role": "produit",
+    "alt": "Deux déclencheurs et deux jets argentés",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "d50cfd8e743e463a",
+    "ratio": "2000:1772",
+    "largeurs": [
+      320,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "48% 46%",
+    "sujet": {
+      "x": 22.1,
+      "y": 27.9,
+      "l": 52.9,
+      "h": 36.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.22,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.17,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.15,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.14,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1772,
+      "source": [
+        2000,
+        1772
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "p-2-declencheurs-2-jets-argents-320.webp",
+      "p-2-declencheurs-2-jets-argents-640.webp"
+    ],
+    "poids": {
+      "p-2-declencheurs-2-jets-argents-320.webp": 20916,
+      "p-2-declencheurs-2-jets-argents-640.webp": 62968
+    },
+    "media": "c.media({ nom: 'p-2-declencheurs-2-jets-argents', alt: \"Deux déclencheurs et deux jets argentés\", cadrage: '48% 46%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '2000 / 1772' })"
+  },
+  "p-feu-jour-orange": {
+    "nom": "p-feu-jour-orange",
+    "source": "recu/feu-jour-orange.webp",
+    "role": "produit",
+    "alt": "Feu de jour orange et sa fumée",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "672448e1b8375756",
+    "ratio": "540:540",
+    "largeurs": [
+      320,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "42% 45%",
+    "sujet": {
+      "x": 27.2,
+      "y": 11,
+      "l": 24.7,
+      "h": 83.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.83,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.59,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.58,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.58,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 540,
+      "height": 540,
+      "source": [
+        540,
+        540
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "540 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,19 fois (source de 540 px après recadrage)"
+    ],
+    "fichiers": [
+      "p-feu-jour-orange-320.webp",
+      "p-feu-jour-orange-640.webp"
+    ],
+    "poids": {
+      "p-feu-jour-orange-320.webp": 4302,
+      "p-feu-jour-orange-640.webp": 11312
+    },
+    "media": "c.media({ nom: 'p-feu-jour-orange', alt: \"Feu de jour orange et sa fumée\", cadrage: '42% 45%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '540 / 540' })"
+  },
+  "p-feu-jour-blanc": {
+    "nom": "p-feu-jour-blanc",
+    "source": "recu/feu-jour-blanc.webp",
+    "role": "produit",
+    "alt": "Feu de jour blanc et sa fumée",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "2998f1b126b6f459",
+    "ratio": "540:540",
+    "largeurs": [
+      320,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "44% 47%",
+    "sujet": {
+      "x": 32.2,
+      "y": 9.7,
+      "l": 23.1,
+      "h": 81.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.89,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.68,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.59,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.59,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 540,
+      "height": 540,
+      "source": [
+        540,
+        540
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "540 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,19 fois (source de 540 px après recadrage)"
+    ],
+    "fichiers": [
+      "p-feu-jour-blanc-320.webp",
+      "p-feu-jour-blanc-640.webp"
+    ],
+    "poids": {
+      "p-feu-jour-blanc-320.webp": 3562,
+      "p-feu-jour-blanc-640.webp": 8988
+    },
+    "media": "c.media({ nom: 'p-feu-jour-blanc', alt: \"Feu de jour blanc et sa fumée\", cadrage: '44% 47%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '540 / 540' })"
+  },
+  "p-feu-jour-vert": {
+    "nom": "p-feu-jour-vert",
+    "source": "recu/feu-jour-vert.webp",
+    "role": "produit",
+    "alt": "Feu de jour vert et sa fumée",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "3ad24565d0e92804",
+    "ratio": "800:800",
+    "largeurs": [
+      320,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "57% 48%",
+    "sujet": {
+      "x": 47.6,
+      "y": 10.5,
+      "l": 23.2,
+      "h": 82.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.84,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.59,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.57,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.51,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 800,
+      "height": 800,
+      "source": [
+        800,
+        800
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "p-feu-jour-vert-320.webp",
+      "p-feu-jour-vert-640.webp"
+    ],
+    "poids": {
+      "p-feu-jour-vert-320.webp": 4428,
+      "p-feu-jour-vert-640.webp": 13974
+    },
+    "media": "c.media({ nom: 'p-feu-jour-vert', alt: \"Feu de jour vert et sa fumée\", cadrage: '57% 48%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '800 / 800' })"
+  },
+  "p-feu-jour-jaune": {
+    "nom": "p-feu-jour-jaune",
+    "source": "recu/feu-jour-jaune.webp",
+    "role": "produit",
+    "alt": "Feu de jour jaune et sa fumée",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "a2964f0cb1b6800d",
+    "ratio": "540:540",
+    "largeurs": [
+      320,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "58% 46%",
+    "sujet": {
+      "x": 48,
+      "y": 10.1,
+      "l": 22,
+      "h": 83
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.91,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.6,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.6,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.56,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 540,
+      "height": 540,
+      "source": [
+        540,
+        540
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "540 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,19 fois (source de 540 px après recadrage)"
+    ],
+    "fichiers": [
+      "p-feu-jour-jaune-320.webp",
+      "p-feu-jour-jaune-640.webp"
+    ],
+    "poids": {
+      "p-feu-jour-jaune-320.webp": 3648,
+      "p-feu-jour-jaune-640.webp": 9372
+    },
+    "media": "c.media({ nom: 'p-feu-jour-jaune', alt: \"Feu de jour jaune et sa fumée\", cadrage: '58% 46%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '540 / 540' })"
+  },
+  "p-feu-jour-rouge": {
+    "nom": "p-feu-jour-rouge",
+    "source": "recu/feu-jour-rouge.webp",
+    "role": "produit",
+    "alt": "Feu de jour rouge et sa fumée",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "1a229e65c54d7e46",
+    "ratio": "540:540",
+    "largeurs": [
+      320,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "50% 42%",
+    "sujet": {
+      "x": 27.6,
+      "y": 10.2,
+      "l": 57.5,
+      "h": 78.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.62,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.54,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.49,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.43,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 540,
+      "height": 540,
+      "source": [
+        540,
+        540
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "540 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,19 fois (source de 540 px après recadrage)"
+    ],
+    "fichiers": [
+      "p-feu-jour-rouge-320.webp",
+      "p-feu-jour-rouge-640.webp"
+    ],
+    "poids": {
+      "p-feu-jour-rouge-320.webp": 4778,
+      "p-feu-jour-rouge-640.webp": 12420
+    },
+    "media": "c.media({ nom: 'p-feu-jour-rouge', alt: \"Feu de jour rouge et sa fumée\", cadrage: '50% 42%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '540 / 540' })"
+  },
+  "p-feu-jour-violet": {
+    "nom": "p-feu-jour-violet",
+    "source": "recu/feu-jour-violet.webp",
+    "role": "produit",
+    "alt": "Feu de jour violet et sa fumée",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "d477713508ee66b3",
+    "ratio": "540:540",
+    "largeurs": [
+      320,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "61% 43%",
+    "sujet": {
+      "x": 50.2,
+      "y": 9.7,
+      "l": 23.3,
+      "h": 84
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.87,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.59,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.55,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.5,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 540,
+      "height": 540,
+      "source": [
+        540,
+        540
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "540 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,19 fois (source de 540 px après recadrage)"
+    ],
+    "fichiers": [
+      "p-feu-jour-violet-320.webp",
+      "p-feu-jour-violet-640.webp"
+    ],
+    "poids": {
+      "p-feu-jour-violet-320.webp": 4052,
+      "p-feu-jour-violet-640.webp": 10616
+    },
+    "media": "c.media({ nom: 'p-feu-jour-violet', alt: \"Feu de jour violet et sa fumée\", cadrage: '61% 43%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '540 / 540' })"
+  },
+  "p-5-jets-scene-3m-60s": {
+    "nom": "p-5-jets-scene-3m-60s",
+    "source": "recu/5-jets-scene-3.jpg",
+    "role": "produit",
+    "alt": "Boîte de 5 jets de scène",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "00e4be1367b029f3",
+    "ratio": "800:1040",
+    "largeurs": [
+      320,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "40% 54%",
+    "sujet": {
+      "x": 0,
+      "y": 38.2,
+      "l": 75.1,
+      "h": 36.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.86,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.45,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.3,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.29,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 800,
+      "height": 1040,
+      "source": [
+        800,
+        1040
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "p-5-jets-scene-3m-60s-320.webp",
+      "p-5-jets-scene-3m-60s-640.webp"
+    ],
+    "poids": {
+      "p-5-jets-scene-3m-60s-320.webp": 10132,
+      "p-5-jets-scene-3m-60s-640.webp": 30634
+    },
+    "media": "c.media({ nom: 'p-5-jets-scene-3m-60s', alt: \"Boîte de 5 jets de scène\", cadrage: '40% 54%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '800 / 1040' })"
+  },
+  "p-5-jets-scene-interieur-3m": {
+    "nom": "p-5-jets-scene-interieur-3m",
+    "source": "recu/5-jets-scene-interieur-2.jpg",
+    "role": "produit",
+    "alt": "Boîte de 5 jets de scène d'intérieur",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "c9b81eee7005685f",
+    "ratio": "800:1040",
+    "largeurs": [
+      320,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "48% 55%",
+    "sujet": {
+      "x": 0,
+      "y": 8.6,
+      "l": 93.7,
+      "h": 81.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.66,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.15,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.12,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 800,
+      "height": 1040,
+      "source": [
+        800,
+        1040
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "p-5-jets-scene-interieur-3m-320.webp",
+      "p-5-jets-scene-interieur-3m-640.webp"
+    ],
+    "poids": {
+      "p-5-jets-scene-interieur-3m-320.webp": 10464,
+      "p-5-jets-scene-interieur-3m-640.webp": 32138
+    },
+    "media": "c.media({ nom: 'p-5-jets-scene-interieur-3m', alt: \"Boîte de 5 jets de scène d'intérieur\", cadrage: '48% 55%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '800 / 1040' })"
+  },
+  "p-5-jets-interieur-2m": {
+    "nom": "p-5-jets-interieur-2m",
+    "source": "recu/5-jets-interieur-2.jpg",
+    "role": "produit",
+    "alt": "Boîte de 5 jets d'intérieur",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "75a2cd4cee167e6c",
+    "ratio": "800:1040",
+    "largeurs": [
+      320,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "48% 58%",
+    "sujet": {
+      "x": 0,
+      "y": 32.7,
+      "l": 89.8,
+      "h": 52.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.88,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.29,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.28,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.12,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 800,
+      "height": 1040,
+      "source": [
+        800,
+        1040
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "800 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "p-5-jets-interieur-2m-320.webp",
+      "p-5-jets-interieur-2m-640.webp"
+    ],
+    "poids": {
+      "p-5-jets-interieur-2m-320.webp": 8966,
+      "p-5-jets-interieur-2m-640.webp": 27874
+    },
+    "media": "c.media({ nom: 'p-5-jets-interieur-2m', alt: \"Boîte de 5 jets d'intérieur\", cadrage: '48% 58%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '800 / 1040' })"
+  },
+  "p-support-1-4-feux-jour": {
+    "nom": "p-support-1-4-feux-jour",
+    "source": "recu/support-1-4-feux.jpg",
+    "role": "produit",
+    "alt": "Support pour 1 à 4 feux de jour",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "7245cb59965780fb",
+    "ratio": "1320:1301",
+    "largeurs": [
+      320,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "47% 48%",
+    "sujet": {
+      "x": 0,
+      "y": 24.6,
+      "l": 100,
+      "h": 50.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.47,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.46,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.29,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.27,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1320,
+      "height": 1301,
+      "source": [
+        1320,
+        1301
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "p-support-1-4-feux-jour-320.webp",
+      "p-support-1-4-feux-jour-640.webp"
+    ],
+    "poids": {
+      "p-support-1-4-feux-jour-320.webp": 6032,
+      "p-support-1-4-feux-jour-640.webp": 16016
+    },
+    "media": "c.media({ nom: 'p-support-1-4-feux-jour', alt: \"Support pour 1 à 4 feux de jour\", cadrage: '47% 48%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1320 / 1301' })"
+  },
+  "rayon-fumigenes": {
+    "nom": "rayon-fumigenes",
+    "source": "recu/fumigene-bleu-blanc-rouge.jpg",
+    "role": "carte-service",
+    "alt": "Fumée bleu, blanc, rouge qui monte d'une pelouse",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "e2f2525432e4272d",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "50% 56%",
+    "sujet": {
+      "x": 30.5,
+      "y": 30.9,
+      "l": 36.7,
+      "h": 52.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.58,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.57,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.5,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.33,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 913,
+      "height": 1141,
+      "source": [
+        948,
+        1141
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "948 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "rayon-fumigenes-480.webp",
+      "rayon-fumigenes-640.webp",
+      "rayon-fumigenes-784.webp"
+    ],
+    "poids": {
+      "rayon-fumigenes-480.webp": 44886,
+      "rayon-fumigenes-640.webp": 67568,
+      "rayon-fumigenes-784.webp": 87442
+    },
+    "media": "c.media({ nom: 'rayon-fumigenes', alt: \"Fumée bleu, blanc, rouge qui monte d'une pelouse\", cadrage: '50% 56%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '4 / 5' })"
+  },
+  "rayon-jour": {
+    "nom": "rayon-jour",
+    "source": "recu/artifices-jour-mariage-jets.jpg",
+    "role": "carte-service",
+    "alt": "Jets de fumée verte, orange et jaune dans un ciel bleu",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "3991268d0df5f8e7",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "50% 55%",
+    "sujet": {
+      "x": 37.1,
+      "y": 15.8,
+      "l": 28.6,
+      "h": 84.2
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.41,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.4,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.35,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.31,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 93,
+      "top": 0,
+      "width": 927,
+      "height": 1159,
+      "source": [
+        1136,
+        1159
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1136 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "rayon-jour-480.webp",
+      "rayon-jour-640.webp",
+      "rayon-jour-784.webp"
+    ],
+    "poids": {
+      "rayon-jour-480.webp": 32550,
+      "rayon-jour-640.webp": 44598,
+      "rayon-jour-784.webp": 55860
+    },
+    "media": "c.media({ nom: 'rayon-jour', alt: \"Jets de fumée verte, orange et jaune dans un ciel bleu\", cadrage: '50% 55%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '4 / 5' })"
+  },
+  "mariage-bal": {
+    "nom": "mariage-bal",
+    "source": "recu/2-declencheurs-2-jets-4.png",
+    "role": "galerie",
+    "alt": "Ouverture de bal entre deux jets d'étincelles froides, dans une salle de réception",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "9cc5cc27144dd4a5",
+    "ratio": "4:3",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "49% 57%",
+    "sujet": {
+      "x": 34,
+      "y": 46.2,
+      "l": 19.9,
+      "h": 42.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.57,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.53,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.42,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.36,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 6,
+      "width": 1444,
+      "height": 1083,
+      "source": [
+        1444,
+        1089
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "mariage-bal-480.webp",
+      "mariage-bal-640.webp",
+      "mariage-bal-960.webp"
+    ],
+    "poids": {
+      "mariage-bal-480.webp": 19206,
+      "mariage-bal-640.webp": 27948,
+      "mariage-bal-960.webp": 46030
+    },
+    "media": "c.media({ nom: 'mariage-bal', alt: \"Ouverture de bal entre deux jets d'étincelles froides, dans une salle de réception\", cadrage: '49% 57%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 3' })"
+  },
+  "fete-fumee-verte": {
+    "nom": "fete-fumee-verte",
+    "source": "recu/2-declencheurs-2-jets-2.jpg",
+    "role": "galerie",
+    "alt": "Deux jets de fumée verte lors d'une fête en plein air",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "85a1c4934d6161e2",
+    "ratio": "2:3",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "50% 63%",
+    "sujet": {
+      "x": 25,
+      "y": 41.8,
+      "l": 48.5,
+      "h": 38.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.68,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.4,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.35,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.32,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 24,
+      "width": 1206,
+      "height": 1809,
+      "source": [
+        1206,
+        1833
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1206 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "fete-fumee-verte-480.webp",
+      "fete-fumee-verte-640.webp",
+      "fete-fumee-verte-960.webp"
+    ],
+    "poids": {
+      "fete-fumee-verte-480.webp": 20834,
+      "fete-fumee-verte-640.webp": 28478,
+      "fete-fumee-verte-960.webp": 45390
+    },
+    "media": "c.media({ nom: 'fete-fumee-verte', alt: \"Deux jets de fumée verte lors d'une fête en plein air\", cadrage: '50% 63%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '2 / 3' })"
+  },
+  "torche-rouge": {
+    "nom": "torche-rouge",
+    "source": "recu/torche-stade-main-mr.jpg",
+    "role": "vignette",
+    "alt": "Torche à main rouge allumée dans la nuit",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "c8afaed62a52f847",
+    "ratio": "16:9",
+    "largeurs": [
+      480,
+      640
+    ],
+    "mobile": null,
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 30.9,
+      "y": 16.5,
+      "l": 22.1,
+      "h": 37.2
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.85,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.82,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.73,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.64,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 63,
+      "width": 667,
+      "height": 375,
+      "source": [
+        667,
+        500
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "667 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "torche-rouge-480.webp",
+      "torche-rouge-640.webp"
+    ],
+    "poids": {
+      "torche-rouge-480.webp": 5560,
+      "torche-rouge-640.webp": 8132
+    },
+    "media": "c.media({ nom: 'torche-rouge', alt: \"Torche à main rouge allumée dans la nuit\", sizes: '(max-width: 760px) 50vw, 25vw', ratio: '16 / 9' })"
+  },
+  "grok/accueil-ouverture": {
+    "nom": "grok/accueil-ouverture",
+    "source": "recu/grok/accueil-ouverture.jpg",
+    "role": "ouverture",
+    "alt": "Bouquet de feu d'artifice doré au-dessus d'une vallée boisée, la nuit",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 5,
+    "empreinte": "cb1c06dc1e39458a",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "61% 60%"
+    },
+    "cadrage": "73% 42%",
+    "sujet": {
+      "x": 53.1,
+      "y": 5.6,
+      "l": 40.6,
+      "h": 83.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.87,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.38,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.34,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.04,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        900
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 1600 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/accueil-ouverture-640.webp",
+      "grok/accueil-ouverture-1280.webp",
+      "grok/accueil-ouverture-1920.webp",
+      "grok/accueil-ouverture-mobile-640.webp",
+      "grok/accueil-ouverture-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/accueil-ouverture-640.webp": 36038,
+      "grok/accueil-ouverture-1280.webp": 121498,
+      "grok/accueil-ouverture-1920.webp": 203924,
+      "grok/accueil-ouverture-mobile-640.webp": 70506,
+      "grok/accueil-ouverture-mobile-1080.webp": 148282
+    },
+    "media": "c.media({ nom: 'grok/accueil-ouverture', alt: \"Bouquet de feu d'artifice doré au-dessus d'une vallée boisée, la nuit\", cadrage: '73% 42%', cadrageMobile: '61% 60%', sizes: '100vw', priorite: true })"
+  },
+  "grok/rayon-compacts": {
+    "nom": "grok/rayon-compacts",
+    "source": "recu/grok/rayon-compacts.jpg",
+    "role": "carte-service",
+    "alt": "Gerbes multicolores qui éclatent en même temps dans la nuit",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 5,
+    "empreinte": "b0045ef0e54d4891",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      800,
+      1280
+    ],
+    "mobile": null,
+    "cadrage": "49% 50%",
+    "sujet": {
+      "x": 4.5,
+      "y": 0,
+      "l": 90.9,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 160,
+      "width": 1280,
+      "height": 1600,
+      "source": [
+        1280,
+        1920
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/rayon-compacts-480.webp",
+      "grok/rayon-compacts-800.webp",
+      "grok/rayon-compacts-1280.webp"
+    ],
+    "poids": {
+      "grok/rayon-compacts-480.webp": 79350,
+      "grok/rayon-compacts-800.webp": 177118,
+      "grok/rayon-compacts-1280.webp": 266438
+    },
+    "media": "c.media({ nom: 'grok/rayon-compacts', alt: \"Gerbes multicolores qui éclatent en même temps dans la nuit\", cadrage: '49% 50%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '4 / 5' })"
+  },
+  "grok/rayon-longue-duree": {
+    "nom": "grok/rayon-longue-duree",
+    "source": "recu/grok/rayon-longue-duree.jpg",
+    "role": "carte-service",
+    "alt": "Grand final de feu d'artifice doré qui remplit le ciel",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 5,
+    "empreinte": "792c831eb792584a",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      800,
+      1280
+    ],
+    "mobile": null,
+    "cadrage": "48% 50%",
+    "sujet": {
+      "x": 4.5,
+      "y": 0.9,
+      "l": 90.9,
+      "h": 99.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 45,
+      "width": 1280,
+      "height": 1600,
+      "source": [
+        1280,
+        1920
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/rayon-longue-duree-480.webp",
+      "grok/rayon-longue-duree-800.webp",
+      "grok/rayon-longue-duree-1280.webp"
+    ],
+    "poids": {
+      "grok/rayon-longue-duree-480.webp": 94826,
+      "grok/rayon-longue-duree-800.webp": 220128,
+      "grok/rayon-longue-duree-1280.webp": 289894
+    },
+    "media": "c.media({ nom: 'grok/rayon-longue-duree', alt: \"Grand final de feu d'artifice doré qui remplit le ciel\", cadrage: '48% 50%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '4 / 5' })"
+  },
+  "grok/rayon-petards": {
+    "nom": "grok/rayon-petards",
+    "source": "recu/grok/rayon-petards.jpg",
+    "role": "carte-service",
+    "alt": "Fontaine d'étincelles dorées sur un chemin de gravier, le soir",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 5,
+    "empreinte": "b435434c4d9e656d",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      800,
+      1280
+    ],
+    "mobile": null,
+    "cadrage": "49% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 72.7,
+      "h": 96.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.29,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.09,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.06,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.03,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 256,
+      "width": 1280,
+      "height": 1600,
+      "source": [
+        1280,
+        1920
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/rayon-petards-480.webp",
+      "grok/rayon-petards-800.webp",
+      "grok/rayon-petards-1280.webp"
+    ],
+    "poids": {
+      "grok/rayon-petards-480.webp": 68218,
+      "grok/rayon-petards-800.webp": 150748,
+      "grok/rayon-petards-1280.webp": 276456
+    },
+    "media": "c.media({ nom: 'grok/rayon-petards', alt: \"Fontaine d'étincelles dorées sur un chemin de gravier, le soir\", cadrage: '49% 50%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '4 / 5' })"
+  },
+  "grok/accueil-mariage": {
+    "nom": "grok/accueil-mariage",
+    "source": "recu/grok/accueil-mariage.jpg",
+    "role": "section-fond",
+    "alt": "Mariés de dos, en silhouette, sous un bouquet de feu d'artifice doré",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 5,
+    "empreinte": "f71da95d83781bbc",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": null,
+    "cadrage": "68% 36%",
+    "sujet": {
+      "x": 40.6,
+      "y": 0,
+      "l": 59.4,
+      "h": 90.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.87,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.3,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.03,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 1000,
+      "source": [
+        1500,
+        1000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,28 fois (source de 1500 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/accueil-mariage-640.webp",
+      "grok/accueil-mariage-1280.webp",
+      "grok/accueil-mariage-1920.webp"
+    ],
+    "poids": {
+      "grok/accueil-mariage-640.webp": 48106,
+      "grok/accueil-mariage-1280.webp": 134080,
+      "grok/accueil-mariage-1920.webp": 212648
+    },
+    "media": "c.media({ nom: 'grok/accueil-mariage', alt: \"Mariés de dos, en silhouette, sous un bouquet de feu d'artifice doré\", cadrage: '68% 36%', sizes: '100vw' })"
+  },
+  "grok/accueil-commande": {
+    "nom": "grok/accueil-commande",
+    "source": "recu/grok/accueil-commande.jpg",
+    "role": "section-fond",
+    "alt": "Colis en carton sur une table en bois près d'une fenêtre, un feu d'artifice au loin",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "6ff54b6f1253d749",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": null,
+    "cadrage": "50% 49%",
+    "sujet": {
+      "x": 3.1,
+      "y": 22.7,
+      "l": 78.1,
+      "h": 54.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.51,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.48,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.48,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.37,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": "droite",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 1000,
+      "source": [
+        1500,
+        1000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,28 fois (source de 1500 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/accueil-commande-640.webp",
+      "grok/accueil-commande-1280.webp",
+      "grok/accueil-commande-1920.webp"
+    ],
+    "poids": {
+      "grok/accueil-commande-640.webp": 19660,
+      "grok/accueil-commande-1280.webp": 44416,
+      "grok/accueil-commande-1920.webp": 70748
+    },
+    "media": "c.media({ nom: 'grok/accueil-commande', alt: \"Colis en carton sur une table en bois près d'une fenêtre, un feu d'artifice au loin\", cadrage: '50% 49%', sizes: '100vw' })"
+  },
+  "grok/boutique-ouverture": {
+    "nom": "grok/boutique-ouverture",
+    "source": "recu/grok/boutique-ouverture.jpg",
+    "role": "ouverture",
+    "alt": "Ciel de nuit parsemé de petits bouquets de toutes les couleurs",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 5,
+    "empreinte": "8ba4f81c530ee5d8",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640
+      ],
+      "cadrage": "50% 60%"
+    },
+    "cadrage": "73% 60%",
+    "sujet": {
+      "x": 50,
+      "y": 5.6,
+      "l": 43.8,
+      "h": 94.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.98,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.28,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.13,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        900
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "version téléphone sans 1080 px (source trop petite)",
+      "agrandie 1,2 fois (source de 1600 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/boutique-ouverture-640.webp",
+      "grok/boutique-ouverture-1280.webp",
+      "grok/boutique-ouverture-1920.webp",
+      "grok/boutique-ouverture-mobile-640.webp"
+    ],
+    "poids": {
+      "grok/boutique-ouverture-640.webp": 42978,
+      "grok/boutique-ouverture-1280.webp": 133250,
+      "grok/boutique-ouverture-1920.webp": 225478,
+      "grok/boutique-ouverture-mobile-640.webp": 145670
+    },
+    "media": "c.media({ nom: 'grok/boutique-ouverture', alt: \"Ciel de nuit parsemé de petits bouquets de toutes les couleurs\", cadrage: '73% 60%', cadrageMobile: '50% 60%', sizes: '100vw', priorite: true })"
+  },
+  "grok/mariage-ouverture": {
+    "nom": "grok/mariage-ouverture",
+    "source": "recu/grok/mariage-ouverture.jpg",
+    "role": "ouverture",
+    "alt": "Mariés en silhouette sur une terrasse, face à un immense feu d'artifice doré",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 5,
+    "empreinte": "b1196ebf4c8e1308",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "55% 37%"
+    },
+    "cadrage": "68% 37%",
+    "sujet": {
+      "x": 40.6,
+      "y": 0,
+      "l": 59.4,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.89,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.21,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.03,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": "bas",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        900
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 1600 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/mariage-ouverture-640.webp",
+      "grok/mariage-ouverture-1280.webp",
+      "grok/mariage-ouverture-1920.webp",
+      "grok/mariage-ouverture-mobile-640.webp",
+      "grok/mariage-ouverture-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/mariage-ouverture-640.webp": 39562,
+      "grok/mariage-ouverture-1280.webp": 106940,
+      "grok/mariage-ouverture-1920.webp": 173712,
+      "grok/mariage-ouverture-mobile-640.webp": 115920,
+      "grok/mariage-ouverture-mobile-1080.webp": 214184
+    },
+    "media": "c.media({ nom: 'grok/mariage-ouverture', alt: \"Mariés en silhouette sur une terrasse, face à un immense feu d'artifice doré\", cadrage: '68% 37%', cadrageMobile: '55% 37%', sizes: '100vw', priorite: true })"
+  },
+  "grok/conseils-ouverture": {
+    "nom": "grok/conseils-ouverture",
+    "source": "recu/grok/conseils-ouverture.jpg",
+    "role": "ouverture",
+    "alt": "Une fontaine d'étincelles au milieu d'un pré, une famille regarde de loin",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "06c8d029ca1a55f0",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640
+      ],
+      "cadrage": "50% 76%"
+    },
+    "cadrage": "72% 76%",
+    "sujet": {
+      "x": 59.4,
+      "y": 61.1,
+      "l": 28.1,
+      "h": 33.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.97,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.88,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.54,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.37,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        900
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "version téléphone sans 1080 px (source trop petite)",
+      "agrandie 1,2 fois (source de 1600 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/conseils-ouverture-640.webp",
+      "grok/conseils-ouverture-1280.webp",
+      "grok/conseils-ouverture-1920.webp",
+      "grok/conseils-ouverture-mobile-640.webp"
+    ],
+    "poids": {
+      "grok/conseils-ouverture-640.webp": 15302,
+      "grok/conseils-ouverture-1280.webp": 51020,
+      "grok/conseils-ouverture-1920.webp": 90190,
+      "grok/conseils-ouverture-mobile-640.webp": 43642
+    },
+    "media": "c.media({ nom: 'grok/conseils-ouverture', alt: \"Une fontaine d'étincelles au milieu d'un pré, une famille regarde de loin\", cadrage: '72% 76%', cadrageMobile: '50% 76%', sizes: '100vw', priorite: true })"
+  },
+  "grok/contact-ouverture": {
+    "nom": "grok/contact-ouverture",
+    "source": "recu/grok/contact-ouverture.jpg",
+    "role": "ouverture",
+    "alt": "Toits d'un village au bord d'une rivière, un feu d'artifice éclate au-dessus",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "4478a1afed44b617",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640
+      ],
+      "cadrage": "50% 35%"
+    },
+    "cadrage": "74% 35%",
+    "sujet": {
+      "x": 53.1,
+      "y": 0,
+      "l": 40.6,
+      "h": 66.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.87,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.62,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.15,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.06,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        900
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "version téléphone sans 1080 px (source trop petite)",
+      "agrandie 1,2 fois (source de 1600 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/contact-ouverture-640.webp",
+      "grok/contact-ouverture-1280.webp",
+      "grok/contact-ouverture-1920.webp",
+      "grok/contact-ouverture-mobile-640.webp"
+    ],
+    "poids": {
+      "grok/contact-ouverture-640.webp": 37630,
+      "grok/contact-ouverture-1280.webp": 127404,
+      "grok/contact-ouverture-1920.webp": 213142,
+      "grok/contact-ouverture-mobile-640.webp": 142924
+    },
+    "media": "c.media({ nom: 'grok/contact-ouverture', alt: \"Toits d'un village au bord d'une rivière, un feu d'artifice éclate au-dessus\", cadrage: '74% 35%', cadrageMobile: '50% 35%', sizes: '100vw', priorite: true })"
+  },
+  "grok/page-404": {
+    "nom": "grok/page-404",
+    "source": "recu/grok/404.jpg",
+    "role": "404",
+    "alt": "Un cierge magique éteint posé sur le sol, un mince filet de fumée",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "b96d95b6565aa028",
+    "ratio": "16:9",
+    "largeurs": [
+      800,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "54% 56%",
+    "sujet": {
+      "x": 50,
+      "y": 44.4,
+      "l": 6.3,
+      "h": 22.2
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.85,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.85,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.84,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.83,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        900
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/page-404-800.webp",
+      "grok/page-404-1600.webp"
+    ],
+    "poids": {
+      "grok/page-404-800.webp": 15430,
+      "grok/page-404-1600.webp": 38966
+    },
+    "media": "c.media({ nom: 'grok/page-404', alt: \"Un cierge magique éteint posé sur le sol, un mince filet de fumée\", cadrage: '54% 56%', sizes: '100vw', ratio: '16 / 9' })"
+  }
+}

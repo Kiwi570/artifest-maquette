@@ -1,0 +1,17 @@
+{
+ "id": "20261116-154353-standard-cible-partiel",
+ "date": "2026-11-16T15:50:31.180Z",
+ "niveau": "standard",
+ "pages": "/,/404,/contact,/boutique,/mariage",
+ "etapes": [
+  "fichiers",
+  "mesures",
+  "parcours"
+ ],
+ "version": "1",
+ "echecs": 0,
+ "aRegarder": 9,
+ "nonLances": 0,
+ "manquants": 0,
+ "statut": "complet"
+}

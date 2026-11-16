@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="fr" data-v="1">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Pétard mouillé : Artifest</title>
+<meta name="description" content="Cette page n’existe pas ou plus.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://artifest-maquette.vercel.app/404">
+<style>:root{--fond:#0d0f22;--texte:#f6f2ea;--voile-fond:#0d0f22;--ouverture-fond:#0d0f22;--menu-fond:#0d0f22}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/unbounded-latin-800-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/manrope-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/js/modules/panier-en-tiroir/module.css?v=1">
+<link rel="stylesheet" href="/assets/js/modules/envol-vers-le-panier/module.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#0d0f22">
+<link rel="icon" href="/assets/images/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Artifest">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Pétard mouillé : Artifest">
+<meta property="og:description" content="Cette page n’existe pas ou plus.">
+<meta property="og:url" content="https://artifest-maquette.vercel.app/404">
+<meta property="og:image" content="https://artifest-maquette.vercel.app/assets/partage/accueil-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Artifest, bouquet de feu d’artifice doré au-dessus d’une vallée">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Store","name":"Artifest","description":"Boutique de feux d'artifice pour particuliers dans les Ardennes, secteur Sedan et Mouzon.","url":"https://artifest-maquette.vercel.app/","telephone":"+33698644543","email":"contact@artifest.fr","address":{"@type":"PostalAddress","streetAddress":"76 grande rue","postalCode":"08210","addressLocality":"Autrecourt-et-Pourron","addressCountry":"FR"},"sameAs":["https://www.facebook.com/artifest08"],"paymentAccepted":"Carte bancaire, espèces","currenciesAccepted":"EUR"}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="iris" aria-hidden="true"><div class="voile-contenu"><img src="/assets/images/picto-nuit.webp" alt="" width="60" height="55"><span data-voile-libelle>Page introuvable</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <canvas class="ouverture-ciel" data-audit-ignorer></canvas>
+  <img class="ouverture-logo" src="/assets/images/logo-nuit.webp" alt="" width="180" height="153" data-ouverture-objet>
+  <span class="ouverture-meche"></span>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" aria-label="Artifest, Accueil" data-libelle="Accueil">
+      <img src="/assets/images/picto-nuit.webp" alt="" width="40" height="37"><span class="entete-nom">Artifest</span>
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/boutique" data-libelle="Boutique">Boutique</a></li><li><a href="/mariage" data-libelle="Mariage">Mariage</a></li><li><a href="/conseils" data-libelle="Conseils">Conseils</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="entete-recherche" href="/boutique?focus=recherche#catalogue" data-libelle="Boutique" aria-label="Rechercher un article"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5"/></svg></a>
+      <a class="bouton entete-panier" href="/contact?sujet=commande" data-panier-ouvrir data-envol-cible data-sans-transition data-effet="fusee-panier"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14l-1.4 11.2a2 2 0 0 1-2 1.8H8.4a2 2 0 0 1-2-1.8L5 8Z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg><span class="entete-panier-mot">Panier</span><span class="pet-compte" data-panier-compte>0</span><span class="etincelle" aria-hidden="true"></span></a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a href="/boutique" class="menu-lien" data-libelle="Boutique">Boutique</a></li><li style="--i:2"><a href="/mariage" class="menu-lien" data-libelle="Mariage">Mariage</a></li><li style="--i:3"><a href="/conseils" class="menu-lien" data-libelle="Conseils">Conseils</a></li><li style="--i:4"><a href="/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
+  <p><a class="bouton" href="tel:+33698644543">Appeler 06 98 64 45 43</a></p>
+  <p class="menu-majeurs">Pas de vente aux mineurs</p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="introuvable nuit" id="debut" data-ouverture-page>
+  <figure class="media introuvable-media" data-grok data-iris-centre data-fx="parallaxe" style="--cadrage:60% 55%">
+  <picture>
+    <img src="/assets/images/grok/page-404-1600.webp" srcset="/assets/images/grok/page-404-800.webp 800w, /assets/images/grok/page-404-1600.webp 1600w" sizes="100vw" alt="Un cierge magique éteint posé sur le sol, un mince filet de fumée" width="1600" height="900" fetchpriority="high" loading="eager" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+  <div class="conteneur introuvable-texte">
+    <p class="introuvable-code" data-anime="gsap" aria-hidden="true">404</p>
+    <h1 data-anime="gsap">Pétard mouillé</h1>
+    <p class="note" data-info-cle data-anime="gsap">Besoin d’un conseil ? 06 98 64 45 43</p>
+    <p data-anime="gsap">Cette page n’existe pas ou plus. La mèche a dû s’éteindre en route.</p>
+    <p class="introuvable-actions" data-anime="gsap"><a href="/" class="bouton" data-libelle="Accueil" data-action-principale>Retour à l’accueil</a> <a href="/boutique" class="bouton bouton--contour" data-libelle="Boutique">Voir la boutique</a></p>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-marque">
+      <img src="/assets/images/logo-nuit.webp" alt="Artifest, Ardennes artifices" width="160" height="136" loading="lazy">
+      <p class="pied-majeurs">Pas de vente aux mineurs</p>
+    </div>
+    <div>
+      <p class="pied-titre">Secteur Sedan et Mouzon</p>
+      <p>76 grande rue, 08210 Autrecourt-et-Pourron<br><a href="tel:+33698644543">06 98 64 45 43</a><br><a href="mailto:contact@artifest.fr">contact@artifest.fr</a><br><a href="https://www.facebook.com/artifest08" target="_blank" rel="noopener">Artifest sur Facebook</a></p>
+    </div>
+    <nav aria-label="Sommaire">
+      <p class="pied-titre">Sommaire</p>
+      <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/boutique" data-libelle="Boutique">Boutique</a></li><li><a href="/mariage" data-libelle="Mariage">Mariage</a></li><li><a href="/conseils" data-libelle="Conseils">Conseils</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div>
+      <p class="pied-titre">La boutique</p>
+      <ul><li><a href="/boutique?rayon=compacts#catalogue" data-libelle="Boutique">Compacts</a></li><li><a href="/boutique?rayon=longue-duree#catalogue" data-libelle="Boutique">Longue durée</a></li><li><a href="/boutique?rayon=petards#catalogue" data-libelle="Boutique">Pétards et fusées</a></li><li><a href="/boutique?rayon=fumigenes#catalogue" data-libelle="Boutique">Fumigènes</a></li><li><a href="/boutique?rayon=jour-scene#catalogue" data-libelle="Boutique">Jour et scène</a></li>
+        <li><a href="#haut" data-sans-transition>Retour en haut</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="conteneur pied-bas"><p>Maquette : panier, paiement et formulaires sont simulés, rien n’est envoyé.</p><p>Mentions légales : à compléter · Politique de confidentialité : à compléter</p><p>© Artifest</p></div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+33698644543">Appeler</a>
+  <a class="bouton" href="/contact?sujet=commande" data-panier-ouvrir data-sans-transition>Panier <span class="pet-compte" data-panier-compte>0</span></a>
+</div>
+<div data-module="panier-en-tiroir" data-panier-tiroir data-recouvrement><script type="application/json" data-panier-reglages>{"devise":"EUR","seuil_livraison":0,"frais_livraison":0,"tva":null,"cle":"artifest-panier","prefixe":"ART","envol":"auto","retrait":{"adresse":"76 grande rue, 08210 Autrecourt-et-Pourron","horaires":"Au moment convenu par e-mail, quand la commande est prête"}}</script></div>
+</body>
+</html>

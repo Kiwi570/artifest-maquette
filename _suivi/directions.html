@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Artifest · directions</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;800&family=Manrope:wght@400;600;800&family=Archivo:wdth,wght@62..125,400;62..125,900&family=Instrument+Serif:ital@0;1&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<style>
+/* VOICE  planche de travail pour choisir une direction, claire et concrète
+   IDEA   trois petites affiches de premier écran, côte à côte
+   PICTURE chaque direction montre son premier écran dessiné en CSS
+   COLOUR fond neutre gris chaud, les couleurs viennent des directions
+   TYPE   Inter pour la planche, les polices des directions dans leurs cartes */
+:root{color-scheme:light;--bg:#ecebe8;--ink:#1b1b1f;--mute:#5d5c63}
+*{box-sizing:border-box;min-width:0}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 Inter,system-ui,sans-serif;overflow-x:clip}
+header{padding:32px max(5vw,16px) 8px;max-width:1320px;margin:auto}
+h1{font-size:clamp(26px,3vw,38px);line-height:1.1;margin:0 0 6px;text-wrap:balance}
+header p{margin:0;color:var(--mute);max-width:70ch}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;padding:24px max(5vw,16px) 48px;max-width:1320px;margin:auto}
+@media(max-width:1000px){.grid{grid-template-columns:minmax(0,1fr)}}
+.card{background:#fff;border-radius:14px;overflow:hidden;box-shadow:0 1px 2px #0001,0 8px 24px #0000000d;display:flex;flex-direction:column}
+.mock{position:relative;aspect-ratio:16/10;overflow:hidden;padding:22px 24px;display:flex;flex-direction:column;justify-content:flex-end;gap:10px}
+.mock .nav{position:absolute;top:14px;left:24px;right:24px;display:flex;justify-content:space-between;font-size:11px;opacity:.85}
+.mock .t{margin:0;line-height:1.02;position:relative}
+.mock .btns{display:flex;gap:8px;position:relative;flex-wrap:wrap}
+.mock .b{font-size:12px;padding:8px 12px;border-radius:999px;font-weight:600}
+.body{padding:18px 22px 22px;display:flex;flex-direction:column;gap:12px}
+.lab{display:inline-block;font-size:12px;font-weight:600;padding:3px 9px;border-radius:999px;background:#1b1b1f;color:#fff;align-self:flex-start}
+h2{margin:0;font-size:22px;line-height:1.15}
+.sw{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px}
+.sw div{border-radius:8px;height:46px;display:flex;align-items:flex-end;padding:4px 6px;font-size:11px;font-weight:600;border:1px solid #0000001a}
+.fonts{display:grid;gap:4px;border-top:1px solid #e5e4e1;padding-top:10px}
+.fonts span{font-size:13px;color:var(--mute)}
+dl{margin:0;display:grid;gap:8px;font-size:14.5px}
+dt{font-weight:600}
+dd{margin:0;color:#38373d}
+/* A · Nuit de fête */
+.a{background:radial-gradient(120% 90% at 70% 0%,#2a2f6b 0%,#0d0f22 55%);color:#fff}
+.a .t{font-family:Unbounded,sans-serif;font-weight:800;font-size:clamp(22px,2.6vw,32px)}
+.a .t em{font-style:normal;color:#ffd166}
+.a .b1{background:#ff5b2e;color:#1a0b06}.a .b2{border:1px solid #fff6;color:#fff}
+.burst{position:absolute;width:6px;height:6px;border-radius:50%;background:#ffd166;box-shadow:0 -42px 0 -1px #ffd166,30px -30px 0 -1px #ff8a5b,42px 0 0 -1px #ffd166,30px 30px 0 -1px #ff5b2e,0 42px 0 -1px #ffd166,-30px 30px 0 -1px #ff8a5b,-42px 0 0 -1px #ffd166,-30px -30px 0 -1px #ff5b2e,0 -22px 0 -2px #fff,22px 0 0 -2px #fff,0 22px 0 -2px #fff,-22px 0 0 -2px #fff;filter:drop-shadow(0 0 6px #ffb347)}
+.trail{position:absolute;width:2px;height:90px;background:linear-gradient(#ffd16600,#ffd166);left:72%;top:38%}
+/* B · Étiquette de pétard */
+.bb{background:repeating-conic-gradient(from 0deg at 78% 40%,#ffb800 0 9deg,#fbf6ec 9deg 18deg);color:#16205b}
+.bb::before{content:"";position:absolute;inset:auto 0 0 0;height:62%;background:linear-gradient(#fbf6ec00,#fbf6ec 45%)}
+.bb .t{font-family:Archivo,sans-serif;font-weight:900;font-stretch:125%;font-size:clamp(22px,2.5vw,31px);text-transform:uppercase}
+.bb .t em{font-style:normal;color:#e63b2e}
+.bb .b1{background:#e63b2e;color:#fff}.bb .b2{background:#16205b;color:#fff}
+.star{position:absolute;right:16%;top:22%;width:74px;height:74px;background:#e63b2e;clip-path:polygon(50% 0,61% 35%,98% 35%,68% 57%,79% 91%,50% 70%,21% 91%,32% 57%,2% 35%,39% 35%);display:grid;place-items:center}
+/* C · Ciel des Ardennes */
+.c{background:radial-gradient(60% 70% at 65% 30%,#ff3b3055 0%,#ffffff10 30%,#121212 70%),#121212;color:#fff}
+.c .t{font-family:"Instrument Serif",serif;font-size:clamp(28px,3.2vw,42px);font-weight:400}
+.c .t em{color:#ff3b30}
+.c .b1{background:#fff;color:#121212}.c .b2{border:1px solid #fff5;color:#fff}
+.smoke{position:absolute;inset:0;background:radial-gradient(30% 22% at 64% 34%,#fff3,transparent),radial-gradient(18% 14% at 52% 22%,#ffb19b44,transparent)}
+.rec{outline:3px solid #ff5b2e;outline-offset:-3px}
+</style>
+</head>
+<body>
+<header>
+<h1>Artifest · trois directions pour la maquette</h1>
+<p>Une boutique complète comme Pyroshop (rayons illustrés, plus demandés, nouveautés, panier, aperçu rapide), rendue vivante. Les 90 produits et leurs prix viennent du site actuel. Premier écran dessiné ici en simple esquisse.</p>
+</header>
+<main class="grid">
+
+<article class="card rec">
+<div class="mock a">
+<div class="nav"><span>ARTIFEST</span><span>Boutique · Mariage · Conseils · Panier</span></div>
+<div class="trail"></div><div class="burst" style="left:72%;top:26%"></div><div class="burst" style="left:40%;top:20%;transform:scale(.6)"></div>
+<p class="t">Le feu d’artifice <em>à petits prix</em>, dans les Ardennes</p>
+<div class="btns"><span class="b b1">Voir la boutique</span><span class="b b2">Spécial mariage</span></div>
+</div>
+<div class="body">
+<span class="lab">A · Recommandée</span>
+<h2>Nuit de fête</h2>
+<div class="sw">
+<div style="background:#0d0f22;color:#fff">#0D0F22<br>nuit</div>
+<div style="background:#1b1f45;color:#fff">#1B1F45<br>2ᵉ fond</div>
+<div style="background:#f6f2ea">#F6F2EA<br>jour</div>
+<div style="background:#ff5b2e">#FF5B2E<br>flamme</div>
+</div>
+<div class="fonts"><b style="font:800 22px Unbounded">Unbounded · titres</b><span style="font-family:Manrope">Manrope · texte, sobre et très lisible</span><span>Mot clé en or étincelle #FFD166</span></div>
+<dl>
+<dt>Ambiance</dt><dd>Le ciel du soir pour les feux, le jour (fond clair) pour la boutique, les fumigènes et les artifices de jour. Ludique et généreux, sans faire « discount ».</dd>
+<dt>Ouverture</dt><dd>Une fusée part du bas, éclate en bouquet d’or qui dessine ARTIFEST, la pluie retombe et le titre se pose (2,5 s).</dd>
+<dt>Plan de l’accueil</dt><dd>Ouverture · réassurance · nos 5 rayons · les plus demandés · spécial mariage (Full Emotion 349 €) · composez votre feu selon budget · feux de jour · commander et retirer · sécurité et appel final.</dd>
+<dt>Animations</dt><dd>Bouquets au défilement, mèche qui brûle entre les étapes, ajout au panier qui part en fusée, cartes qui s’allument, fumée colorée qui s’étire.</dd>
+<dt>Favorite la plus proche</dt><dd>Vizrok (boutique sombre, sections claires en alternance).</dd>
+</dl>
+</div>
+</article>
+
+<article class="card">
+<div class="mock bb">
+<div class="nav"><span><b>ARTIFEST</b></span><span>Rayons · Mariage · Panier</span></div>
+<div class="star"></div>
+<p class="t">Le feu d’artifice <em>à petits prix</em></p>
+<div class="btns"><span class="b b1">La boutique</span><span class="b b2">06 98 64 45 43</span></div>
+</div>
+<div class="body">
+<span class="lab">B</span>
+<h2>Étiquette de pétard</h2>
+<div class="sw">
+<div style="background:#fbf6ec">#FBF6EC<br>papier</div>
+<div style="background:#16205b;color:#fff">#16205B<br>encre</div>
+<div style="background:#e63b2e;color:#fff">#E63B2E<br>rouge</div>
+<div style="background:#ffb800">#FFB800<br>jaune</div>
+</div>
+<div class="fonts"><b style="font:900 22px Archivo;font-stretch:125%">ARCHIVO LARGE · titres</b><span style="font-family:Archivo">Archivo normal · texte</span></div>
+<dl>
+<dt>Ambiance</dt><dd>Graphique et joyeux, comme les étiquettes d’artifices d’autrefois : rayons, étoiles, tampons. Clair, très « boutique », proche de Pyroshop.</dd>
+<dt>Ouverture</dt><dd>Les rayons tournent, une étoile éclate en confettis, le titre se tamponne, le produit vedette arrive en tournant.</dd>
+<dt>Plan de l’accueil</dt><dd>Même contenu que A, rangé en affiches : rayons en grandes étiquettes, prix en pastilles, bandes encre pour rythmer.</dd>
+<dt>Animations</dt><dd>Rayons qui tournent avec le défilement, étoiles qui éclatent, prix qui se tamponnent, étiquettes inclinées.</dd>
+<dt>Favorite la plus proche</dt><dd>Nolanis (clair, énergique, graphique).</dd>
+</dl>
+</div>
+</article>
+
+<article class="card">
+<div class="mock c">
+<div class="smoke"></div>
+<div class="nav"><span>Artifest</span><span>Boutique · Mariage · Contact</span></div>
+<p class="t">Vos plus beaux soirs <em>commencent ici</em></p>
+<div class="btns"><span class="b b1">Voir les feux</span><span class="b b2">Feux pour mariage</span></div>
+</div>
+<div class="body">
+<span class="lab">C</span>
+<h2>Ciel des Ardennes</h2>
+<div class="sw">
+<div style="background:#121212;color:#fff">#121212<br>nuit</div>
+<div style="background:#22201f;color:#fff">#22201F<br>2ᵉ fond</div>
+<div style="background:#ffffff">#FFFFFF<br>blanc</div>
+<div style="background:#ff3b30;color:#fff">#FF3B30<br>rouge feu</div>
+</div>
+<div class="fonts"><b style="font:400 26px 'Instrument Serif'">Instrument Serif · titres</b><span style="font-family:Inter">Inter · texte</span></div>
+<dl>
+<dt>Ambiance</dt><dd>Cinéma : grandes images de vrais bouquets en pleine largeur, beaucoup de noir, une seule couleur. Plus haut de gamme, tourné vers les mariages et les grandes fêtes.</dd>
+<dt>Ouverture</dt><dd>Un film de bouquet piloté par le défilement : on fait éclater le feu en descendant.</dd>
+<dt>Plan de l’accueil</dt><dd>Ouverture filmée · rayons · mariage en grand · plus demandés · commander · appel.</dd>
+<dt>Animations</dt><dd>Vidéo pilotée, révélations en masque, titres qui montent ligne à ligne. Moins de fantaisie, plus de photo.</dd>
+<dt>Favorite la plus proche</dt><dd>Pierre Becq (sombre, une lumière, photos en grand).</dd>
+</dl>
+</div>
+</article>
+</main>
+</body>
+</html>

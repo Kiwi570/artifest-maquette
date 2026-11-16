@@ -1,0 +1,7 @@
+[
+ { "id": "compacts", "nom": "Feux d'artifice compacts", "court": "Compacts", "texte": "Des batteries qu'on pose et qu'on allume une fois : de quelques coups à de vrais petits spectacles.", "image": "grok/rayon-compacts", "alt": "Gerbes multicolores qui éclatent en même temps dans la nuit" },
+ { "id": "longue-duree", "nom": "Feux longue durée", "court": "Longue durée", "texte": "Les grosses pièces pour un bouquet final, dont le feu automatique spécial mariage.", "image": "grok/rayon-longue-duree", "alt": "Grand final de feu d'artifice doré qui remplit le ciel" },
+ { "id": "petards", "nom": "Pétards, fusées et fontaines", "court": "Pétards et fusées", "texte": "Pétards, claque-doigts, fusées, fontaines et assortiments, dès quelques euros.", "image": "grok/rayon-petards", "alt": "Fontaine d'étincelles dorées sur un chemin de gravier, le soir" },
+ { "id": "fumigenes", "nom": "Fumigènes et torches", "court": "Fumigènes", "texte": "Fumées de couleur et torches à main, pour une photo ou une sortie de cérémonie.", "image": "rayon-fumigenes", "alt": "Fumée bleu, blanc, rouge qui monte d'une pelouse" },
+ { "id": "jour-scene", "nom": "Artifices de jour et de scène", "court": "Jour et scène", "texte": "Feux de jour en huit couleurs, jets de scène et valises de déclencheurs.", "image": "rayon-jour", "alt": "Jets de fumée verte, orange et jaune dans un ciel bleu" }
+]

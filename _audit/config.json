@@ -1,0 +1,6 @@
+{
+  "siteActuel": "www.artifest.fr",
+  "pagesTypes": ["/", "/boutique", "/mariage", "/conseils", "/contact"],
+  "effets": ["bouquet", "meche", "fusee-panier", "fumee"],
+  "grille": { "dispenses": {} }
+}
